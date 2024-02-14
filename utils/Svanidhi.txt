@@ -1,0 +1,9 @@
+About PM SVANidhi Scheme:
+The PM Street Vendor's AtmaNirbharNidhi (PM SVANidhi) Scheme, launched on June 1, 2020, is a micro credit scheme for urban street vendors that aims to provide collateral-free working capital loans up to ₹50,000. Under the scheme regular repayments are incentivized with a 7% interest subsidy and digital transactions are rewarded with cashback up to ₹1,200 per year. The scheme employs Aadhaar-based e-KYC, utilizes an end-to-end IT platform, and employs SMS-based notifications for application status updates. All lending institutions, including NBFCs/MFIs and DPAs, have partnered with the aim to alleviate urban poverty in India.
+
+The eligible vendors are identified as per following criteria:
+* Street vendors in possession of Certificate of Vending/Identity Card issued by Urban Local Bodies (ULBs)
+* The vendors, who have been identified in the survey but have not been issued Certificate of Vending/Identity Card; Provisional Certificate of Vending would be generated for such vendors through an IT based Platform. ULBs are encouraged to issue such vendors the permanent Certificate of Vending and Identification Card immediately and positively within a period of one month
+* Street Vendors, left out of the ULBled identification survey or who have started vending after completion of the survey and have been issued Letter of Recommendation (LoR) to that effect by the ULB/Town Vending Committee (TVC)
+* The vendors of surrounding development/peri-urban/rural areas vending in the geographical limits of the ULBs and have been issued Letter of Recommendation (LoR) to that effect by the ULB/TVC.
+

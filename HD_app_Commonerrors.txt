@@ -1,0 +1,73 @@
+1. My ID is deactivated. How do I enable it?
+Step 1: Click on ACTIVATE ACCOUNT on the main screen
+Step 2: Verify the Username (Otp will send to registered mobile number)
+Step 3: OTP sent to your registered mobile number
+Step 4: Verify your OTP by entering in the screen and submit
+Step 5: Account will activate successfully. Login again
+
+2. I cannot see the scheme in my app.
+Do an app data update and see if you can see the scheme
+
+3. How do I load my wallet?
+Step: HD need to deposit the cash on the centre and then from his ams app hd need to raise the fund request to the sub distributor. After approve this fund by sub distributor fund will be credited
+
+4. Session expired. How do I resolve this?
+Step: Need to just logout the app and then login the app	
+5.  Account expired issue.
+Steps: It means that the org has been expired i.e, project has ended. Please contact your coordinator
+6. Mapped scheme not able to visible in eligible scheme lists.
+             Steps: Fill the questionnaire according to the criteria kindly do full screening so all the questions will cover
+7. How do I change the language?
+a) Step 1: open the app dashboard
+Step 2: Then click on left corner 3 line of the app
+Step 3: click on the first option and choose the language
+b) When you got login into the app you will find the language icon in the bottom panel 
+8. How do I Handle Error 99 and Error 100?
+         Steps: Ask hd to cross check the internet or change the network.
+9. How do I handle the app data missing error?
+Steps - HD needs to talk with a researcher or LM to map the schemes, apply the rate                cards and do the DQ publish.
+10. How do I sync the record?
+          Perform in two ways:
+    HD can long press the record then click on the cloud button to sync the profile
+    Home Page -> At top right cloud button is there to sync the records
+11. How do I import the record?  
+             Step 1: Hd need to open the hd app 
+             Step 2: Next need to click on the left corner 3 lines
+             Step 3: open settings menu then Import my Records.	
+12. How do I select the proper district block subdistrict (Rural,Urban)?
+             Step 1: State Name----District Name----Type of Area----Rural and Urban 
+             Step 2: If choose Rural then Select Properly Block-----Subdistrict----Village----Pincode
+             Step 3:  If Choose Urban Then Select ULB (Urban Local Body) ----Ward Number-----Pin code
+
+13. How do I do App data/configuration update?
+            Step 1: Do click on the menu button.
+           Step 2: Click on the setting button then do app data update 
+           Step 3: Click on the about menu then ask hd to do the configuration update.mn 
+
+14. How do I update the App ?
+          Step 1: Hd need to open the hd app 
+         Step 2: Next need to click on the left corner 3 lines 
+         Step 3: open settings menu 
+         Step 4 : click on do app data update
+
+15. How do I see the eligibility criteria for a particular scheme?
+Step 1: From the direct scheme need to click on that scheme
+Step 2: Select the scheme you want 
+Step 3: After selection at last eligibility description are there.
+
+16. How do I see the lists of schemes and documents?
+Step 1: After login in the hd app at the left bottom schemes and Documents are there.
+Step 2: Next need to click on the left corner 3 lines at menu Schemes and Documents are visible.
+
+
+
+17. How I differentiate the mini screening and Full screening.
+Mini screening - To make the screening faster and more convenient had been introduce screening will divide in 4 categories they are Personal details -> address details -> family details -> demographic details and click save and check eligible scheme
+Full Screening - To fetch the more eligible scheme for the mini screened citizen need to click on the citizen and select the citizen and fill the all questionnaires which and then you can check scheme which eligible for the particular citizen
+
+18. How do I differentiate direct scheme application and Full screen applications
+
+Direct Scheme Application: After selecting scheme and check the edibility criteria and fill the required details according to it  and apply for the particular scheme
+Full Screen Applications: To fetch the more eligible scheme for the mini screened citizen need to click on the citizen and select the citizen and fill the all questionnaires which and then you can check scheme which eligible for the particular citizen
+                                                                                                                                            
+

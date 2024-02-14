@@ -1,0 +1,61 @@
+### What questions do HD agents commonly ask?
+
+State-Specific Schemes Inquiry: "How can I find detailed information about the 'Ladli Behna' scheme in Madhya Pradesh for a customer?"
+
+Answer: To find information about state-specific schemes like 'Ladli Behna,' visit the official state government website or use the Haqdarshak app's search function. Ensure to check for eligibility criteria, required documents, and application deadlines.
+
+New Scheme Information: "Where can I get the latest information about new government schemes?"
+
+Answer: Latest information on new schemes can be accessed through the official government scheme portal, newsletters, and updates provided in the Haqdarshak platform. Regular training sessions are also conducted to keep agents updated.
+
+OTP Scam Reassurance: "How do I reassure customers concerned about OTP scams?"
+
+Answer: Reassure customers by informing them about the security measures in place, advising them never to share OTPs with strangers, and encouraging them to report any suspicious activity to the authorities immediately.
+
+Organization Information: "What does Haqdarshak do, and who is its founder?"
+
+Answer: Haqdarshak is a social enterprise aimed at making government scheme benefits accessible to the underserved. It was founded by Aniket Doegar with the vision to bridge the information gap between government schemes and eligible beneficiaries.
+
+Technical Issues: "What should I do when the app shows a server error?"
+
+Answer: Check your internet connection first. If the problem persists, report the issue to the technical support team and try accessing the information after some time.
+
+Customer Ineligibility Complaints: "How do I handle customer dissatisfaction when they are found ineligible for a scheme?"
+
+Answer: Explain the eligibility criteria clearly and empathetically. Offer to check if there are other schemes for which they may qualify.
+
+Q: How do I determine if a customer is eligible for a specific government scheme?
+
+A: To determine a customer's eligibility for a specific government scheme, follow these steps:
+
+Review the Official Scheme Guidelines: Start by carefully reading the official government documents related to the scheme, which outline the eligibility criteria.
+Use the Haqdarshak Platform: Enter the customer's details into the Haqdarshak app or platform, which automatically checks for eligibility based on the provided information.
+Verify Information: Double-check the customer's details, such as age, income, occupation, and other relevant criteria, to ensure accuracy.
+Seek Assistance: If you're unsure or the case is complex, consult with a supervisor or use the 'Ask a Question' feature in the app for further guidance.
+
+Q: What steps should I take when I encounter server issues while accessing scheme information?
+
+A: If you encounter server issues, try the following steps:
+
+Check Internet Connection: Ensure that your device is connected to a stable internet connection.
+Retry Access: Sometimes, simply refreshing the page or attempting to access the information after a short wait can resolve the issue.
+Report the Issue: If the problem persists, report it to the technical support team through the app or your designated reporting channel.
+Use Offline Resources: If available, refer to offline resources or saved documents that may contain the needed information until the issue is resolved.
+
+Q: How can I find out what documents are required for applying to a specific scheme?
+
+A: To determine the required documents for a scheme application, you can:
+
+Consult the Official Scheme Documentation: Government scheme notifications and official websites often list the necessary documents.
+Check the Haqdarshak App: The app provides detailed information on each scheme, including a list of required documents for application.
+Contact Scheme Authorities: If information is unclear or incomplete, directly contact the scheme's helpdesk or authorities for clarification.
+Seek Help from Supervisors: If you're still unsure, ask your supervisor or a more experienced HD agent for guidance.
+
+Q: Where can I get information about newly launched government schemes?
+
+A: To stay updated on new government schemes, you can:
+
+Monitor Official Government Websites: Regularly visit government portals and websites dedicated to scheme announcements.
+Subscribe to Newsletters: Sign up for newsletters from relevant government departments to receive updates directly in your inbox.
+Attend Training Sessions: Participate in training sessions and workshops organized by Haqdarshak, which cover new schemes and changes to existing ones.
+Use the Haqdarshak Platform: The platform is regularly updated with new schemes and provides comprehensive details, including eligibility, application processes, and required documents.

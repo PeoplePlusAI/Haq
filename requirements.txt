@@ -1,0 +1,7 @@
+openai
+redis
+requests
+python-dotenv
+python-telegram-bot
+llama-index
+# pypdf
