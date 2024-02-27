@@ -238,34 +238,6 @@ def raglang(chat_id, input_message):
     query = f"{input_message}"
     return index.query_with_sources(query)['answer']
     '''
-    
-    # alternate way:
-    '''
-        except Exception as e:
-            print("2")
-            loader = WebBaseLoader(
-            web_paths=("https://lilianweng.github.io/posts/2023-06-23-agent/",),
-            bs_kwargs=dict(
-                parse_only=bs4.SoupStrainer(
-                    class_=("post-content", "post-title", "post-header")
-                    )
-                ),
-            )
-            docs = loader.load()
-
-            text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-            texts = text_splitter.split_documents(docs)
-            vectorstore = Chroma.from_documents(documents=texts, embedding=OpenAIEmbeddings())
-        
-        doc = retriever(input_message, vectorstore)
-        return doc
-    '''
-
-    '''Method 2 :
-    question = "What are the approaches to Task Decomposition?"
-    docs = vectorstore.similarity_search(question)
-    print(docs[0])
-    '''
 
 #assistant = create_assistant(client, assistant_id)
     
@@ -337,36 +309,6 @@ def chat(chat_id, input_message):
             print(f"Parameters: {parameters}")
 
             tool_output_array = []
-            """
-            if func_name == "authenticate_user":
-                auth_token = get_auth_token(parameters)
-                if auth_token:
-                    tool_output_array.append(
-                        {
-                            "tool_call_id": tool.id,
-                            "output": auth_token
-                        }
-                    )
-                    run = client.beta.threads.runs.submit_tool_outputs(
-                        thread_id=thread.id,
-                        run_id=run.id,
-                        tool_outputs=tool_output_array
-                    )
-                    run, status = get_run_status(run, client, thread)
-
-                    message = get_assistant_message(client, thread.id)
-
-                    history = {
-                        "thread_id": thread.id,
-                        "run_id": run.id,
-                        "status": status,
-                    }
-                    history = json.dumps(history)
-                    set_redis(chat_id, history)
-                    return message, history
-                else:
-                    return "Authentication failed", history
-                """
 
             if func_name == "rag":
                 answer = rag(parameters)
