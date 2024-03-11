@@ -5,10 +5,9 @@
     OPENAI_API_KEY=<OPENAI_API_KEY>
     TELEGRAM_BOT_TOKEN=<TELEGRAM BOT TOKEN>
     REDIS_HOST=redis (localhost if running locally without docker)
-    USERNAME=<digit-username>
-    PASSWORD=<digit-password>
-    MODEL_NAME=<model-name eg: gpt-3.5-turbo>
-    BHASHINI_KEY=<bhashini-key>
+    MODEL_NAME=<model-name eg: gpt-3.5-turbo or gpt-4>
+    PORTKEY_API_KEY=<PORTKEY_API_KEY>
+    # BHASHINI_KEY=<bhashini-key> (in next versions)
     ```
 2. For normal running
 
