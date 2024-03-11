@@ -1,5 +1,5 @@
 import logging
-from core.ai import raglang, ragindex
+from core.ai import ragindex
 from telegram import Update
 import asyncio
 from telegram.ext import (
