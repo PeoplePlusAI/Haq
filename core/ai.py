@@ -4,8 +4,13 @@ import redis
 import json
 
 # portkey
-from portkey_ai import PORTKEY_GATEWAY_URL, createHeaders
-#from portkey_ai.llms.llama_index import PortkeyLLM
+# from portkey_ai import PORTKEY_GATEWAY_URL, createHeaders
+# from portkey_ai.llms.llama_index import PortkeyLLM
+
+#from llama_index.llms.portkey import Portkey
+# from llama_index.core.llms import ChatMessage
+# import portkey as pk
+from llama_index.core import Settings
 
 # import openai files
 from utils.openai_utils import (
@@ -20,8 +25,9 @@ from utils.openai_utils import (
 # llama index imports 
 # from llama_index.legacy.text_splitter import SentenceSplitter
 from llama_index.legacy import (
-    SimpleDirectoryReader, StorageContext,load_index_from_storage
+    SimpleDirectoryReader, StorageContext,load_index_from_storage #LLMPredictor, ServiceContext, KeywordTableIndex,
 )
+
 from llama_index.legacy import Document
 from llama_index.legacy import VectorStoreIndex
 from llama_index.legacy import ServiceContext
@@ -35,43 +41,85 @@ from utils.redis_utils import (
 )
 
 from dotenv import load_dotenv
+import sqlite3
+import os
 load_dotenv(
     dotenv_path="ops/.env",
 )
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
-port_api_key = os.getenv("PORTKEY_API_KEY")
+# port_api_key = os.getenv("PORTKEY_API_KEY")
+# port_virtual_key = os.getenv("PORTKEY_VIRTUAL_KEY")
 
-#llm = ChatOpenAI(model_name="gpt-4", temperature=0)
+llm = OpenAI(model="gpt-3.5-turbo", temperature=0.1)
+client = OpenAI(
+    api_key=openai_api_key,
+)
+
 # client = OpenAI(
 #     api_key=openai_api_key,
+#     base_url="https://api.portkey.ai/v1", ## Point to Portkey's gateway URL
+#     default_headers= {
+#         "x-portkey-api-key": "GAR9058m6pQDVDohpyDlhz98iv4=",
+#         "x-portkey-provider": "openai",
+#         "Content-Type": "application/json"
+#     }
 # )
 
+def store_message(input_message, response_message):
+    # Store to disk
+    with open('ops/response.txt', 'w') as file:
+        file.write(input_message)
+
+    # Store to database
+    if not os.path.exists('ops/database.db'):
+        open('ops/database.db', 'w').close()
+
+    # Connect to the database
+    conn = sqlite3.connect('ops/database.db')
+
+    # Create a cursor object
+    cursor = conn.cursor()
+
+    # Create a table if it doesn't exist
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS messages (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            input_content TEXT,
+            response_content TEXT
+        )
+    ''')
+
+    # Insert the message into the table
+    cursor.execute('INSERT INTO messages (input_content, response_content) VALUES (?, ?)', (input_message, response_message))
+
+    # Commit the changes
+    conn.commit()
+
+    # Close the connection
+    conn.close()
+
 def llama_index_rag(input_message):
+    
     documents = SimpleDirectoryReader(input_files=['HD_app_Commonerrors.txt']).load_data()
     print(type(documents))
     document = Document(text="\n\n".join([doc.text for doc in documents]))
     
     # port key config
     # headers = createHeaders(api_key=port_api_key, mode="openai")
-    headers= {
-        "x-portkey-api-key": "GAR9058m6pQDVDohpyDlhz98iv4=",
-        "x-portkey-provider": "openai",
-        "Content-Type": "application/json"
-    }
-    try:    
-        llm = OpenAI(model="gpt-4-0125-preview", temperature=0.1, api_base=PORTKEY_GATEWAY_URL, default_headers=headers)
-        # else use gpt-4
-    except Exception as e:
-        print(e)
-        llm = OpenAI(model="gpt-4-0125-preview", temperature=0.1)
+    # headers= {
+    #     "x-portkey-api-key": "GAR9058m6pQDVDohpyDlhz98iv4=",
+    #     "x-portkey-provider": "openai",
+    #     "Content-Type": "application/json"
+    # }
+    #llm = OpenAI(model="gpt-4-0125-preview", temperature=0.1)
     
     service_context = ServiceContext.from_defaults(llm=llm)
     # llm=OpenAI(model="gpt-4", temperature=0)
-    # service_context = ServiceContext.from_defaults(llm=llm)
     # portkey = PortkeyLLM(api_key="PORTKEY_API_KEY", virtual_key="VIRTUAL_KEY")
-    # service_context = ServiceContext.from_defaults(llm=portkey)
+    #Settings.llm = llm
 
+    # service_context = ServiceContext.from_defaults(llm=portkey)
     #service_context = ServiceContext.from_defaults(llm=llm, embed_model="local:BAAI/bge-small-en-v1.5")
     PERSIST_DIR = "./storage"
     
@@ -82,8 +130,9 @@ def llama_index_rag(input_message):
     # load the existing index
         storage_context = StorageContext.from_defaults(persist_dir=PERSIST_DIR)
         index = load_index_from_storage(storage_context)
+        #index = KeywordTableIndex.from_documents(documents, service_context=service_context)
     
-    query_engine = index.as_query_engine(similarity_top_k=2)
+    query_engine = index.as_query_engine(similarity_top_k=2, llm=llm)
     
     flare_query_engine = FLAREInstructQueryEngine(
         query_engine=query_engine,
@@ -95,6 +144,11 @@ def llama_index_rag(input_message):
     
     response = flare_query_engine.query(f"{input_message}")
     print(str(response))
+    
+    # store the input message
+    # store_message(input_message)
+    store_message(input_message, str(response))
+    
     return str(response)
 
 def ragindex(chat_id, input_message):

@@ -5,4 +5,5 @@ python-dotenv
 python-telegram-bot
 llama-index
 portkey-ai
+# sqlite3
 # pypdf
