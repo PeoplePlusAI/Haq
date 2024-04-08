@@ -68,8 +68,8 @@ client = OpenAI(
 
 def store_message(input_message, response_message):
     # Store to disk
-    with open('ops/response.txt', 'w') as file:
-        file.write(input_message)
+    with open('ops/response.txt', 'a') as file:
+        file.write(input_message + '\n')
 
     # Store to database
     if not os.path.exists('ops/database.db'):
