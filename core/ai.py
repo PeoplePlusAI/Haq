@@ -60,11 +60,11 @@ def llama_index_rag(input_message):
         "Content-Type": "application/json"
     }
     try:    
-        llm = OpenAI(model="gpt-3.5-turbo", temperature=0.1, api_base=PORTKEY_GATEWAY_URL, default_headers=headers)
+        llm = OpenAI(model="gpt-4-turbo", temperature=0.1, api_base=PORTKEY_GATEWAY_URL, default_headers=headers)
         # else use gpt-4
     except Exception as e:
         print(e)
-        llm = OpenAI(model="gpt-3.5-turbo", temperature=0.1)
+        llm = OpenAI(model="gpt-4-turbo", temperature=0.1)
     
     service_context = ServiceContext.from_defaults(llm=llm)
     # llm=OpenAI(model="gpt-4", temperature=0)
@@ -104,130 +104,130 @@ def ragindex(chat_id, input_message):
     # json.dumps(res)
     return res
   
-def audio_chat(chat_id, audio_file):
-    input_message = transcribe_audio(audio_file, client)
-    print(f"The input message is : {input_message}")
-    assistant_message, history =  chat(chat_id, input_message)
-    response_audio = generate_audio(assistant_message, client)
-    return response_audio, history
+# # def audio_chat(chat_id, audio_file):
+# #     input_message = transcribe_audio(audio_file, client)
+# #     print(f"The input message is : {input_message}")
+# #     assistant_message, history =  chat(chat_id, input_message)
+# #     response_audio = generate_audio(assistant_message, client)
+# #     return response_audio, history
 
-def chat(chat_id, input_message):
-    try:
-        assistant_id = get_redis_value("assistant_id")
-        print(assistant_id)
-    except Exception as e:
-        print(e)
+# def chat(chat_id, input_message):
+#     try:
+#         assistant_id = get_redis_value("assistant_id")
+#         print(assistant_id)
+#     except Exception as e:
+#         print(e)
     
-    history = get_redis_value(chat_id)
-    if history == None:
-        history = {
-            "thread_id": None,
-            "run_id": None,
-            "status": None,
-        }
-    else:
-        history = json.loads(history)
-    thread_id = history.get("thread_id")
-    run_id = history.get("run_id")
-    status = history.get("status")
+#     history = get_redis_value(chat_id)
+#     if history == None:
+#         history = {
+#             "thread_id": None,
+#             "run_id": None,
+#             "status": None,
+#         }
+#     else:
+#         history = json.loads(history)
+#     thread_id = history.get("thread_id")
+#     run_id = history.get("run_id")
+#     status = history.get("status")
 
-    try:
-        run = client.beta.threads.runs.retrieve(thread_id, run_id)
-    except Exception as e:
-        run = None
-    try:
-        thread = client.beta.threads.retrieve(thread_id)
-    except Exception as e:
-        thread = create_thread(client)
+#     try:
+#         run = client.beta.threads.runs.retrieve(thread_id, run_id)
+#     except Exception as e:
+#         run = None
+#     try:
+#         thread = client.beta.threads.retrieve(thread_id)
+#     except Exception as e:
+#         thread = create_thread(client)
 
-    if status == "completed" or status == None:
+#     if status == "completed" or status == None:
         
-        run = upload_message(client, thread.id, input_message, assistant.id)
-        run, status = get_run_status(run, client, thread)
+#         run = upload_message(client, thread.id, input_message, assistant.id)
+#         run, status = get_run_status(run, client, thread)
 
-        assistant_message = get_assistant_message(client, thread.id)
+#         assistant_message = get_assistant_message(client, thread.id)
 
-        history = {
-            "thread_id": thread.id,
-            "run_id": run.id,
-            "status": status,
-        }
-        history = json.dumps(history)
-        set_redis(chat_id, history)
+#         history = {
+#             "thread_id": thread.id,
+#             "run_id": run.id,
+#             "status": status,
+#         }
+#         history = json.dumps(history)
+#         set_redis(chat_id, history)
     
-    if status == "requires_action":
-        if run:
-            tools_to_call = run.required_action.submit_tool_outputs.tool_calls
-        else:
-            run, status = get_run_status(run, client, thread)
-            tools_to_call = run.required_action.submit_tool_outputs.tool_calls
+#     if status == "requires_action":
+#         if run:
+#             tools_to_call = run.required_action.submit_tool_outputs.tool_calls
+#         else:
+#             run, status = get_run_status(run, client, thread)
+#             tools_to_call = run.required_action.submit_tool_outputs.tool_calls
 
-        for tool in tools_to_call:
-            func_name = tool.function.name
-            print(f"Function name: {func_name}")
-            parameters = json.loads(tool.function.arguments)
-            # parameters["auth_token"] = auth_token
-            # parameters["username"] = username
-            print(f"Parameters: {parameters}")
+#         for tool in tools_to_call:
+#             func_name = tool.function.name
+#             print(f"Function name: {func_name}")
+#             parameters = json.loads(tool.function.arguments)
+#             # parameters["auth_token"] = auth_token
+#             # parameters["username"] = username
+#             print(f"Parameters: {parameters}")
 
-            tool_output_array = []
+#             tool_output_array = []
 
-            if func_name == "rag":
-                answer = rag(parameters)
-                if answer:
-                    tool_output_array.append(
-                        {
-                            "tool_call_id": tool.id,
-                            "output": answer
-                        }
-                    )
-                    run = client.beta.threads.runs.submit_tool_outputs(
-                        thread_id=thread.id,
-                        run_id=run.id,
-                        tool_outputs=tool_output_array
-                    )
-                    run, status = get_run_status(run, client, thread)
+#             if func_name == "rag":
+#                 answer = rag(parameters)
+#                 if answer:
+#                     tool_output_array.append(
+#                         {
+#                             "tool_call_id": tool.id,
+#                             "output": answer
+#                         }
+#                     )
+#                     run = client.beta.threads.runs.submit_tool_outputs(
+#                         thread_id=thread.id,
+#                         run_id=run.id,
+#                         tool_outputs=tool_output_array
+#                     )
+#                     run, status = get_run_status(run, client, thread)
 
-                    message = get_assistant_message(client, thread.id)
+#                     message = get_assistant_message(client, thread.id)
 
-                    history = {
-                        "thread_id": thread.id,
-                        "run_id": run.id,
-                        "status": status,
-                    }
-                    history = json.dumps(history)
-                    set_redis(chat_id, history)
-                    return message, history
-                else:
-                    return "Complaint failed", history
+#                     history = {
+#                         "thread_id": thread.id,
+#                         "run_id": run.id,
+#                         "status": status,
+#                     }
+#                     history = json.dumps(history)
+#                     set_redis(chat_id, history)
+#                     return message, history
+#                 else:
+#                     return "Complaint failed", history
                 
-            elif func_name == "search_complaint":
-                complaint = search_complaint(parameters)
-                if complaint:
-                    tool_output_array.append(
-                        {
-                            "tool_call_id": tool.id,
-                            "output": complaint["ServiceWrappers"][0]["service"]["applicationStatus"]
-                        }
-                    )
-                    run = client.beta.threads.runs.submit_tool_outputs(
-                        thread_id=thread.id,
-                        run_id=run.id,
-                        tool_outputs=tool_output_array
-                    )
-                    run, status = get_run_status(run, client, thread)
+#             elif func_name == "search_complaint":
+#                 complaint = search_complaint(parameters)
+#                 if complaint:
+#                     tool_output_array.append(
+#                         {
+#                             "tool_call_id": tool.id,
+#                             "output": complaint["ServiceWrappers"][0]["service"]["applicationStatus"]
+#                         }
+#                     )
+#                     run = client.beta.threads.runs.submit_tool_outputs(
+#                         thread_id=thread.id,
+#                         run_id=run.id,
+#                         tool_outputs=tool_output_array
+#                     )
+#                     run, status = get_run_status(run, client, thread)
 
-                    message = get_assistant_message(client, thread.id)
+#                     message = get_assistant_message(client, thread.id)
 
-                    history = {
-                        "thread_id": thread.id,
-                        "run_id": run.id,
-                        "status": status,
-                    }
-                    history = json.dumps(history)
-                    set_redis(chat_id, history)
-                    return message, history
-                else:
-                    return "Message not found", history
+#                     history = {
+#                         "thread_id": thread.id,
+#                         "run_id": run.id,
+#                         "status": status,
+#                     }
+#                     history = json.dumps(history)
+#                     set_redis(chat_id, history)
+#                     return message, history
+#                 else:
+#                     return "Message not found", history
                 
-    return assistant_message, history
+#     return assistant_message, history

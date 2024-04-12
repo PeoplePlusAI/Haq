@@ -63,5 +63,5 @@ if __name__ == '__main__':
     audio_handler = MessageHandler(filters.VOICE & (~filters.COMMAND), flow_voice)
     application.add_handler(response_handler)
     application.add_handler(start_handler)
-    application.add_handler(audio_handler)
+    #application.add_handler(audio_handler)
     application.run_polling()
