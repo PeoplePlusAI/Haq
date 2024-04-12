@@ -116,8 +116,8 @@ async def preferred_language_callback(update: Update, context: CallbackContext):
 async def response_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await query_handler(update, context)
 
-# def check_change_language_query(text):
-#     return text.lower() in ["change language", "set language", "language"]
+def check_change_language_query(text):
+    return text.lower() in ["change language", "set language", "language"]
 
 
 async def query_handler(update: Update, context: CallbackContext):
@@ -130,14 +130,14 @@ async def query_handler(update: Update, context: CallbackContext):
     if update.message.text:
         text = update.message.text
         print(f"text is {text}")
-        # if check_change_language_query(text):
-        #     await language_handler(update, context)
-        #     return
+        if check_change_language_query(text):
+            await language_handler(update, context)
+            return
         await flow(update, context, text)
-    else:
-        if update.message.voice:
-            voice = await context.bot.get_file(update.message.voice.file_id)
-            await flow_voice(update, context, voice)
+    # else:
+    #     if update.message.voice:
+    #         voice = await context.bot.get_file(update.message.voice.file_id)
+    #         await flow_voice(update, context, voice)
 
 
 async def flow(update: Update, context: ContextTypes.DEFAULT_TYPE, text):
@@ -146,13 +146,15 @@ async def flow(update: Update, context: ContextTypes.DEFAULT_TYPE, text):
     lang = context.user_data.get('lang')
 
     if lang == 'en':
-        response_en, _ = ragindex(chat_id, text)
+        response_en = ragindex(chat_id, text)
+        await context.bot.send_message(chat_id=chat_id, text=response_en)
     else:
         response, response_en = bhashini_text_chat(chat_id, text, lang)
-    if response:
-        await context.bot.send_message(chat_id=chat_id, text=response)
-    await context.bot.send_message(chat_id=chat_id, text=response_en)
-
+        if response:
+            await context.bot.send_message(chat_id=chat_id, text=response)
+        else:
+            await context.bot.send_message(chat_id=chat_id, text="Sorry, I didn't get that. Reverting to english")
+            await context.bot.send_message(chat_id=chat_id, text=response_en)
 
 if __name__ == '__main__':
     application = ApplicationBuilder().token(token).read_timeout(30).write_timeout(30).build()
