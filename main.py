@@ -159,21 +159,14 @@ if __name__ == '__main__':
     #start_handler = CommandHandler('start', start)
     language_handler_ = CommandHandler('set_language', language_handler)
     chosen_language = CallbackQueryHandler(preferred_language_callback, pattern='[1-3]')
+    response_handler = MessageHandler(filters.TEXT & (~filters.COMMAND), response_handler)
     #application.add_handler(start_handler)
     application.add_handler(language_handler_)
     application.add_handler(chosen_language)
-    response_handler = MessageHandler(filters.TEXT & (~filters.COMMAND), response_handler)
     application.add_handler(response_handler)
     application.run_polling()
     
-# from utils.redis_utils import set_redis
-# import os
-# import pytesseract
-# from PIL import Image
-# from utils.openai_utils import (
-#     get_duration_pydub, 
-#     get_random_wait_messages
-# )
+
 # async def chat_handler(update: Update, context: ContextTypes.DEFAULT_TYPE, text: str):
 #     response = ""
 #     chat_id = update.effective_chat.id
