@@ -51,7 +51,7 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 # port_api_key = os.getenv("PORTKEY_API_KEY")
 # port_virtual_key = os.getenv("PORTKEY_VIRTUAL_KEY")
 
-llm = OpenAI(model="gpt-3.5-turbo", temperature=0.1)
+llm = OpenAI(model="gpt-4-turbo", temperature=0.1)
 client = OpenAI(
     api_key=openai_api_key,
 )
