@@ -7,6 +7,12 @@ import json
 from portkey_ai import PORTKEY_GATEWAY_URL, createHeaders
 #from portkey_ai.llms.llama_index import PortkeyLLM
 
+from utils.bhashini_utils import (
+    bhashini_translate
+    # bhashini_asr,
+    # bhashini_tts
+)
+
 # import openai files
 # from utils.openai_utils import (
 #     create_thread,
@@ -29,10 +35,6 @@ from llama_index.legacy.llms import OpenAI
 from llama_index.legacy.embeddings import OpenAIEmbedding
 from llama_index.legacy.query_engine import FLAREInstructQueryEngine
 
-from utils.redis_utils import (
-    get_redis_value,
-    set_redis,
-)
 
 from dotenv import load_dotenv
 load_dotenv(
@@ -103,7 +105,15 @@ def ragindex(chat_id, input_message):
     print(type(res))
     # json.dumps(res)
     return res
-  
+
+def bhashini_text_chat(chat_id, text, lang): 
+    """
+    bhashini text chat logic
+    """
+    input_message = bhashini_translate(text, lang, "en")
+    response_en, history = ragindex(chat_id, input_message)
+    response = bhashini_translate(response_en, "en", lang)
+    return response, response_en, history
 # # def audio_chat(chat_id, audio_file):
 # #     input_message = transcribe_audio(audio_file, client)
 # #     print(f"The input message is : {input_message}")
