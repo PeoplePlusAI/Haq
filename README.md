@@ -6,7 +6,7 @@
     TELEGRAM_BOT_TOKEN=<TELEGRAM BOT TOKEN>
     REDIS_HOST=redis (localhost if running locally without docker)
     MODEL_NAME=<model-name eg: gpt-3.5-turbo or gpt-4>
-    PORTKEY_API_KEY=<PORTKEY_API_KEY>
+    # PORTKEY_API_KEY=<PORTKEY_API_KEY>
     # BHASHINI_KEY=<bhashini-key> (in next versions)
     ```
 2. For normal running
