@@ -8,14 +8,14 @@ from portkey_ai import PORTKEY_GATEWAY_URL, createHeaders
 #from portkey_ai.llms.llama_index import PortkeyLLM
 
 # import openai files
-from utils.openai_utils import (
-    create_thread,
-    upload_message,
-    get_run_status,
-    get_assistant_message,
-    create_assistant,
-    transcribe_audio,
-) # generate_audio
+# from utils.openai_utils import (
+#     create_thread,
+#     upload_message,
+#     get_run_status,
+#     get_assistant_message,
+#     create_assistant,
+#     transcribe_audio,
+# ) # generate_audio
 
 # llama index imports 
 # from llama_index.legacy.text_splitter import SentenceSplitter
@@ -41,7 +41,7 @@ load_dotenv(
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 port_api_key = os.getenv("PORTKEY_API_KEY")
-
+model = os.getenv("MODEL_NAME")
 #llm = ChatOpenAI(model_name="gpt-4", temperature=0)
 # client = OpenAI(
 #     api_key=openai_api_key,
@@ -60,11 +60,11 @@ def llama_index_rag(input_message):
         "Content-Type": "application/json"
     }
     try:    
-        llm = OpenAI(model="gpt-4-turbo", temperature=0.1, api_base=PORTKEY_GATEWAY_URL, default_headers=headers)
+        llm = OpenAI(model=model, temperature=0.1, api_base=PORTKEY_GATEWAY_URL, default_headers=headers)
         # else use gpt-4
     except Exception as e:
         print(e)
-        llm = OpenAI(model="gpt-4-turbo", temperature=0.1)
+        llm = OpenAI(model=model, temperature=0.1)
     
     service_context = ServiceContext.from_defaults(llm=llm)
     # llm=OpenAI(model="gpt-4", temperature=0)
