@@ -60,11 +60,11 @@ def llama_index_rag(input_message):
         "Content-Type": "application/json"
     }
     try:    
-        llm = OpenAI(model="gpt-4-0125-preview", temperature=0.1, api_base=PORTKEY_GATEWAY_URL, default_headers=headers)
+        llm = OpenAI(model="gpt-3.5-turbo", temperature=0.1, api_base=PORTKEY_GATEWAY_URL, default_headers=headers)
         # else use gpt-4
     except Exception as e:
         print(e)
-        llm = OpenAI(model="gpt-4-0125-preview", temperature=0.1)
+        llm = OpenAI(model="gpt-3.5-turbo", temperature=0.1)
     
     service_context = ServiceContext.from_defaults(llm=llm)
     # llm=OpenAI(model="gpt-4", temperature=0)
