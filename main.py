@@ -116,9 +116,8 @@ async def preferred_language_callback(update: Update, context: CallbackContext):
 async def response_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await query_handler(update, context)
 
-
-def check_change_language_query(text):
-    return text.lower() in ["change language", "set language", "language"]
+# def check_change_language_query(text):
+#     return text.lower() in ["change language", "set language", "language"]
 
 
 async def query_handler(update: Update, context: CallbackContext):
@@ -131,9 +130,9 @@ async def query_handler(update: Update, context: CallbackContext):
     if update.message.text:
         text = update.message.text
         print(f"text is {text}")
-        if check_change_language_query(text):
-            await language_handler(update, context)
-            return
+        # if check_change_language_query(text):
+        #     await language_handler(update, context)
+        #     return
         await flow(update, context, text)
     else:
         if update.message.voice:
@@ -157,14 +156,13 @@ async def flow(update: Update, context: ContextTypes.DEFAULT_TYPE, text):
 
 if __name__ == '__main__':
     application = ApplicationBuilder().token(token).read_timeout(30).write_timeout(30).build()
-    start_handler = CommandHandler('start', start)
+    #start_handler = CommandHandler('start', start)
     language_handler_ = CommandHandler('set_language', language_handler)
     chosen_language = CallbackQueryHandler(preferred_language_callback, pattern='[1-3]')
-    application.add_handler(start_handler)
+    #application.add_handler(start_handler)
     application.add_handler(language_handler_)
     application.add_handler(chosen_language)
     response_handler = MessageHandler(filters.TEXT & (~filters.COMMAND), response_handler)
-    application.add_handler(start_handler)
     application.add_handler(response_handler)
     application.run_polling()
     
