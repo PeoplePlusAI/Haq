@@ -1,18 +1,8 @@
+import redis
 import logging
 from core.ai import ragindex
 from telegram import Update
-import logging
-from telegram.ext import (
-    ApplicationBuilder,
-    ContextTypes,
-    MessageHandler,
-    CommandHandler,
-    filters,
-)
 import os
-import dotenv
-import os
-import logging
 import dotenv
 
 from telegram import (
@@ -31,11 +21,20 @@ from telegram.ext import (
 )
 
 from core.ai import (
-    chat, 
-    audio_chat, 
-    bhashini_text_chat, 
-    parse_photo_text,
-    process_image
+    # chat, 
+    # audio_chat, 
+    bhashini_text_chat
+    # bhashini_audio_chat,
+    # parse_photo_text,
+    # process_image
+)
+from utils.redis_utils import set_redis
+from core.ai import (
+    # chat, 
+    # audio_chat, 
+    bhashini_text_chat
+    # parse_photo_text,
+    # process_image
 )
 
 dotenv.load_dotenv("ops/.env")
@@ -46,8 +45,6 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )
-
-
 class BotInitializer:
     _instance = None
     run_once = False
@@ -67,10 +64,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
     await relay_handler(update, context)
 
-
 async def relay_handler(update: Update, context: CallbackContext):
     await language_handler(update, context)
-
 
 async def language_handler(update: Update, context: CallbackContext):
     # Handle user's language selection
@@ -86,7 +81,6 @@ async def language_handler(update: Update, context: CallbackContext):
         text="Choose a Language:",
         reply_markup=reply_markup
     )
-
 
 async def preferred_language_callback(update: Update, context: CallbackContext):
 
@@ -107,9 +101,9 @@ async def preferred_language_callback(update: Update, context: CallbackContext):
     if lang == "en":
         text_message = "You have chosen English. \nPlease share your details"
     elif lang == "hi":
-        text_message = "आपने हिंदी चुनी है. \nकृपया मुझे अपने बारे में बताएं।"
+        text_message = "आपने हिंदी चुनी है. \nकृपया मुझे बताएं कि आपको क्या समस्या आ रही है।"
     elif lang == "mr":
-        text_message = "तुम्ही मराठीची निवड केली आहे. \कृपया तुमचे तपशील शेअर करा"
+        text_message = "तुम्ही मराठीची निवड केली आहे. \कृपया मला तुमची समस्या सांगा"
 
     set_redis('lang', lang)
 
@@ -155,7 +149,7 @@ async def flow(update: Update, context: ContextTypes.DEFAULT_TYPE, text):
     if lang == 'en':
         response_en, _ = ragindex(chat_id, text)
     else:
-        response, response_en, _ = bhashini_text_chat(chat_id, text, lang)
+        response, response_en = bhashini_text_chat(chat_id, text, lang)
     if response:
         await context.bot.send_message(chat_id=chat_id, text=response)
     await context.bot.send_message(chat_id=chat_id, text=response_en)

@@ -59,8 +59,6 @@ Step 3: After selection at last eligibility description are there.
 Step 1: After login in the hd app at the left bottom schemes and Documents are there.
 Step 2: Next need to click on the left corner 3 lines at menu Schemes and Documents are visible.
 
-
-
 17. How I differentiate the mini screening and Full screening.
 Mini screening - To make the screening faster and more convenient had been introduce screening will divide in 4 categories they are Personal details -> address details -> family details -> demographic details and click save and check eligible scheme
 Full Screening - To fetch the more eligible scheme for the mini screened citizen need to click on the citizen and select the citizen and fill the all questionnaires which and then you can check scheme which eligible for the particular citizen

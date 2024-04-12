@@ -111,9 +111,9 @@ def bhashini_text_chat(chat_id, text, lang):
     bhashini text chat logic
     """
     input_message = bhashini_translate(text, lang, "en")
-    response_en, history = ragindex(chat_id, input_message)
+    response_en = ragindex(chat_id, input_message)
     response = bhashini_translate(response_en, "en", lang)
-    return response, response_en, history
+    return response, response_en
 # # def audio_chat(chat_id, audio_file):
 # #     input_message = transcribe_audio(audio_file, client)
 # #     print(f"The input message is : {input_message}")
