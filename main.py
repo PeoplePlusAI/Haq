@@ -50,18 +50,18 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 
 logger = logging.getLogger(__name__)
 
-# class BotInitializer:
-#     _instance = None
-#     run_once = False
+class BotInitializer:
+    _instance = None
+    run_once = False
 
-#     def __new__(cls):
-#         if cls._instance is None:
-#             cls._instance = super(BotInitializer, cls).__new__(cls)
-#             cls.run_once = True
-#         return cls._instance
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super(BotInitializer, cls).__new__(cls)
+            cls.run_once = True
+        return cls._instance
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    # BotInitializer()  # To initialize only once
+    BotInitializer()  # To initialize only once
 
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
@@ -163,16 +163,15 @@ async def flow(update: Update, context: ContextTypes.DEFAULT_TYPE, text):
 
 if __name__ == '__main__':
     application = ApplicationBuilder().token(token).read_timeout(30).write_timeout(30).build()
-    #start_handler = CommandHandler('start', start)
+    start_handler = CommandHandler('start', start)
     language_handler_ = CommandHandler('set_language', language_handler)
     chosen_language = CallbackQueryHandler(preferred_language_callback, pattern='[1-3]')
     response_handler = MessageHandler(filters.TEXT & (~filters.COMMAND), response_handler)
-    #application.add_handler(start_handler)
+    application.add_handler(start_handler)
     application.add_handler(language_handler_)
     application.add_handler(chosen_language)
     application.add_handler(response_handler)
     application.run_polling()
-    
 
 
 '''
