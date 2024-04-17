@@ -90,7 +90,7 @@ def llama_index_rag(input_message):
     flare_query_engine = FLAREInstructQueryEngine(
         query_engine=query_engine,
         service_context=service_context,
-        max_iterations=3,
+        max_iterations=1, # hyper-parameter - can vary from 1 to 7
         verbose=True,
         )
     print(type(flare_query_engine))
