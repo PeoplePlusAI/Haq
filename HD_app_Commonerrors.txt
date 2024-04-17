@@ -1,71 +1,105 @@
-1. My ID is deactivated. How do I enable it?
-Step 1: Click on ACTIVATE ACCOUNT on the main screen
-Step 2: Verify the Username (Otp will send to registered mobile number)
-Step 3: OTP sent to your registered mobile number
-Step 4: Verify your OTP by entering in the screen and submit
-Step 5: Account will activate successfully. Login again
+HD Customer Service Questions and Answers
 
-2. I cannot see the scheme in my app.
-Do an app data update and see if you can see the scheme
+Q1: How do I reactivate a deactivated ID?
+Metadata: Reactivation, ID, OTP verification, Account activation
+Answer:
+1. Click on "ACTIVATE ACCOUNT" on the main screen.
+2. Verify your Username. An OTP will be sent to your registered mobile number.
+3. Enter the received OTP on the screen and submit.
+4. Your account will be reactivated. Please log in again.
 
-3. How do I load my wallet?
-Step: HD need to deposit the cash on the centre and then from his ams app hd need to raise the fund request to the sub distributor. After approve this fund by sub distributor fund will be credited
+Q2: Why can't I see the scheme in my app?
+Metadata: App issues, Scheme visibility, Data update
+Answer: Update the app data to check if the scheme becomes visible.
 
-4. Session expired. How do I resolve this?
-Step: Need to just logout the app and then login the app	
-5.  Account expired issue.
-Steps: It means that the org has been expired i.e, project has ended. Please contact your coordinator
-6. Mapped scheme not able to visible in eligible scheme lists.
-             Steps: Fill the questionnaire according to the criteria kindly do full screening so all the questions will cover
-7. How do I change the language?
-a) Step 1: open the app dashboard
-Step 2: Then click on left corner 3 line of the app
-Step 3: click on the first option and choose the language
-b) When you got login into the app you will find the language icon in the bottom panel 
-8. How do I Handle Error 99 and Error 100?
-         Steps: Ask hd to cross check the internet or change the network.
-9. How do I handle the app data missing error?
-Steps - HD needs to talk with a researcher or LM to map the schemes, apply the rate                cards and do the DQ publish.
-10. How do I sync the record?
-          Perform in two ways:
-    HD can long press the record then click on the cloud button to sync the profile
-    Home Page -> At top right cloud button is there to sync the records
-11. How do I import the record?  
-             Step 1: Hd need to open the hd app 
-             Step 2: Next need to click on the left corner 3 lines
-             Step 3: open settings menu then Import my Records.	
-12. How do I select the proper district block subdistrict (Rural,Urban)?
-             Step 1: State Name----District Name----Type of Area----Rural and Urban 
-             Step 2: If choose Rural then Select Properly Block-----Subdistrict----Village----Pincode
-             Step 3:  If Choose Urban Then Select ULB (Urban Local Body) ----Ward Number-----Pin code
+Q3: How do I load my wallet in the AMS app?
+Metadata: Wallet loading, Fund request, Sub distributor
+Answer:
+1. Deposit cash at the center.
+2. Raise a fund request to the sub distributor using the AMS app.
+3. Once approved by the sub distributor, funds will be credited to your wallet.
 
-13. How do I do App data/configuration update?
-            Step 1: Do click on the menu button.
-           Step 2: Click on the setting button then do app data update 
-           Step 3: Click on the about menu then ask hd to do the configuration update.mn 
+Q4: How do I resolve a session expired issue?
+Metadata: Session issues, App logout, Login
+Answer: Log out of the app and then log back in to resolve a session expiry issue.
 
-14. How do I update the App ?
-          Step 1: Hd need to open the hd app 
-         Step 2: Next need to click on the left corner 3 lines 
-         Step 3: open settings menu 
-         Step 4 : click on do app data update
+Q5: What should I do if my account shows expired?
+Metadata: Account expiry, Project end, Coordinator contact
+Answer: If the account says expired, it means the organization or project has ended. Please contact your coordinator.
 
-15. How do I see the eligibility criteria for a particular scheme?
-Step 1: From the direct scheme need to click on that scheme
-Step 2: Select the scheme you want 
-Step 3: After selection at last eligibility description are there.
+Q6: Why am I not able to see mapped schemes in the eligible scheme lists?
+Metadata: Mapped schemes, Eligibility, Questionnaire
+Answer: Ensure you have completed the full screening by filling out the questionnaire according to the criteria.
 
-16. How do I see the lists of schemes and documents?
-Step 1: After login in the hd app at the left bottom schemes and Documents are there.
-Step 2: Next need to click on the left corner 3 lines at menu Schemes and Documents are visible.
+Q7: How do I change the language in the app?
+Metadata: App settings, Language change
+Answer:
+1. Open the app dashboard, click on the three lines in the left corner.
+2. Click on the first option and choose your language.
+3. Alternatively, upon logging in, find the language icon in the bottom panel to change the language.
 
-17. How I differentiate the mini screening and Full screening.
-Mini screening - To make the screening faster and more convenient had been introduce screening will divide in 4 categories they are Personal details -> address details -> family details -> demographic details and click save and check eligible scheme
-Full Screening - To fetch the more eligible scheme for the mini screened citizen need to click on the citizen and select the citizen and fill the all questionnaires which and then you can check scheme which eligible for the particular citizen
+Q8: How do I handle Errors 99 and 100?
+Metadata: Error handling, Internet issues
+Answer: Check your internet connection or try changing the network.
 
-18. How do I differentiate direct scheme application and Full screen applications
+Q9: How do I resolve an app data missing error?
+Metadata: Data issues, Scheme mapping, Rate cards
+Answer: Contact a researcher or LM to map schemes, apply rate cards, and publish the DQ.
 
-Direct Scheme Application: After selecting scheme and check the edibility criteria and fill the required details according to it  and apply for the particular scheme
-Full Screen Applications: To fetch the more eligible scheme for the mini screened citizen need to click on the citizen and select the citizen and fill the all questionnaires which and then you can check scheme which eligible for the particular citizen
-                                                                                                                                            
+Q10: How do I sync records in the app?
+Metadata: Data sync, Record management
+Answer:
+1. Long press the record and click on the cloud button to sync.
+2. Alternatively, use the cloud button at the top right on the Home Page to sync records.
 
+Q11: How do I import records?
+Metadata: Record import, App navigation
+Answer:
+1. Open the AMS app.
+2. Click on the three lines in the left corner.
+3. Go to settings, then select "Import my Records".
+
+Q12: How do I select the proper district block subdistrict (Rural, Urban)?
+Metadata: Geographical selection, Rural and Urban areas
+Answer:
+1. Choose State Name, District Name, and Type of Area (Rural or Urban).
+2. For Rural: Select Block, Subdistrict, Village, and Pincode.
+3. For Urban: Select ULB (Urban Local Body), Ward Number, and Pincode.
+
+Q13: How do I do an app data/configuration update?
+Metadata: App update, Settings, Configuration
+Answer:
+1. Click on the menu button.
+2. Go to settings and select "Do app data update".
+3. Click on the about menu for configuration updates.
+
+Q14: How do I update the app?
+Metadata: App updates, Software update
+Answer:
+1. Open the AMS app.
+2. Click on the three lines in the left corner.
+3. Go to settings and then select "Do app data update".
+
+Q15: How do I see the eligibility criteria for a particular scheme?
+Metadata: Scheme eligibility, Criteria viewing
+Answer:
+1. Select a scheme directly.
+2. After selection, eligibility details will be listed.
+
+Q16: How do I view the lists of schemes and documents?
+Metadata: Scheme documentation, App navigation
+Answer:
+1. After logging into the app, click on the three lines at the bottom left.
+2. Schemes and documents will be visible in the menu.
+
+Q17: How do I differentiate between mini screening and full screening?
+Metadata: Screening process, Eligibility schemes
+Answer:
+- Mini Screening: Includes personal, address, family, and demographic details.
+- Full Screening: Involves filling out detailed questionnaires for eligible scheme assessment after mini screening.
+
+Q18: Tell me the difference between direct scheme applications and full screen applications.
+Metadata: Scheme applications, Direct application, Full screening
+Answer:
+- Direct Scheme Application: Select a scheme, check eligibility, fill in required details according to it and apply for the particular scheme
+- Full Screen Applications: To fetch the more eligible scheme for the mini screened citizen need to click on the citizen and select the citizen and fill the all questionnaires which and then you can check scheme which eligible for the particular citizen
