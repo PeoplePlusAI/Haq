@@ -50,7 +50,8 @@ model = os.getenv("MODEL_NAME")
 # )
 
 def llama_index_rag(input_message):
-    documents = SimpleDirectoryReader(input_files=['HD_app_Commonerrors.txt']).load_data()
+    documents = SimpleDirectoryReader(input_files=['data/HD_data_v2.txt']).load_data()
+    # documents = SimpleDirectoryReader(input_files=['data/HD_app_Commonerrors.txt']).load_data()
     print(type(documents))
     document = Document(text="\n\n".join([doc.text for doc in documents]))
     
@@ -91,7 +92,7 @@ def llama_index_rag(input_message):
         query_engine=query_engine,
         service_context=service_context,
         max_iterations=3,
-        verbose=True,
+        verbose=False,
         )
     print(type(flare_query_engine))
     

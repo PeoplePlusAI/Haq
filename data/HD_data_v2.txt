@@ -1,0 +1,1040 @@
+HD Customer Service Questions and Answers
+
+Q1: How do I reactivate a deactivated ID?
+Metadata: Reactivation, ID, OTP verification, Account activation
+Answer:
+1. Click on "ACTIVATE ACCOUNT" on the main screen.
+2. Verify your Username. An OTP will be sent to your registered mobile number.
+3. Enter the received OTP on the screen and submit.
+4. Your account will be reactivated. Please log in again.
+
+Q2: Why can't I see the scheme in my app?
+Metadata: App issues, Scheme visibility, Data update
+Answer: Update the app data to check if the scheme becomes visible.
+
+Q3: How do I load my wallet in the AMS app?
+Metadata: Wallet loading, Fund request, Sub distributor
+Answer:
+1. Deposit cash at the center.
+2. Raise a fund request to the sub distributor using the AMS app.
+3. Once approved by the sub distributor, funds will be credited to your wallet.
+
+Q4: How do I resolve a session expired issue?
+Metadata: Session issues, App logout, Login
+Answer: Log out of the app and then log back in to resolve a session expiry issue.
+
+Q5: What should I do if my account shows expired?
+Metadata: Account expiry, Project end, Coordinator contact
+Answer: If the account says expired, it means the organization or project has ended. Please contact your coordinator.
+
+Q6: Why am I not able to see mapped schemes in the eligible scheme lists?
+Metadata: Mapped schemes, Eligibility, Questionnaire
+Answer: Ensure you have completed the full screening by filling out the questionnaire according to the criteria.
+
+Q7: How do I change the language in the app?
+Metadata: App settings, Language change
+Answer:
+1. Open the app dashboard, click on the three lines in the left corner.
+2. Click on the first option and choose your language.
+3. Alternatively, upon logging in, find the language icon in the bottom panel to change the language.
+
+Q8: How do I handle Errors 99 and 100?
+Metadata: Error handling, Internet issues
+Answer: Check your internet connection or try changing the network.
+
+Q9: How do I resolve an app data missing error?
+Metadata: Data issues, Scheme mapping, Rate cards
+Answer: Contact a researcher or LM to map schemes, apply rate cards, and publish the DQ.
+
+Q10: How do I sync records in the app?
+Metadata: Data sync, Record management
+Answer:
+1. Long press the record and click on the cloud button to sync.
+2. Alternatively, use the cloud button at the top right on the Home Page to sync records.
+
+Q11: How do I import records?
+Metadata: Record import, App navigation
+Answer:
+1. Open the AMS app.
+2. Click on the three lines in the left corner.
+3. Go to settings, then select "Import my Records".
+
+Q12: How do I select the proper district block subdistrict (Rural, Urban)?
+Metadata: Geographical selection, Rural and Urban areas
+Answer:
+1. Choose State Name, District Name, and Type of Area (Rural or Urban).
+2. For Rural: Select Block, Subdistrict, Village, and Pincode.
+3. For Urban: Select ULB (Urban Local Body), Ward Number, and Pincode.
+
+Q13: How do I do an app data/configuration update?
+Metadata: App update, Settings, Configuration
+Answer:
+1. Click on the menu button.
+2. Go to settings and select "Do app data update".
+3. Click on the about menu for configuration updates.
+
+Q14: How do I update the app?
+Metadata: App updates, Software update
+Answer:
+1. Open the AMS app.
+2. Click on the three lines in the left corner.
+3. Go to settings and then select "Do app data update".
+
+Q15: How do I see the eligibility criteria for a particular scheme?
+Metadata: Scheme eligibility, Criteria viewing
+Answer:
+1. Select a scheme directly.
+2. After selection, eligibility details will be listed.
+
+Q16: How do I view the lists of schemes and documents?
+Metadata: Scheme documentation, App navigation
+Answer:
+1. After logging into the app, click on the three lines at the bottom left.
+2. Schemes and documents will be visible in the menu.
+
+Q17: How do I differentiate between mini screening and full screening?
+Metadata: Screening process, Eligibility schemes
+Answer:
+- Mini Screening: Includes personal, address, family, and demographic details.
+- Full Screening: Involves filling out detailed questionnaires for eligible scheme assessment after mini screening.
+
+Q18: Tell me the difference between direct scheme applications and full screen applications.
+Metadata: Scheme applications, Direct application, Full screening
+Answer:
+- Direct Scheme Application: Select a scheme, check eligibility, fill in required details according to it and apply for the particular scheme
+- Full Screen Applications: To fetch the more eligible scheme for the mini screened citizen need to click on
+
+Additional Metadata: Information on government schemes
+
+Scheme name: Savitribai Phule Scholarship_MH
+Scheme description: This scheme provides scholarship of ₹. 60-100 per month for girls belonging to backward class and studying in 5th to 10th class in government or private school.
+Scheme objective: 1.	Applicant should be Domicile of Maharashtra State.
+2.	Applicable for 5th to 10th class girl students only.
+3.	Applicable for SC/SBC/VJNT cast categories.
+4.     Female
+
+
+Scheme name: Rajarshi Shahu Maharaj Meritorious Scholarship for VJNT and SBC Students who are Studying in 11th and 12th Class_MH
+Scheme description: This scheme provides scholarship of ₹ 300 per month for 10 months, on merit basis to student belonging to VJNT (Vimukta Jati and Nomadic Tribes) and SBC (Special Backward Class) category and are presently studying in class 11th and 12th in a government or private school/college to improve the educational standard of the students of VJNT/SBC category, enhance quality of their education and maintain their competencies with general category students.
+Scheme objective: 1. Applicant should be Domicile of Maharashtra State.
+2. Applicable for students who have passed SSC and are currently studying in 11th and 12th standard.
+3. Applicable for students belonging to SBC/VJNT category.
+4. Applicant must have secured more than 75% marks in SSC Examination i.e. 10th class.
+
+
+Scheme name: Margin Money Schemes_MH
+Scheme description: The scheme provides for one time financial assistance up to Rs. 5 lakh to people belonging to SC category with annual income of up to Rs. 1 lakh for starting business activity. 5% of the total amount required should be infused by the scheme beneficiary.
+Scheme objective: 1.	Applicant must belong to only these particular schedule castes(SC) -  Mahar, Khatik, Mehatar, Gaaro (sub-castes)   
+2.	Applicant age should be above 18 years.
+3.	Applicants must be a domicile of Maharashtra State.
+4.	Income limit is below or equal to 1 lakh.
+
+
+Scheme name: Term Loan Schemes_MH
+Scheme description: The scheme provides for one time financial assistance up to Rs. 15 lakh to people belonging to SC category with annual income of up to Rs. 1 lakh for starting a business. 10% of the total amount required should be infused by the scheme beneficiary, 6% interest rate will be charged.
+Scheme objective: 1.	Applicant must belong to only these particular schedule caste (SC) - Mahar, Khatik, Mehatar, Gaaro(sub-castes).
+2.	Applicant age should be above 18 years.
+3.	Applicants must be permanent resident of Maharashtra State.
+4.	Income limit is below or equal to 1 lakh.
+
+
+Scheme name: Mahila Samrudhi Yojna_MH
+Scheme description: The scheme provides for one-time financial loan assistance up to Rs. 50,000 provided to women belonging to SC Charmakar community earning an annual income of up to Rs.120000. In this Rs.10000/- as Subsidy and remaining amount Rs.40000/- as loan. The rate of interest is @ 4% p.a.
+Scheme objective: 1.	Applicant must belong to the Charmakar category of SC
+2.	Applicant age should be from 18 to 50 years
+3.	Applicant must be a domicile of Maharashtra.
+4.	Annual family income of the beneficiary should be less than Rs.98000 for rural areas and less than Rs.12000 for the urban areas.
+5.	This scheme is only applicable for women.
+
+
+Scheme name: Education Loan By MAMFDC_MH
+Scheme description: The scheme provides for one time financial assistance up to Rs. 2.5 lacs to students  belonging  to  minority  category  pursuing  professional  or  technical  courses  and  with  annual family income of up to Rs. 2.5 lacs,  by  the  MAMFDC  (Maulana  Azad  Minorities Financial Development Corporation Limited)
+Scheme objective: 1.Applicant must belong to only these particular minority  groups ‐ Muslim,  Sikh, Christians, Parsee, Buddhist and Jain. 
+2.The  Colleges/Institutes  in  which  they  are  studying  must  be  officially  recognized  by  Central  Govt./State Govt. 
+3. Applicant’s age should be above 18 years.
+4. Applicant must be a permanent resident of Maharashtra.
+
+5. Family income should be below or equal to 2.5 lacs.
+
+
+Scheme name: Rajiv Gandhi Education Loan by MAMFDC_MH
+Scheme description: The scheme provides for one time financial loan assistance up to Rs. 2.5 lakh to students pursuing technical and professional courses and belonging to minority categories with annual  income of up to Rs. 1,03,000.
+Scheme objective: 1. The beneficiary should be from the minorities community i.e. Muslim, Sikh, Christians, Parsee, Buddhist and Jain.
+2.The beneficiary should be resident of State of Maharashtra.
+3. Age limit for Applicant must be between 16 to 32 years.
+4.The Colleges/Institutes in which you are studying that must be officially Approved by Central Govt./State Govt./AICT/UGC/ISC.
+ 5. Those who Applying loan for  Studying B.A/B.COM  will not be Considered.
+6. applicant must have a bank account linked to Aadhar card.
+7. if applicant is minor (below 18) he should have a joint bank account with his parent/guardian.
+8. family annual income - for urban area upto 103000. For rural area 81000
+
+
+Scheme name: Assistance to raise a female child - CL_MH
+Scheme description: Rs. 1,00,000 will be fixed in a bank for a single female child of a labourer.
+Scheme objective: #ERROR!
+
+
+Scheme name: Annapurna Pariwar Microfinance Scheme_MH
+Scheme description: Micro Loans and Savings programme for poor self employed women and men.
+Scheme objective: 1.	Profile of the Borrowers : Vegetable vendors, fish sellers, fruit sellers, flower / garland sellers, rag pickers, papad rollers, construction and domestic workers, farm laborers, small fabricators, petty merchants, rickshaw drivers etc                                                                                                                                                                                            
+2.	Saving of minimum 5% of the amount borrowed and Insurance of all members and their family members .
+
+
+Scheme name: Bal Jeevan Bima (Children Policy)_MH
+Scheme description: This scheme provides insurance to children between the ages of 5 to 20 years of age. The minimum sum assured is Rs.20,000 to Rs. 1 lakh is the assured amount. This provides Life insurance cover to children with a sum assured up to ₹1 Lakh or equal to the sum assured of the parent's policy, whichever is less. If you do not have a Rural Postal Life Insurance Policy, please acquire it before applying for Rural Children Policy (Bal Jeevan Bima). No premium is to be paid on the Children Policy, on the death of the policy holder (parent). The full sum assured and bonus accrued shall be paid on completion of the term.
+Scheme objective: This Scheme is available to citizens who permanently reside in rural areas and are ordinarily residents in India, excluding foreigners and non-resident Indians, provided they have attained a majority. To get this insurance scheme applicant should have an existing RPLI Policy. The policyholder should be between 19 and 45 years old. Under this scheme, a maximum of two children in the family and those aged between 5 and 20 years are eligible.
+
+
+Scheme name: Cummins Scholarship Programme: Nurturing Brilliance_MH
+Scheme description: Scholarship for meritorious students from financially and socially disadvantaged backgrounds to pursue professional degree and diploma course
+Scheme objective: Student Who is currently pursuing his/her studies in professional degree / diploma courses at the educational institute recognized by the University Grants Commission, Central or State Government OR
+Who has cleared the Senior Secondary Exam or Higher Secondary Exam with minimum 60% and have got admission for further studies in the fields mentioned above.                                                                                                                                                                                                
+The candidate must have obtained minimum 60 % in the previous Year of the application.
+The maximum age limit for the candidate is 25 years.
+Students appearing for the last year of Engineering degree / diploma and the post graduate students are not eligible for this Scholarship.
+The total family income of the candidate should not exceed INR.3 Lacs.
+
+
+Scheme name: Financial Assistance after Death (for funeral) - CL_MH
+Scheme description: Financial assistance of Rs. 10000/- to the legal heir for the funeral ceremony, in case of death of a registered worker
+Scheme objective: Any registered labourer, irrespective of their gender, between the age of 18-60 years is eligible
+
+
+Scheme name: Financial Assistance after Death of a Labourer - CL_MH
+Scheme description: This scheme provides Financial assistance of ₹ 24000 per year ( For five years)to the legal heir, in case of death of a registered worker.
+Scheme objective: Any registered labourer, irrespective of their gender, between the age of 18-60 years is eligible.
+The death should have occurred on duty.
+
+
+Scheme name: Financial Assistance after Death of an on-duty labourer - CL_MH
+Scheme description: Financial assistance of Rs. 5,00,000/- to the legal heir, in case of death of a registered worker while on work
+Scheme objective: Heir of any registered labourer, irrespective of their gender (age 18-60), who has died while at work.
+
+
+Scheme name: Assistance for the Wedding - CL_MH
+Scheme description: This scheme provides financial assistance of Rs 30,000 for a wedding of the registered laborer’s first marriage.
+Scheme objective: Any registered labourer, irrespective of their gender, between the age of 18-60 years is eligible
+
+
+Scheme name: Financial Assistance for Accident - CL_MH
+Scheme description: Rs. 2,00,000 financial assistance is provided to the laborer if met with an accident and causes 75% or any permanent disability.
+Scheme objective: 1. Any registered laborer, irrespective of their gender, between the age of 18-60 years is eligible
+2. The accident must have taken place while at work and have caused 75% or more dsability.
+3.State of residence = Maharashtra
+
+
+Scheme name: Financial Assistance for class 1st to 10th - CL_MH
+Scheme description: Educational Assistance of Rs. 2500  to the children studying in 1st to 7th std. and Rs. 5000 for the children studying in 8th std. to 10th std. of the registered worker. (Benefit extended for maximum up to two children)
+Scheme objective: 1. Any registered laborer's children, irrespective of their gender are eligible. (Up to two children)
+2. State of residence = Maharashtra
+3. Must be a student studying in any class between 1st to 10th standard.
+
+
+Scheme name: Financial Assistance for Class 11th/ 12th_MH
+Scheme description: Educational Assistance of Rs. 10,000/- to the children of the registered worker for class 11th/12th. (Benefit extended for maximum up to two children of the registered worker)
+Scheme objective: Any registered labourer, irrespective of their gender, between the age of 18-60 years is eligible
+
+
+Scheme name: Grama Santhosh (Endowment Assurance)_MH
+Scheme description: A whole life insurance scheme in which assured amount with accrued bonus is payable to the assignee, nominee or the legal heir after death of the insurant after attaining the pre- determined age of maturity.
+Scheme objective: Only people within rural areas (Rural area is defined as one being outside the limits of a municipality.)
+Minimum Age at entry is 19 years and the maximum Age at entry is 55 years.
+
+
+Scheme name: Gram Priya (10 year Rural Postal Life Insurance)_MH
+Scheme description: The Rural Postal Life Insurance (RPLI) Gram Priya Scheme is a 10-year money-back insurance scheme offered by the Indian Post Office. It is designed for people in rural areas looking for a life insurance policy with a guaranteed return. 
+
+The minimum sum assured is ₹10,000, and the maximum is ₹10 lakh. The maximum limit for non-medical policy is ₹25000. The premium can be paid monthly, quarterly, half-yearly, or annually. The policyholder will receive a survival benefit of 20% of the sum assured after four years, 20% after seven years, and 60% (with accrued bonus) after ten years. In case of the policyholder's death during the policy term, the nominee will receive the full sum assured (with accrued bonus). The policy is renewable for five years at the end of the ten years.
+Scheme objective: This Scheme is available to citizens who permanently reside in rural areas and are ordinarily residents in India, excluding foreigners and non-resident Indians, provided they have attained a majority. The minimum age at entry is 19 years, and the maximum age at entry is 45 years.
+
+
+Scheme name: Grama Sumangal (Anticipated Endowment Insurance)_MH
+Scheme description: It is a money-back policy which is best suited for customers who wish to avail certain amount of cash periodically to fulfil their short-term financial needs
+Scheme objective: Only people within rural areas (Rural area is defined as one being outside the limits of a municipality.)
+Minimum Age at entry is 19 years and the maximum Age at entry is 55 years.For rural PLI policy, maximum age is 45 years in case of illegal age proof.
+
+
+Scheme name: Grama Suraksha (Whole Life Assurance)_MH
+Scheme description: A whole life insurance scheme
+Scheme objective: Only people within rural areas (Rural area is defined as one being outside the limits of a municipality.)
+Minimum Age at entry is 19 years and the maximum Age at entry is 55 years.
+
+
+Scheme name: Gram Suvidha (Convertible Whole Life Assurance)_MH
+Scheme description: A whole life insurance which can be converted into endowment insurance, accessible for people in rural areas
+Scheme objective: This Scheme is available to citizens who permanently reside in rural areas and are ordinarily residents in India, excluding foreigners and non-resident Indians, provided they have attained a majority. The minimum age at entry is 19 years, and the maximum age at entry is 45 years.
+
+
+Scheme name: Kisan Vikas Patra (KVP)_MH
+Scheme description: Kisan Vikas Patra is an instrument on which fixed interest is paid by the government. This instrument is sold by the government and can be purchased from any Post office across India. KVP can be purchased by making a payment either in cash/cheque/pay order/demand draft
+Scheme objective: Certificate can be purchased by an adult for himself or on behalf of a minor or by two adult. 
+State of residence = Maharashtra
+
+
+Scheme name: Micro Irrigation under Pradhan Mantri Krishi Sinchai Yojana_MH
+Scheme description: Financial assistance (post purchase) based on their land holdings is provided to farmers for purchasing irrigation equipment.
+Scheme objective: Applicant must be the owner of the land.
+Applicant must have irrigation resources. (e.g. Bandhara, Well, Canal)
+The applicant must not have received the benefits of this service in last 10 years.
+
+
+Scheme name: Indira Gandhi National Disability Pension Scheme (IGNDPS)_MH
+Scheme description: A Disable person in the age group of 18 to 79 years and having at least 80% disability is eligible under this Scheme. The applicant is entitled to receive ₹ 300 per month under the central scheme. The applicant also receives ₹ 700 per month under State sponsored Sanjay Gandhi Niradhar Anudan Yojana. Therefore, the total monthly pension received by the beneficiary is ₹1000.
+Scheme objective: The applicant for this scheme is a person with Disability (Minimum 80% disability), whose age is Above 18 and below 79 years. the applicant also belongs to the BPL family and is a resident of Maharashtra for at least 15 years or more.
+
+
+Scheme name: Indira Gandhi National Widow Pension Scheme (IGNWPS)_MH
+Scheme description: The scheme provides a monthly pension of ₹1000 to widows belonging to Below Poverty Line Households. The applicant should age between 40 - 79 years and domiciled in Maharashtra.
+Scheme objective: The applicant for this is a widow woman belonging to Below Poverty Line Household. The applicant should age between 40 - 79 years and domiciled in Maharashtra.
+
+
+Scheme name: Sanjay Gandhi Niradhar Anudan Yojana_MH
+Scheme description: The scheme provides monthly financial assistance of ₹1000 to destitute persons. Benefit will be given till beneficiary's children become 25 years old or son gets employed, whichever happens first. If the beneficiary has two daughters, benefit will continue even if they get 25 years old or get married or get employed.
+Scheme objective: 1.Applicant should belong to the vulnerable section like Destitute persons, blind, disabled (minimum 40% disability), orphan children, persons suffering from major illnesses, divorced women, abandoned women, women freed from prostitution, outraged women, Transgender, etc.
+2.Applicant should be more than 18 years of age and less than 65 years of age.
+3.Annual family income of applicant should be up to Rs 21,000/- (In case of disabled person, the income limit is 50000/-)
+4.If the applicant has some disability, it should be more than 40%.
+5.Applicant should be a resident of Maharashtra for at least 15 years.
+
+
+Scheme name: Financial Assistance post Class 10th/ 12th - CL_MH
+Scheme description: Educational Assistance of Rs. 10,000/- to the children of the registered construction worker, who have scored at least 50% marks in class 10th/12th. (Benefit extended for maximum up to two children of the registered worker)
+Scheme objective: Any registered labourer, irrespective of their gender, between the age of 18-60 years is eligible
+The scheme is extended to only for two children of the labourer
+Minimum 50% score has to be obtained in class 10th/12th
+
+
+Scheme name: Financial Assistance for Education (Medical and Engineering Degrees) - CL_MH
+Scheme description: Educational assistance of Rs. 35,000/- to the children of the registered worker studying in Medical and Engineering courses* in the Government recognised college or institute. (Benefit extended for maximum up to two children and to the wife of registered male worker)
+
+graduate and postgraduate both
+Scheme objective: Any registered labourer, irrespective of their gender, between the age of 18-60 years is eligible
+
+
+Scheme name: Financial Assistance for Education (Rs. 10,000) - CL_MH
+Scheme description: Educational Assistance of Rs. 10,000/- (Ten Thousand) to the children of the registered worker studying in class XI and class XII. (Benefit extended for maximum up to two children of the registered worker)
+Scheme objective: Any registered labourer, irrespective of their gender, between the age of 18-60 years is eligible
+
+
+Scheme name: Financial Assistance for UG and PG Courses (Rs. 20000-Rs.25000) - CL_MH
+Scheme description: Educational assistance of Rs. 20000/- (fifteen thousand) to the children/wife of the registered worker, studying in 1st, 2nd, 3rd and *4th (*4th year only if applicable) year of graduation and Rs.25,000 if studying in post graduation (Benefit extended for maximum up to two children and to the wife of registered male worker only)
+
+graduate and postgraduate both
+Scheme objective: Any registered labourer, irrespective of their gender, between the age of 18-60 years is eligible
+
+
+Scheme name: Financial Assistance for Health Care (Childbirth) - CL_MH
+Scheme description: Medical Assistance of Rs. 15,000/- for natural delivery and Rs. 20,000/- for surgical procedure to female registered labourer or to the wife, if the beneficiary is male.
+Scheme objective: 1.Any registered labourer, irrespective of their gender, between the age of 18-60 years is eligible.
+2.Wife of registered male worker or registered female worker herself should be pregnant. 
+3. State of residence = Maharashtra
+
+
+Scheme name: Financial Assistance for Health Care (In case of a disease) - CL_MH
+Scheme description: Medical Assistance of Rs.100000 for the treatment of serious ailments for registered worker and his/her family members
+Scheme objective: 1. Any registered labourer, irrespective of their gender, between the age of 18-60 years is eligible
+2. Labor himself/herself or their blood relatives must be suffering from critical illness.
+3.State of residence = Maharashtra
+
+
+Scheme name: Financial Assistance for MS-CIT Course - CL_MH
+Scheme description: This Scheme provides financial assistance of 50% of the MS-CIT course fees for the children of registered worker. (Benefit extended for maximum up to two children only)
+Scheme objective: 1. Should be a resident of Maharashtra.
+2. Should be a children of Registered Construction worker.
+3. Should score more than 60% in MS-CIT course.
+
+
+Scheme name: Financial help for Farmers to buy Machineries and Instruments of Farming_MH
+Scheme description: Farmers receive grant to buy agricultural machineries and instruments; SC, ST, Marginal Landholding and female farmers receive 50% grant while others will receive 40%.
+Scheme objective: All farmers are eligible for this scheme.
+
+
+Scheme name: Heart and Neuro Surgery_MH
+Scheme description: Provides for free treatment for heart and neurological ailments
+Scheme objective: Patients screened for either cardiac or neurological ailment.
+
+
+Scheme name: Monthly Income Scheme (MIS) account_MH
+Scheme description: This scheme provides a facility where a citizen can avail interest on a monthly basis on the amount deposited in the Monthly Income Scheme (MIS) account.
+Scheme objective: 1.Anyone with age >=10
+2. State of residence = Maharashtra
+
+
+Scheme name: National Savings Certificate_MH
+Scheme description: It is an Indian Government Savings Bond, primarily used for small savings and income tax saving, with 8.0% rate of interest
+Scheme is specially designed for Government employees, Businessmen and other salaried classes who are Income Tax assesses.
+No maximum limit for investment.
+No Tax deduction at source.
+Certificates can be kept as collateral security to get loan from banks.
+Scheme objective: Can be bought by an adult for himself or on behalf of a minor or by a minor
+NRIs are not eligible. However if a person was a Resident Indian at the time of purchasing NSC and become NRI during the maturity period, he/she shall be allowed to claim benefits.
+Trust and HUF cannot invest.
+
+
+Scheme name: Hiring of Machineries for Viticulture Management Under RKVY PPPIAD_MH
+Scheme description: Farmers from certain nominated groups, registered with Maharashtra Draksh Bagaytdar Sangh’ can hire machineries for Viticulture
+Scheme objective: To avail this scheme benefits, farmers/groups have to be *part of the Maharashtra Draksh Bagayatdar Sangh. Selected farmers must be registered on Grapenet online system.         
+*Process for this association is described in the process section.
+
+
+Scheme name: Public Provident Fund Account_MH
+Scheme description: The Public Provident Fund (PPF) Scheme, 1968 is a tax-free savings avenue. Interest earned on deposits in the PPF account is not taxable. Deposits made towards PPF accounts can be claimed as tax deductions. This makes the PPF Scheme one of the most tax efficient instruments in India. 
+¬Deposits can be made in lump-sum or in 12 installments.
+¬Joint account cannot be opened.
+¬The subscriber can open another account in the name of minors but subject to maximum investment limit by adding balance in all accounts.
+Scheme objective: 1. State of Residence= Maharashtra
+2. Only one PPF account can be opened per person.
+3. State of residence = Maharashtra
+
+
+Scheme name: Recurring Deposit Account_MH
+Scheme description: A scheme to improve financial inclusion by providing access to savings account with minimum and liberal set of conditions
+Scheme objective: Anyone can apply and avail this scheme.
+For minors with age <10,  account can be opened by parent or guardian
+
+
+Scheme name: Postal Savings Account_MH
+Scheme description: Saving account scheme with 4% of interest rate per annum
+Scheme objective: Anyone can open a savings account.
+For minors with age <10,  account can be opened by parent or guardian
+
+
+Scheme name: Shravan Bal Seva Rajya Nivrutti Vetan Yojana_MH
+Scheme description: The scheme provides a monthly pension of ₹ 1000 to destitute aged persons residing in Maharashtra.
+Scheme objective: Destitute aged persons of 65 years and above
+Persons belonging to Below Poverty Line family
+Family annual income should be less than Rs 21000 and if the beneficiary is disabled then the annual income limit of family is Rs 50000
+Persons should be the residents of Maharashtra for minimum 15 years.
+
+
+Scheme name: Sitaram Jindal Scholarship Programme_MH
+Scheme description: Scholarships for students from economically backward class and wish to pursue higher education.
+Scheme objective: Beneficiary must be enrolled in one of the above programmes.
+A student should have applied for scholarship only once in the duration of the course. 
+The student should not be getting any other stipend or scholarship from any other source.
+Scholarship shall be discontinued after the student crosses 30 years of age
+
+Conditional eligibility
+Category A and B: Below Poverty Line Households
+Category C, D and E: If employed, Income </= 4.00 lac per annum
+                                     All others, income </= 2.5 lac per annum
+
+
+Scheme name: SmileTrain Free Cleft Treatment_MH
+Scheme description: Smile Train offers 100% free cleft surgery at over 180 free treatment centers across India.
+Scheme objective: Child born with a cleft on the lips
+
+
+Scheme name: Time Deposit Account_MH
+Scheme description: A savings account with attractive interest rates.
+Minimum INR 200/- and in multiple thereof.  No maximum limit.
+The investment under 5 Years TD qualifies for the benefit of Section 80C of the Income Tax Act, 1961 from 1.4.2007.
+* ​In CBS Post offices ,when any TD account is matured, the same TD account will be automatically renewed for the period for which the account was initially opened e.g 2 Years TD account will be automatically renewed for 2 Years. Interest rate applicable on the day of maturity will be applied.
+
+​
+Scheme objective: Anyone with age >=10 can open and operate the account
+For minors with age <10,  account can be opened by parent or guardian
+Minimum INR 200/- and in multiple thereof. No maximum limit
+
+
+Scheme name: Senior Citizen Savings Scheme Account_MH
+Scheme description: It is a deposit scheme to provide guaranteed returns to senior citizens, with attractive interest rate.
+Scheme objective: An individual of the Age of 60 years or more may open the account.
+An individual of the age of 55 years or more but less than 60 years who has retired on superannuation or under VRS can also open account subject to the condition that the account is opened within one month of receipt of retirement benefits and amount should not exceed the amount of retirement benefits.
+
+
+Scheme name: MH-7/12 Certificate
+Scheme description: Required as a proof of ownership of agricultural land
+Scheme objective: 1. You should be a resident of Maharashtra
+2. You should own agriculture land
+
+
+Scheme name: MH-8A Certificate
+Scheme description: This document is required as a proof of ownership of land
+Scheme objective: 1. You should be a resident of Maharashtra
+2. You should own agriculture land
+
+
+Scheme name: MH - Aadhaar Card
+Scheme description: Required as identity proof
+Scheme objective: Nationality = Indian
+State of Residence = Maharashtra
+
+
+Scheme name: MH-Birth Certificate
+Scheme description: Required as proof of birth
+Scheme objective: State of Residence = Maharashtra
+
+
+Scheme name: MH-Caste Certificate
+Scheme description: Required as proof of caste and is required for availing various benefits provided by the government to individuals belonging to the SC, ST, VJNT, and OBC categories. It also helps in getting admission to educational institutions and reservation in government jobs.
+Scheme objective: 1. You should be a resident of Maharashtra
+2. You should not belong to General category
+
+
+Scheme name: MH-Domicile Certificate
+Scheme description: Required as proof of residency to avail state schemes. You should be a resident of the state for a minimum of 15 years to avail the document.
+Scheme objective: 1. You Should be a resident of Maharashtra
+2. You should be living in the state for more than 15 years.
+3. In case of Minor, Parent should be living in state for more than 15 years
+
+
+Scheme name: MH - Voter ID
+Scheme description: #ERROR!
+Scheme objective: State of Residence = Maharashtra
+Nationality = Indian
+Age >= 18
+
+
+Scheme name: MH-Income Certificate
+Scheme description: This document serves as proof of income for various purposes such as obtaining government benefits, subsidies, scholarships, loans, and for availing of certain services.
+Scheme objective: 1. You should be a resident of Maharashtra
+
+
+Scheme name: Ration Card_MH
+Scheme description: Ration card is an important document that is issued by the State Government to eligible households, under the National Food Security Act (NFSA) 2013. The ration card serves as a proof of identity as well as proof of address and eligibility for availing food grains and other essential commodities at subsidized rates from the Public Distribution System (PDS) outlets across the state.
+Scheme objective: You should be a resident of Maharashtra
+
+
+Scheme name: MH - PAN Card
+Scheme description: Permanent Account Number (PAN) is a 10-digit alphanumeric number, issued in the form of a laminated card, by the Income-Tax (IT) department. It is mandatory to quote the PAN on return of income and all correspondence with any IT authority.
+Scheme objective: 1. State = Maharashtra
+2. Should be applying first time for Pan card
+
+
+Scheme name: BOCW Construction Labour Card_MH
+Scheme description: It is required as proof of being a construction labourer. The Scheme  provides access to various welfare schemes and benefits provided by the government.
+Scheme objective: 1. You should be a resident of Maharashtra
+2. You should be working as  Mason, Plumber, Electrician, Painter, Carpenter, Welder, Railworks laborer, brick factory worker, tiles worker. MGNREGA worker or any other construction worker. 
+3. Your age should be between 18 to 60 Years 
+4. You should be working for more than 90 days in the last 12 months.
+
+
+Scheme name: MH-Shop Registration License
+Scheme description: Registering any establishment, a shop, commercial establishment, residential hotel, restaurant, eating house, theater, or other place of public amusement or entertainment
+Scheme objective: State of Residence = Maharashtra
+Age >= 18
+
+
+Scheme name: ONGC Scholarship Programme_MH
+Scheme description: ONGC offers scholarships to meritorious SC/ST students pursuing professional courses in Engineering, Medical stream and Masters in Business Administration, Geology and Geophysics . 500 scholarships worth Rs.48,000 will be given
+Scheme objective: 1. Beneficiary Must be belonging to Scheduled Caste (SC), Scheduled Tribe (ST).                                                        
+2. The scholarship shall be admissible only for pursuing full time regular courses by ISC/CBSE/MCI/AICTE/UGC/Associate Universities/State Education Boards/State Government/Central Government. 
+3.  Students pursuing four years Engineering/MBBS courses and Masters courses in Geology
+4.  Gross annual income of family of the candidate from all sources should not be more than 4.5 lakhs per annum
+5. The age limit of the applicant is maximum 30 years.
+6. The candidates should not be availing any other financial assistance/scholarship from any other source.
+7. Qualifying marks:
+i)	60% marks or 6 out of 10 in the ten point scale of grading system in Class-XII for admission in Engineering/MBBS 
+ii)     60% marks or 6 out of 10 in the ten point scale of grading system in Graduation for admission in two year duration courses of MBA/Master’s degree in Geology/Geophysics
+
+
+Scheme name: Atal Pension Yojana_MH
+Scheme description: A defined pension system for the poor and under-privileged depending on the contribution made by subscriber and its period.
+Scheme objective: 1. Minimum age is 18 and maximum age is 40 can apply for this scheme.
+2. State of residence = Maharashtra
+
+
+Scheme name: Pradhan Mantri Jan Dhan Yojana_MH
+Scheme description: Pradhan Mantri Jan-Dhan Yojana (PMJDY) is National Mission for Financial Inclusion to ensure access to financial services, namely, Banking/ Savings & Deposit Accounts, Remittance, Credit, Insurance, Pension in an affordable manner.
+
+A savings bank account can be opened with zero balance
+Scheme objective: 1.A person who is above 10 years of age is eligible to open the account in any bank under this scheme.
+2. State of Residence = Maharashtra
+
+
+Scheme name: Pradhan Mantri Suraksha Bima Yojana_MH
+Scheme description: Accidental Insurance scheme for people (18-70 Years), that provides ₹ 200000 in case of Death/Complete Disability and ₹ 100000 in case of Partial Disability, at a premium of ₹ 20 (auto-debited) from policy holders account (linked with Aadhar).
+Policy period: 1st June to 31st July (One year, renewable every year)
+Scheme objective: 1. Age of the applicant should be between 18-70 years.
+2. Applicant should be a resident of Maharashtra.
+3. Applicant must have a bank account. (In case they don't have a Bank Account, they can open a new Bank Account and then apply for Pradhan Mantri Suraksha Bima Yojana)
+
+
+Scheme name: PM Jeevan Jyoti Bima Yojna(PMJJBY)_MH
+Scheme description: Insurance Scheme offering life insurance cover of Rs. 2 lakh for death due to any reason (accidental/natural) for a premium of Rs. 436.  It is a one year (1st June to 31st May) cover, renewable from year to year.
+Scheme objective: 1. Age should be between 18 years to 50 years
+2. State of residence = Maharashtra
+
+
+Scheme name: Pradhan Mantri Matritva Vandana Yojana_MH
+Scheme description: 1. The scheme financially supports Pregnant & lactating women both prior to and after delivery of the child to gain proper nutrition and Health care
+2. The scheme provides Rs. 5000 to pregnant and lactating women in 3 installments
+3. This scheme is only for the first live birth
+Scheme objective: 1.Pregnant and lactating women of 19 years of age and above for the first live birth of a child
+2. State of residence = Maharashtra
+3. Should not be unmarried.
+
+
+Scheme name: National Family Benefit Scheme_MH
+Scheme description: This scheme provides for a lump sum family benefit of ₹ 20,000 to households below the poverty line on death of the primary breadwinner in the bereaved family
+Scheme objective: 1. Applicant should belongs to a BPL household.
+2. Person deceased should be a primary and only breadwinner of the age 18 to 59 years.
+3. Application should be made within a year from death.
+4. Applicant should be a resident of Maharashtra
+5. Applicant should be a legal heir of the deceased person
+
+*A primary and only breadwinner will be a person male or female whose earnings will contribute substantially to the household
+
+
+Scheme name: Financial Assistance for Self Employment_MH
+Scheme description: Women from Below Poverty Line beneficiary family or women who are disabled get assistance for self employment, of Rs. 500, for starting some small business of their own.
+Scheme objective: 1. Women of all age (>18)
+2. Applicant has to be a permanent resident of Maharashtra, i.e. minimum 15 years of residency
+3. If the person has some disability, minimum 40% disability
+4. Person should be BPL or a beneficiary of AAY.
+
+
+Scheme name: Agriculture Equipment for Scheduled Caste Farmers_MH
+Scheme description: This scheme provides grant to scheduled caste farmers for farm equipment. Farmers can buy a combination of items from the list provided by the agriculture office, of total cost upto Rs.50,000/-.
+Scheme objective: 1. Farmer must have less than 5 to 6 hectares of land.
+2. Farmer should be the owner of the land with valid document.
+3. Scheduled caste farmer with Rs. 50,000 per annum income
+
+
+Scheme name: Agriculture Equipments for Scheduled Tribe Farmers_MH
+Scheme description: This scheme will provide grant upto Rs. 25,000/- to scheduled tribe farmers for a combination of farm equipment from the list below.
+Scheme objective: 1. Farmer must have less than 5 to 6 hectares of land.
+2. Farmer should be the owner of the land with valid document.
+3. Scheduled tribe farmer with Rs. 25,000/- per annum income
+
+
+Scheme name: Grant for Borewell for Scheduled Caste and Scheduled Tribe Farmers_MH
+Scheme description: This scheme provides one time grant upto Rs.70,000/- to Rs.1,00,000/- for creating a new bore well to Scheduled Caste and Scheduled Tribe farmers
+Scheme objective: Farmer must have less than 5 to 6 hectares of land.
+Scheduled caste farmer with maximum of Rs. 50,000/- per annum income 
+Scheduled tribes farmer with maximum of Rs. 25,000/- per annum income
+
+
+Scheme name: Pre-Matric Educational Scholarship for People with Disability_MH
+Scheme description: Pre-matric scholarship for persons with disability, ranges from Rs. 100 to Rs. 300 per month based on educational level. This scholarship is extended for certain groups for up to 18 years old.
+Scheme objective: 1. The child should have more than 40% of disability. 
+2. This includes disability in hearing, vision, speech, orthopedic disability, mental disability and also, children cured from leprosy. 
+3. The applicant should be a domicile of Maharashtra 
+4. The applicants, applying for class 2nd to 10th, should have successfully passed previous years in an attempt.
+
+
+Scheme name: Post-Matric Educational Scholarship for People with Disability_MH
+Scheme description: This scheme provides financial assistance to the disabled students studying at post-matriculation or post-secondary stage to enable them to complete their education.
+Scheme objective: 1. The applicant should have more than 40% of disability.
+2. This includes disability in hearing, vision, speech, orthopedic disability, mental disability and also, children cured from leprosy.
+3. The applicant should be a domicile of Maharashtra (for applicants from Maharashtra) or a domicile of Rajasthan (fro applicants from Rajasthan)
+4. The applicants should be taking post matriculation education and must have passed all years with one attempt. Benefit is extended upto post graduation.
+
+
+Scheme name: Assistance for Purchasing Aids and Equipments for persons with disability_MH
+Scheme description: The scheme provides for financial assistance of upto Rs. 10,000 for aids and appliances for people with disability.
+Scheme objective: 1. Applicant should be a person with disability (hearing, vision, orthopedic, speech)
+2. Applicant should be of age between 18 to 60 years.
+3. Annual income below Rs.5,00,000/- (Rupees Five Lakh only) per annum for urban areas and Rs.3,00,000/- (Rupees Three Lakh only) per annum for rural areas.
+4. Applicant should have minimum 40% of disability
+5. Applicant should not have received any this benefit in last 3 years. However, for children below 12 years of age, this limit would be one year
+
+
+Scheme name: Pradhan Mantri Mudra Yojana: Shishu_MH
+Scheme description: This scheme is for entrepreneurs who are either in their primitive stage or require lesser funds in order to get their businesses started. Under the scheme they will be provided with a maximum loan of Rs. 50000
+Scheme objective: All applicants above 18 years age can apply for Mudra Loan.
+
+
+Scheme name: Pradhan Mantri Mudra Yojana: Kishore_MH
+Scheme description: This schemes provides financial assistance between Rs. 50000 to Rs.5 Lakhs to Start-up entrepreneurs.
+Scheme objective: All the applicants should be above 18 years age can apply for Mudra Loan.
+
+
+Scheme name: Pradhan Mantri Mudra Yojana: Tarun_MH
+Scheme description: This scheme provides financial assistance to Startup entrepreneurs up to a maximum of Rs. 10 Lakhs
+Scheme objective: As such all person above 18 years age can apply for Mudra Loan.
+
+
+Scheme name: Micro Finance for Persons with Disability_MH
+Scheme description: Financial assistance of upto Rs. 10 lakhs  is given to to persons with disability for starting their own business.
+Scheme objective: 1. Applicant should have minimum 40% disability. (Orthopedic, Vision, Hearing, Mental, Speech)
+2. Applicant should be a domicile of Maharashtra.
+3. Applicant’s age should be between 18 to 50 years.
+4. Applicant’s family income should be below  Rs 5,00,000 in urban areas 
+5. Applicant’s family income should be below Rs. 3,00,000 in rural areas
+
+
+Scheme name: Niramaya_MH
+Scheme description: This scheme provides health insurance upto a cover of Rs.1 Lakh to people with disabilities
+
+Types of disabilities covered : Autism, Cerebral Palsy, Mental Retardation, Multiple Disabilities
+Scheme objective: Applicant should be a person with disability. All kind of disabilities included (mental, cerebral palsy, multiple disabilities)
+
+
+Scheme name: Maulana Azad National Fellowship_MH
+Scheme description: The objective of the Fellowship is to provide integrated five year fellowships in the form of financial assistance ranging from Rs.10000 to Rs. 36000 to students from minority communities, as notified by the Central Government to pursue higher studies such as M. Phil and Ph.D.
+Scheme objective: 1. Annual income of the parents must be less than 2.5 lakh per annum. 
+2. Should be from minority community: Muslims, Parsis, Buddhist, Jains, Christians.
+3. Should be a student of MPhil or PhD course
+4. Minimum 50% of scores achieved at the post-graduate level.
+
+
+Scheme name: Vasantrao Naik Tanda or Basti Development Scheme_MH
+Scheme description: This scheme provides the basic amenities to Tandas and Bastis of Vimukta Jatis and Nomadic Tribes.
+Scheme objective: Tanda or Basti of VJNT having minimum 50 population.
+
+
+Scheme name: MGNREGA Job Card_MH
+Scheme description: The scheme provides ₹ 273 per day for work under MGNREGA to all rural households whose any adult member has demanded employment under MGNREGA and has shown willingness to do casual manual labour.
+Scheme objective: 1.You should be living in the rural area
+2.Your age should be above 18 years old.
+3.You should be willing to do unskilled manual work
+4.Only one Job Card is available per household
+
+
+Scheme name: Gyan Prabha_MH
+Scheme description: This Scheme encourages people with disabilities to pursue  any vocational training / professional courses after schooling with scholarship assistance of Rs. 1600 to Rs. 5200 per month.
+Scheme objective: 1.The family income of the candidate should not be more than Rs 15,000/month in order to be eligible for it. 
+2.Persons with Speech, hearing, vision, orthopedic, Autism, Cerebral Palsy, Mental Retardation and Multiple Disabilities are eligible for the scholarship. 
+3.Studying professional, graduate, post-graduate, vocational courses.
+
+
+Scheme name: Post-Matric Government of India Scholarship (for ST students)_MH
+Scheme description: This scheme encourages ST students to undergo Post-Matric Courses by providing them with post-matriculation scholarship.
+Scheme objective: 1.The students with annual family income up to Rs.2.5 lakh 
+2.Students engaged in full time employment are not eligible
+3.Repeaters are not eligible.
+4. Applicant should belong to ST category
+
+
+Scheme name: Maintenance Allowance for OBC,VJNT and SBC for Professional Course_MH
+Scheme description: This scheme helps O.B.C., V.J.N.T and S.B.C students completing their professional courses with assistance of Rs. 500-700 per month.
+Scheme objective: 1. Applicant should belong to OBC or VJNT or SBC category.
+2. Applicant should be studying in professional course such as Medical, Engineering, Animal Husbandry etc.
+3. Applicant should have admitted in the hostels either attached to college or private.  
+4. Applicant's annual family income should be less than 1 lakh.
+
+
+Scheme name: Government of India Post Matric Scholarship (SC, OBC, VJNT, SBC)_MH)
+Scheme description: This scheme provides a scholarship ranging from ₹ 90 to ₹1200 per month for students from the SC, OBC, SBC, VJNT categories.
+Scheme objective: 1. Should have annual income less than or equal to ₹ 2.5 lakh for students belongs to Scheduled Caste(SC), and less than or equal to ₹ 1 lakh
+2. Should be the resident of Maharashtra.
+3. Only two children (i)any number of girls applicants allowed. ii) boys applicants maximum 2 of the same parents will be eligible for the Scholarship 
+4. Students engaged in full time employment are not eligible. Repeaters are not eligible.
+
+
+Scheme name: Maintenance Allowance for S.T. for Professional Course_MH
+Scheme description: Allowance of Rs. 500-700 per month for students belonging to S.T. category pursuing professional courses.
+Scheme objective: 1. Student should belong to ST category.
+2. Student should be studying in professional course such as Medical, Engineering, Animal Husbandry etc.
+3. Student should have admitted in the hostels either attached to college or private.
+4. Annual Family Income should not exceed, Rs. 1, 80,000
+
+
+Scheme name: Post Matric Scholarship for SC students_MH
+Scheme description: This scheme provides Financial Assistance ranging from Rs.90-Rs. 425 per month to the SC Students pursuing Post Matric Courses
+Scheme objective: 1.Students with family  annual income up to Rs.2.00 lakh 
+2.Students engaged in full time employment are not eligible. Repeaters are not eligible.
+2.Only two boys of the same parents or guardian will be entitled to receive scholarships. This restriction will, however, not apply to girls.
+4.Students of class 11th and 12th are not eligible.
+5. Applicant should belong to SC category
+
+
+Scheme name: Maintenance Allowance for S.C. for Professional Course_MH
+Scheme description: Allowance of Rs. 500-700 for students belonging to S.C. category pursuing professional courses.
+Scheme objective: 1. Student should belong to SC category.
+2. Student should be studying in professional course such as Medical, Engineering, Animal Husbandry etc.
+3. Student should have admitted in the hostels either attached to college or private.
+4. Annual Family Income should not exceed, Rs. 1, 00,000
+
+
+Scheme name: Apki Beti Scheme_RJ
+Scheme description: Financial assistance to meritorious girls in class 1-12 (in government schools) from BPL families who have lost either or both of their parent.
+Scheme objective: Gender -	Female
+Education (presently studying in) - Class 1st to 12th 
+School type - State Government
+Economic status - BPL,AAY
+Type of Schooling- Regular
+Have lost one or both of their parent
+
+
+Scheme name: Pannadhay Jeevan Amrit Yojana (Janshree Insurance Scheme)_RJ
+Scheme description: National Social Assistance Program (NSAP), Pannadhay Jeevan Amrit Yojana (Aam Aadmi Bima Yojana) provides insurance benefits to selected BPL families and Aastha card holder families. The insured family is given 30 thousand in  death of the head of family, in accidental death an amount of 75000 is given. If insured family has school-going children class 9-12, they are provided with Rs 100 per month.
+Scheme objective: 1. Family should be under BPL Category
+                          or
+2. Family should be Aastha card holder
+3 Age should be from 51- 59
+
+
+Scheme name: Mahila shikashan Vihar - Jalahwar
+Scheme description: Women, aged between 15 to 35 years, from excluded section of society – widows, living in remote areas, tribal – are provided education for 5 years in residential school till class 10th. Skill development is also provided. The institution is in Jahlawad.
+Scheme objective: Gender - Female
+Age - 15-35 years
+Social category - Deprived section :Widows,Tribals, Living in remote areas
+
+
+Scheme name: Pre-matric scholarship for ST students of class 9-10 under CSS_RJ
+Scheme description: This scheme provides scholarship to ST students studying in class 9th and 10th having family income less than 2.5 lakhs per year. Student need to pass the class to avail benefit next year.
+Scheme objective: 1. Caste: ST
+2. Class - 9th / 10th
+3. Family income - Less than 2.5 lakhs per annum. 
+4. Not be a part of any other scholarship scheme. 
+5. Type of schooling: Regular
+6. Educational institute: State/Central Govt.
+7. State of residence = Rajasthan
+
+
+Scheme name: Gargi Award (Senior)_RJ
+Scheme description: Annual financial assistance of Rs. 1000  to girls securing 75% or more in 10th  class exam conducted by Rajasthan Board of Secondary Education and pursuing higher senior secondary education in two installments
+Scheme objective: 1. Gender: Female
+2. Education: class 10
+3. Percentage of Marks scored in class 10: 75% or more
+4. Class X Board - RBSE
+5. Must be enrolled in 11th class
+
+
+Scheme name: Gargi Prize (junior) Scheme_RJ
+Scheme description: Award for girl toppers in class 8th at Panchayat samiti and district levels who pursue 9th and 10th level studies. 
+The girls name needs to be given at the School office for availing benefits of the scheme.
+Scheme objective: Gender - Female
+Education - Cleared class 8th and moving to class 9th as a regular student
+Class 8th Board percentage -	Among toppers
+Class 8th exam conducted by - District Institute for Education and Training (DIET)
+
+
+Scheme name: Transport Voucher Scheme for Rural Girls_RJ
+Scheme description: Providing transport voucher to the girls students of rural areas studying in government schools in class 9th -12th. 
+From home to school and back from school to home. The applicant must be studying in Class 9-12 and the distance between her home and her school must be at least 5 km. There must be at least 5 girls traveling on a particular route.
+Scheme objective: (1)Gender - Female
+(2) Location -  Rural areas
+(3) Education (Enrolled in )- Class 9th -12th 
+(4) Minimum distance between school and home	- 5 kms
+(5)Type of Schooling: Regular
+(6) School type: State government
+
+
+Scheme name: Pradhan Mantri Awas Yojana- Gramin_MH
+Scheme description: Providing financial assistance of around Rs. 1,20,000 to rural below poverty line and houseless families to build houses.
+Scheme objective: 1.  Below Poverty Line and Above Poverty Line (very close to the BPL) rural households 
+2. *Preferences are given to Scheduled Castes, Scheduled Tribes, Destitute/Widow women, Ex-servicemen of the armed and paramilitary forces killed in action, Physically & mentally challenged persons, Freed bonded labourers, Minorities
+
+
+Scheme name: Facilitating higher education abroad for top three girls in class 10th merit list_RJ
+Scheme description: Top 3 girls in each districts in the class X board merit list conducted by Rajasthan Board of Secondary Education (RBSE), will be provided graduation in foreign university on government cost after they pass class XII.
+Scheme objective: 1. Gender:  Female
+2. Education:  Passed Class X 
+3. Nature of school - State Government               
+4. Board: RBSE 
+5. Merit List: Should be among top 3 girls in a district  in the board merit list
+
+
+Scheme name: Financial Assistance For Physically Disabled Girls_RJ
+Scheme description: Financial assistance to physically disabled/dumb/blind girls studying in class 9-12 in government schools
+Scheme objective: 1. Gender - Female.  
+2. Education (presently studying in) - Class 9-12.  
+3. School type - State Government.
+4. Disability: Physically handicapped/Blind/Dumb/Deaf
+5. Type of Schooling: Regular Student
+
+
+Scheme name: Free bicycles to girl students_RJ
+Scheme description: Free bicycles to girl students in class 9 in state government schools in both rural and urban areas. Bicycle will not be given in higher classes.All cycles will be facilitated by school administration.
+Scheme objective: 1. Gender: Female
+2. Class (enrolled in ): 9th 
+3. School type: State government
+
+
+Scheme name: Mukhyamantri Ucha Shiksha Chhatravarti Yojana_RJ
+Scheme description: Scholarship to top 1 lakh students passing Plus two(XII) i.e. Class 12 and belonging to Lower income family groups.
+Scheme objective: 1. Passed class XII
+2. Minimum marks secured- 60% or more
+3. Must be among top 1 lakh students (cut-off criteria decided by the Department of College Education)
+4. Type of schooling- Regular 
+5. Educational Board: RBSE
+6. State of Residence: Rajasthan
+7. Bank account in any Nationalized Bank
+8. Educational Institute type: State Govt or Private recognized
+9. Family Annual Income less than 2,50,000
+10. Should not be availing any scholarship under any state/central govt. scheme
+The scheme will also be shown to unemployed and working:
+If working and unemployed, Did you clear class 12th in last academic session? (Yes / No)
+If Yes, % of marks obtained in class 12th?
+If more than 60%, School Board Type: CBSE / State Board / NIOS / ICSE / IGCSE / IB
+If student:
+1. Graduation
+2. Diploma
+Did you clear class 12th in last academic session? (Yes / No)". If yes, then we will take the marks of last class studied. If No, he's not eligible. Refer questionnaire. 
+Also to mapped to should not be availing benefits under any other scholarship scheme - applicable only for student
+
+
+Scheme name: Aam Aadmi Bima Yojana_MH
+Scheme description: A Social Security Scheme provides assistance to rural landless or BPL person ranging from Rs.1,200- Rs.75,000
+Scheme objective: 1.The member to be covered should be aged between 18 and 59 years on nearly birthday.
+2.The member should normally be the head of the family or one earning member of the below poverty line family (BPL) or marginally above the poverty line with following landholding
+
+
+Scheme name: Janani Suraksha Yojana_MH
+Scheme description: This is a conditional cash transfer scheme for BPL pregnant women in the SC or ST caste category, availing institutional deliveries at government and accredited private health institutions.
+Scheme objective: •	Pregnant women  undergoing delivery at Government medical institutions and accredited Private Hospitals; and being admitted to General Wards.
+							
+•	Pregnant women belonging to BPL family and have delivered at home
+
+
+Scheme name: Mukhya Mantri Rajshree Yojana_RJ
+Scheme description: This scheme offers conditional cash transfer to the mother in installments after set accomplishments
+(i) Girl child's institutional delivery at government hospital or under JSY (or delivery in transit)
+(ii) Her regular vaccination and enrolment into school
+(iii) The applicant must be a pregnant female with an annual family income of less than Rs.2 lakh
+Scheme objective: * Annual family income not more than Rs.2,00,000
+* Applicant should be female
+* State of residence: Rajasthan
+
+
+Scheme name: Scholarship for children of soldiers martyred/disabled in pre-Kargil battles_RJ
+Scheme description: Scholarship for dependents (class 1-12) of Killed/ permanent disabled soldiers in pre-Kargil wars. Ministry of human resource works to implement this on the ground.
+Scheme objective: (1) Students having their father got killed or disabled in war before 01.04.99.  
+(2) Studying in class 1st  to 12th
+
+
+Scheme name: Scholarship for children of killed/ permanently disabled soldiers after Kargil (After 01.04.99) wars_RJ
+Scheme description: scholarship for children (class 1-12) of Killed/ permanently disabled soldiers in wars after Kargil war ( after 01.04.99). Children (class 1-12) of Killed/ permanently disabled soldiers in wars after Kargil war( after 01.04.99)
+Scheme objective: 1. Students having their father got killed or disabled in war after 01.04.99 
+2. Studying in class 1 to 12
+
+
+Scheme name: Scholarship for meritorious daughters of ex-army men_RJ
+Scheme description: Financial assistance for meritorious daughters of ex-armymen studying in 11th/12th.
+Scheme objective: (1) Gender - Female.  (2) Class enrolled in - 11th/12th.  (3) Class 10th percentage - Atleast 55%.
+(4) student needs to be daughter of an ex-armyman
+
+
+Scheme name: Kasturba Gandhi special fixed deposit scheme
+Scheme description: Fixed deposit in the name of girls scoring atleast 50% in 10th/12th from KGBVs and pursuing further studies
+Scheme objective: (1) Gender - Girls.  (2) Education - Cleared class 10th /12th.
+(3) School type: Class 10th - Kasturba Gandhi Vidhayala, Class 12th - Government school
+
+
+Scheme name: Veena-Paani Scheme
+Scheme description: Free textbooks and school bags for class 1-8 students in government schools
+Scheme objective: (1) Students - Class 1st  to 8th.  (2) School type - Government school.
+
+
+Scheme name: Navjeevan Yojana_RJ
+Scheme description: Scholarship for students in class 6th to 10th belonging to the specified/identified castes or whose parents are involved in the business/sales/distribution of illegal liquor.
+Scheme objective: (1) Class enrolled in  : 6th to 10th
+(2) Eligible Caste - kanjar, kasi, bhat, bhand, rana, nut, dom, mogiya, bawriya, bediya, bagriya, chobdar, sirkiwala. OR Family occupation - In sale/distribution of illegal liquor. 
+(3) Family income - Less than 2 lakhs per annum. 
+(4) Not be a part of any other scholarship scheme. 
+(5) Type of schooling: Regular
+(6)Educational institute: State/Central Govt.
+
+
+Scheme name: Pre-Matric scholarship for wards of sanitation workers and those engaged in hazardous occupations_RJ
+Scheme description: Students studying in class 1st to 8th and their parents working as sanitation workers or hazardous occupation are entitled to scholarship
+Scheme objective: (1) Parents occupation - In sanitation work/ occupation that are hazardous to health 
+(2) Education ( enrolled in) - Class 1st – 8th. 
+(3) Caste - SC/ST(ghummakad, vimukkta)/OBC
+
+
+Scheme name: Pre Matric Scholarship for students whose parents are engaged in unclean Occupation_MH
+Scheme description: This scheme provides financial assistance to Children of those people who are or were engaged in unclean professions, ranging from Rs.750-Rs.1100 per annum for pre-matric education
+Scheme objective: 1.The scholarship will be available to those students whose parents or foster parents of minimum 3 years are:
+a.Either presently engaged in manual scavenging or were so engaged upto 1993
+b.Presently engaged in Tanning and or Flaying
+c.presently engaged in waste picking or collecting
+2.The applicant obtaining benefits under this scheme should not be availing benefits of any other pre-matric scholarship scheme
+- Studying in class 1st to 10th
+
+
+Scheme name: Jan Aushadhi Yojana_MH
+Scheme description: This scheme makes quality generic medicines and sanitary napkins available to people at affordable prices
+Scheme objective: All
+
+
+Scheme name: Mukhya Mantri Balika Sambal Yojana_RJ
+Scheme description: Rs.10,000 bond under CCP(child's career plan) scheme of UTI MF(Mutual Fund) for each girl child(account will be provided in the name of girl child and will mature at the age of 18 years). To be eligible for this scheme, the family must have two girl children at the most and no male children. Furthermore, the age of the youngest girl should be less than 5 years.
+Scheme objective: Any couple(every category) undergoing sterilization operation after 1 or 2 female child( and having no male child), within 5 years of her birth
+
+
+Scheme name: Artisan Identity Card Scheme_RJ
+Scheme description: This is an Identification card for the artisans of the state. The I-Card can be obtained through an offline process. This identity card will be necessary to get more benefits targeted for artisans.
+Scheme objective: 1. State of residence = Rajasthan
+2. Occupation - Self-employed Handicraftmen/Dastkars
+3. Nature of Job = Artisan r handloom weaver or dastkar.
+
+
+Scheme name: Bhamashah Rozgar Srijan Yojana_RJ
+Scheme description: Providing loan with subsidy on interest to unemployed youth, women, educated unemployed women, SC & ST in order to make them self-reliant. Male from the general category should get registered at the state employment office for being eligible for the scheme.
+Scheme objective: COMPULSORY CONDITIONS:
+(1) Age - 18-50 years
+(2) Family income - Less than Rs 6 lakhs per annum
+(3) Domicile - Rajasthan (Should have stayed in the state for more than 10 years)
+
+NON-COMPULSORY CONDITIONS:
+(1) A person could either be unemployed or SC or ST or women to be eligible under the scheme.
+
+CATEGORIES
+A. A person who is unemployed (irrespective of gender/caste/religion) AND is between 18 & 50 years of age AND has an income of less than 6 Lac per annum. 
+B. A female (irrespective of the fact that she is a student or unemployed or working) whose age is between 18 & 50 years AND has an income of less than 6 Lac per annum. 
+C. ST (irrespective of the fact that he/she is a student or unemployed or working) whose age is between 18 & 50 years AND has an income of less than 6 Lac per annum.
+D.  SC (irrespective of the fact that he/she is a student or unemployed or working) whose age is between 18 & 50 years AND has an income of less than 6 Lac per annum.
+Formats of these documents can be downloaded from the annexures given at the link section
+
+
+Scheme name: Entrepreneurship Development Training Program
+Scheme description: •	Encouraging educated youth in urban and rural areas for self-employment. 
+•	Providing guidance and enabling them to set up their business. 
+•	Preference will be given to SC, ST and women category to develop spirit of entrepreneurship
+Scheme objective: (1) Youth - 18-45  years
+(2) Minimum Education - 8th passed.
+
+
+Scheme name: Leather Training
+Scheme description: The scheme aims at providing training to youth in following areas - charm rangai, nagara juti, leather goods, leather toys - through district industrial center. Period of training is 2 months.
+Scheme objective: (1) Caste - SC/ST/OBC/General.
+(2) Age - 18-35 years*.
+(3) Education - Must be literate. Preference will be given to those who have studied above class 8th.
+*The selection committee can relax the age criteria by 10 years
+
+
+Scheme name: Mahatma Gandhi Weavers Insurance Scheme_RJ
+Scheme description: This scheme provides insurance for death and disability of hand loom workers
+Scheme objective: (1) The weaver should be earning at least 50% of his income from handloom weaving.
+(2) Age - 18 to 59 years
+
+
+Scheme name: Market assistance for artisans scheme_RJ
+Scheme description: The scheme aims at providing benefits to the skilled artisans, handicraftsmen and weavers for participating in exhibitions within or outside state.
+Scheme objective: (1) Occupation - skilled artisans, handicraftsmen and weavers
+
+
+Scheme name: Prime Minister Employment Generation Programme_RJ
+Scheme description: The scheme aims at providing self-employment to the educated unemployed youth throughout the country. For this loan upto Rs 25 lakh can be provided based on the project plan of applicant. Subsidy is also provided on that loan.
+Scheme objective: (1) Age category - Youth (above 18 yrs). 
+(2) there should be no other liability pending against the person
+(3) State of residence = Rajasthan
+
+
+Scheme name: Pre-matric scholarship for SC students of class 9-10_RJ
+Scheme description: Providing scholarship to SC students studying in class 9th and 10th having family income less than 2.50 lakhs per annum. For each class that the student is enrolled in would only be eligible for the scholarship only once for that class. Any student failing in any class or repeating the same class will not be eligible to avail the benefits of the scheme.
+Scheme objective: 1. Caste: SC
+2. Class - 9th / 10th
+3. Parents Income: Less than 2 lakhs per annum
+4. Not be a beneficiary of any other central scholarship scheme.
+5. School type: Central gov. / state gov./gov. recognized private schools.
+6. Need to qualify for the next class.
+6. State of residence = Rajasthan
+
+
+Scheme name: Pre-Matric scholarship for OBC students_RJ
+Scheme description: Provides scholarship to students belonging to OBC category studying in Classes 1 to 10. The income consideration, in this case, is of the parents only. An amount will also be associated for hostel fees.
+Scheme objective: (1) Caste - OBC
+(2) Class enrolled in - 6th – 10th. 
+(3) School type - State Government/Central Government / Recognized private schools
+(4) Parental Income - Rs. 44500 annually.
+(5) Percentage of Marks Scored - Above 50%.
+(6) Other criteria - Student not be getting any other scholarship from central or state government.
+(7) Type of schooling: Regular
+
+
+Scheme name: Pre-Matric scholarship for Special Backward Caste (SBC) Children_RJ
+Scheme description: Scholarship for SBC students in class 6-10. Student need to pass class exam for continuing the scholarship.
+Applications are submitted in the beginning of an academic year, usually July-August and processed by October-November.
+Scheme objective: (1) Education (enrolled in) - Class 6th to 10th.  
+(2) Caste - SBC :  Banjara, Gadiya Lohar, Gujar, Raika, Rebari
+(3) Parent Income : Less than 2 lakhs per annum.
+(4) Student should not be getting any other scholarship.
+(5) Type of schooling: Regular
+
+

@@ -1,0 +1,106 @@
+HD Agents Questions and Answers
+
+Q1: Reactivating a Deactivated ID
+Metadata: Reactivation, ID, OTP verification, Account activation
+Answer:
+1. Click on "ACTIVATE ACCOUNT" on the main screen.
+2. Verify your Username. An OTP will be sent to your registered mobile number.
+3. Enter the received OTP on the screen and submit.
+4. Your account will be reactivated. Please log in again.
+
+Q2: Missing Scheme in App
+Metadata: App issues, Scheme visibility, Data update
+Answer: Update the app data to check if the scheme becomes visible.
+
+Q3: Loading Wallet in AMS App
+Metadata: Wallet loading, Fund request, Sub distributor
+Answer:
+1. Deposit cash at the center.
+2. Raise a fund request to the sub distributor using the AMS app.
+3. Once approved by the sub distributor, funds will be credited to your wallet.
+
+Q4: Resolving Session Expiry
+Metadata: Session issues, App logout, Login
+Answer: Log out of the app and then log back in to resolve a session expiry issue.
+
+Q5: Handling Account Expiry
+Metadata: Account expiry, Project end, Coordinator contact
+Answer: If the account says expired, it means the organization or project has ended. Please contact your coordinator.
+
+Q6: Issues with Mapped Schemes
+Metadata: Mapped schemes, Eligibility, Questionnaire
+Answer: Ensure you have completed the full screening by filling out the questionnaire according to the criteria.
+
+Q7: Changing Language in App
+Metadata: App settings, Language change
+Answer:
+1. Open the app dashboard, click on the three lines in the left corner.
+2. Click on the first option and choose your language.
+3. Alternatively, upon logging in, find the language icon in the bottom panel to change the language.
+
+Q8: Handling Errors 99 and 100
+Metadata: Error handling, Internet issues
+Answer: Check your internet connection or try changing the network.
+
+Q9: Resolving App Data Missing Error
+Metadata: Data issues, Scheme mapping, Rate cards
+Answer: Contact a researcher or LM to map schemes, apply rate cards, and publish the DQ.
+
+Q10: Syncing Records in App
+Metadata: Data sync, Record management
+Answer:
+1. Long press the record and click on the cloud button to sync.
+2. Alternatively, use the cloud button at the top right on the Home Page to sync records.
+
+Q11: Importing Records
+Metadata: Record import, App navigation
+Answer:
+1. Open the AMS app.
+2. Click on the three lines in the left corner.
+3. Go to settings, then select "Import my Records".
+
+Q12: Selecting Districts and Blocks
+Metadata: Geographical selection, Rural and Urban areas
+Answer:
+1. Choose State Name, District Name, and Type of Area (Rural or Urban).
+2. For Rural: Select Block, Subdistrict, Village, and Pincode.
+3. For Urban: Select ULB (Urban Local Body), Ward Number, and Pincode.
+
+Q13: Updating App Data/Configuration
+Metadata: App update, Settings, Configuration
+Answer:
+1. Click on the menu button.
+2. Go to settings and select "Do app data update".
+3. Click on the about menu for configuration updates.
+
+Q14: Updating the App
+Metadata: App updates, Software update
+Answer:
+1. Open the AMS app.
+2. Click on the three lines in the left corner.
+3. Go to settings and then select "Do app data update".
+
+Q15: Viewing Eligibility Criteria for Schemes
+Metadata: Scheme eligibility, Criteria viewing
+Answer:
+1. Select a scheme directly.
+2. After selection, eligibility details will be listed.
+
+Q16: Viewing List of Schemes and Documents
+Metadata: Scheme documentation, App navigation
+Answer:
+1. After logging into the app, click on the three lines at the bottom left.
+2. Schemes and documents will be visible in the menu.
+
+Q17: Differentiating Mini and Full Screening
+Metadata: Screening process, Eligibility schemes
+Answer:
+- Mini Screening: Includes personal, address, family, and demographic details.
+- Full Screening: Involves filling out detailed questionnaires for eligible scheme assessment after mini screening.
+
+Q18: Direct vs Full Screen Scheme Applications
+Metadata: Scheme applications, Direct application, Full screening
+Answer:
+- Direct Scheme Application: Select a scheme, check eligibility, fill in required details
+- Full Screen Applications: To fetch the more eligible scheme for the mini screened citizen need to click on the citizen and select the citizen and fill the all questionnaires which and then you can check scheme which eligible for the particular citizen.
+
