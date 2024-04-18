@@ -104,7 +104,7 @@ async def preferred_language_callback(update: Update, context: CallbackContext):
 
     text_message = ""
     if lang == "en":
-        text_message = "You have chosen English. \nPlease share your details"
+        text_message = "You have chosen English. \nPlease tell me the problem you're having"
     elif lang == "hi":
         text_message = "आपने हिंदी चुनी है. \nकृपया मुझे बताएं कि आपको क्या समस्या आ रही है।"
     elif lang == "mr":
@@ -163,11 +163,11 @@ async def flow(update: Update, context: ContextTypes.DEFAULT_TYPE, text):
 
 if __name__ == '__main__':
     application = ApplicationBuilder().token(token).read_timeout(30).write_timeout(30).build()
-    start_handler = CommandHandler('start', start)
+    # start_handler = CommandHandler('start', start)
     language_handler_ = CommandHandler('set_language', language_handler)
     chosen_language = CallbackQueryHandler(preferred_language_callback, pattern='[1-3]')
     response_handler = MessageHandler(filters.TEXT & (~filters.COMMAND), response_handler)
-    application.add_handler(start_handler)
+    # application.add_handler(start_handler)
     application.add_handler(language_handler_)
     application.add_handler(chosen_language)
     application.add_handler(response_handler)
