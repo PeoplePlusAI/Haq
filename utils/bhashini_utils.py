@@ -70,6 +70,7 @@ def bhashini_translate(text, source_lang, target_lang):
             )[0].get(
                 'target'
             )
+            print(f"answer from bhashini_translate is {i_answer}")
             return i_answer
         else:
             return text

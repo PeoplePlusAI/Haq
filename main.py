@@ -104,7 +104,7 @@ async def preferred_language_callback(update: Update, context: CallbackContext):
 
     text_message = ""
     if lang == "en":
-        text_message = "You have chosen English. \nPlease share your details"
+        text_message = "You have chosen English. \nPlease tell your problem"
     elif lang == "hi":
         text_message = "आपने हिंदी चुनी है. \nकृपया मुझे बताएं कि आपको क्या समस्या आ रही है।"
     elif lang == "mr":
@@ -115,7 +115,7 @@ async def preferred_language_callback(update: Update, context: CallbackContext):
         text=text_message
     )
     
-    # set_redis('lang', lang)
+    set_redis('lang', lang)
 
 
 async def response_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
