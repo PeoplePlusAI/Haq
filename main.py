@@ -24,11 +24,10 @@ from telegram.ext import (
 )
 
 from core.ai import (
-    chat, 
+    ragindex, 
     audio_chat, 
     bhashini_text_chat, 
-    bhashini_audio_chat,
-    ragindex
+    bhashini_audio_chat, # chat
 )
 from utils.redis_utils import set_redis
 import pytesseract

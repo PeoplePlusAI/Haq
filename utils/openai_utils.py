@@ -2,7 +2,14 @@ from dotenv import load_dotenv
 from utils.redis_utils import set_redis
 import time
 import os
+import random
+from pydub import AudioSegment
 
+from utils.bhashini_utils import (
+    bhashini_translate,
+    bhashini_asr,
+    bhashini_tts
+)
 
 load_dotenv(
     dotenv_path="ops/.env",
@@ -130,37 +137,37 @@ def get_random_wait_messages(not_always=False, lang="en"):
         random_message = bhashini_translate(random_message, "en", lang)
     return random_message
 
-def clean(query):
+# def clean(query):
 
-  # regex to clean the input string
-  # Remove non-alphanumeric characters except spaces and periods
-  clean_query = re.sub(r"[^a-zA-Z0-9\s.]", "", query)
+#   # regex to clean the input string
+#   # Remove non-alphanumeric characters except spaces and periods
+#   clean_query = re.sub(r"[^a-zA-Z0-9\s.]", "", query)
 
 
-  # Check whether the prompt is complete - validation layer
-  # Basic check for length and content
-  if len(clean_query) < 5 or clean_query.strip(".") == "":
-      return "Try Again. Please provide more details about your complaint."
+#   # Check whether the prompt is complete - validation layer
+#   # Basic check for length and content
+#   if len(clean_query) < 5 or clean_query.strip(".") == "":
+#       return "Try Again. Please provide more details about your complaint."
 
-  # reprompt using LLM itself
-  # If input passes basic validation but still needs clarification
+#   # reprompt using LLM itself
+#   # If input passes basic validation but still needs clarification
 
-  instruction = f"""
-  Rewrite the user's input for filing a complaint so that it is clear and specific. If it is incomplete or blank, output 'Try Again'
-  """
+#   instruction = f"""
+#   Rewrite the user's input for filing a complaint so that it is clear and specific. If it is incomplete or blank, output 'Try Again'
+#   """
 
-  messages = [{"role": "system", "content": instruction},
-              # {"role": "assistant", "content": "What is your complaint? Also mention the locality from where the complaint is being filed."},
-              {"role": "user", "content": clean_query}
-            ]
-  response = client.chat.completions.create(
-      model="gpt-4-1106-preview",
-      messages=messages,
-  )
-  response_message = response.choices[0].message
+#   messages = [{"role": "system", "content": instruction},
+#               # {"role": "assistant", "content": "What is your complaint? Also mention the locality from where the complaint is being filed."},
+#               {"role": "user", "content": clean_query}
+#             ]
+#   response = client.chat.completions.create(
+#       model="gpt-4-1106-preview",
+#       messages=messages,
+#   )
+#   response_message = response.choices[0].message
 
-  # Check if LLM response is asking for a retry
-  if "Try Again" in response_message:
-      return "Try Again. Please provide a clearer description of your complaint."
+#   # Check if LLM response is asking for a retry
+#   if "Try Again" in response_message:
+#       return "Try Again. Please provide a clearer description of your complaint."
 
-  return response_message
+#   return response_message
