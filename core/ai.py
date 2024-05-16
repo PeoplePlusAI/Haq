@@ -75,13 +75,14 @@ def llama_index_rag(input_message):
     # service_context = ServiceContext.from_defaults(llm=portkey)
 
     #service_context = ServiceContext.from_defaults(llm=llm, embed_model="local:BAAI/bge-small-en-v1.5")
+    # integrate Pinecone here
     PERSIST_DIR = "./storage"
     
     if not os.path.exists(PERSIST_DIR):
             index = VectorStoreIndex.from_documents([document],service_context=service_context)
             index.storage_context.persist(persist_dir=PERSIST_DIR)
     else:
-    # load the existing index
+        # load the existing index
         storage_context = StorageContext.from_defaults(persist_dir=PERSIST_DIR)
         index = load_index_from_storage(storage_context)
     
@@ -90,10 +91,10 @@ def llama_index_rag(input_message):
     flare_query_engine = FLAREInstructQueryEngine(
         query_engine=query_engine,
         service_context=service_context,
-        max_iterations=1, # hyper-parameter - can vary from 1 to 7
+        max_iterations=2, # hyper-parameter - can vary from 1 to 7
         verbose=False, # hyper-parameter - can vary from True to False
         )
-    print(type(flare_query_engine))
+    # print(type(flare_query_engine))
     
     response = flare_query_engine.query(f"{input_message}")
     print(str(response))
