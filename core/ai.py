@@ -2,10 +2,18 @@ from openai import OpenAI
 import os
 import redis
 import json
-
+from dotenv import load_dotenv
 # portkey
 from portkey_ai import PORTKEY_GATEWAY_URL, createHeaders
 #from portkey_ai.llms.llama_index import PortkeyLLM
+load_dotenv(
+    dotenv_path="ops/.env",
+)
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
+client = OpenAI(
+    api_key=openai_api_key,
+)
 
 from utils.bhashini_utils import (
     bhashini_translate,
@@ -26,7 +34,7 @@ from utils.openai_utils import (
 #     get_run_status,
 #     get_assistant_message,
 #     create_assistant,
-# ) 
+) 
 # # generate_audio
 
 # llama index imports 
