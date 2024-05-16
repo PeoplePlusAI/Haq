@@ -8,20 +8,26 @@ from portkey_ai import PORTKEY_GATEWAY_URL, createHeaders
 #from portkey_ai.llms.llama_index import PortkeyLLM
 
 from utils.bhashini_utils import (
-    bhashini_translate
-    # bhashini_asr,
-    # bhashini_tts
+    bhashini_translate,
+    bhashini_asr,
+    bhashini_tts
+)
+
+from utils.redis_utils import (
+    get_redis_value,
+    set_redis,
 )
 
 # import openai files
-# from utils.openai_utils import (
+from utils.openai_utils import (
+    transcribe_audio,
 #     create_thread,
 #     upload_message,
 #     get_run_status,
 #     get_assistant_message,
 #     create_assistant,
-#     transcribe_audio,
-# ) # generate_audio
+# ) 
+# # generate_audio
 
 # llama index imports 
 # from llama_index.legacy.text_splitter import SentenceSplitter
@@ -115,13 +121,24 @@ def bhashini_text_chat(chat_id, text, lang):
     response_en = ragindex(chat_id, input_message)
     response = bhashini_translate(response_en, "en", lang)
     return response, response_en
-# # def audio_chat(chat_id, audio_file):
-# #     input_message = transcribe_audio(audio_file, client)
-# #     print(f"The input message is : {input_message}")
-# #     assistant_message, history =  chat(chat_id, input_message)
-# #     response_audio = generate_audio(assistant_message, client)
-# #     return response_audio, history
 
+def audio_chat(chat_id, audio_file):
+    input_message = transcribe_audio(audio_file, client)
+    print(f"The input message is : {input_message}")
+    # response_en = ragindex(chat_id, text)
+    assistant_message, history =  ragindex(chat_id, input_message)
+    #response_audio = generate_audio(assistant_message, client)
+    return assistant_message, history
+
+def bhashini_audio_chat(chat_id, audio_file, lang):
+    """
+    bhashini voice chat logic
+    """
+    input_message = bhashini_asr(audio_file, lang, "en")
+    response, history = ragindex(chat_id, input_message)
+    response = bhashini_translate(response, "en", lang)
+    audio_content = bhashini_tts(response, lang)
+    return audio_content, response, history
 # def chat(chat_id, input_message):
 #     try:
 #         assistant_id = get_redis_value("assistant_id")
