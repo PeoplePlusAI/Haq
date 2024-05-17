@@ -5,5 +5,5 @@ python-dotenv
 python-telegram-bot
 llama-index
 portkey-ai
-# httpx
-# pypdf
+httpx
+pydub
