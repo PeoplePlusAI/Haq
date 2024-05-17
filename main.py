@@ -1,7 +1,7 @@
 import os
 import base64
 import tempfile
-import time
+# import time
 from typing import Union
 
 import asyncio
@@ -30,12 +30,11 @@ from core.ai import (
     bhashini_audio_chat, # chat
 )
 from utils.redis_utils import set_redis
-import pytesseract
-from PIL import Image
+# import pytesseract
+# from PIL import Image
 from utils.openai_utils import (
-    get_duration_pydub, 
-    get_random_wait_messages
-)
+    get_random_wait_messages 
+) # get_duration_pydub
 
 dotenv.load_dotenv("ops/.env")
 
