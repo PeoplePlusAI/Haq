@@ -30,13 +30,14 @@ from utils.redis_utils import (
 # import openai files
 from utils.openai_utils import (
     transcribe_audio,
+    generate_audio
 #     create_thread,
 #     upload_message,
 #     get_run_status,
 #     get_assistant_message,
 #     create_assistant,
 ) 
-# # generate_audio
+# # 
 
 # llama index imports 
 # from llama_index.legacy.text_splitter import SentenceSplitter
@@ -135,19 +136,20 @@ def audio_chat(chat_id, audio_file):
     input_message = transcribe_audio(audio_file, client)
     print(f"The input message is : {input_message}")
     # response_en = ragindex(chat_id, text)
-    assistant_message, history =  ragindex(chat_id, input_message)
-    #response_audio = generate_audio(assistant_message, client)
-    return assistant_message, history
+    assistant_message =  ragindex(chat_id, input_message)
+    response_audio = generate_audio(assistant_message, client)
+    return response_audio, assistant_message
 
 def bhashini_audio_chat(chat_id, audio_file, lang):
     """
     bhashini voice chat logic
     """
     input_message = bhashini_asr(audio_file, lang, "en")
-    response, history = ragindex(chat_id, input_message)
-    response = bhashini_translate(response, "en", lang)
+    response_en = ragindex(chat_id, input_message)
+    response = bhashini_translate(response_en, "en", lang)
     audio_content = bhashini_tts(response, lang)
-    return audio_content, response, history
+    return audio_content, response
+
 # def chat(chat_id, input_message):
 #     try:
 #         assistant_id = get_redis_value("assistant_id")

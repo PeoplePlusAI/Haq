@@ -190,16 +190,17 @@ async def talk_handler(update: Update, context: ContextTypes.DEFAULT_TYPE, voice
                 audio_data = file.read()
                 audio_base64 = base64.b64encode(audio_data).decode('utf-8')
 
-                response_audio, assistant_message, history = audio_chat(
+                response_audio, assistant_message = audio_chat(
                     chat_id, audio_file=open(temp_audio_file.name, "rb")
                 )
-                response_audio.stream_to_file(temp_audio_file.name)
+                response_audio.with_streaming_response.stream_to_file(temp_audio_file.name) 
+                # original response_audio.stream_to_file(temp_audio_file.name)
                 # fix this error "raise JSONDecodeError("Expecting value", s, err.value) from None" here
                 # duration = get_duration_pydub(temp_audio_file.name)
                 await context.bot.send_audio(
                     chat_id=chat_id, 
                     audio=open(temp_audio_file.name, "rb"), 
-                    #duration=duration, 
+                    # duration=duration, 
                     filename="response.wav",
                     performer="Yojana Didi",
                 )
@@ -222,7 +223,7 @@ async def talk_handler(update: Update, context: ContextTypes.DEFAULT_TYPE, voice
             with open(temp_audio_file.name, "rb") as file:
                 audio_data = file.read()
                 audio_base64 = base64.b64encode(audio_data).decode('utf-8')
-                response_audio, response, history = bhashini_audio_chat(
+                response_audio, response = bhashini_audio_chat(
                     chat_id, 
                     audio_file=audio_base64,
                     lang=lang
@@ -231,11 +232,11 @@ async def talk_handler(update: Update, context: ContextTypes.DEFAULT_TYPE, voice
                 file_.write(response_audio.content)
                 file_.close()
                 with open(temp_audio_file.name, "rb") as file:
-                    duration = get_duration_pydub(temp_audio_file.name)
+                    # duration = get_duration_pydub(temp_audio_file.name)
                     await context.bot.send_audio(
                         chat_id=chat_id, 
                         audio=open(temp_audio_file.name, "rb"), 
-                        duration=duration, 
+                        # duration=duration, 
                         filename="response.mp3",
                         performer="Yojana Didi",
                     )
