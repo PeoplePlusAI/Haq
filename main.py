@@ -193,9 +193,8 @@ async def talk_handler(update: Update, context: ContextTypes.DEFAULT_TYPE, voice
                 response_audio, assistant_message = audio_chat(
                     chat_id, audio_file=open(temp_audio_file.name, "rb")
                 )
-                response_audio.with_streaming_response.stream_to_file(temp_audio_file.name) 
-                # original response_audio.stream_to_file(temp_audio_file.name)
-                # fix this error "raise JSONDecodeError("Expecting value", s, err.value) from None" here
+                with open(temp_audio_file.name, "wb") as response_file:
+                    response_file.write(response_audio.content)
                 # duration = get_duration_pydub(temp_audio_file.name)
                 await context.bot.send_audio(
                     chat_id=chat_id, 
