@@ -145,7 +145,7 @@ def bhashini_tts(text, lang):
     data = {
         'text': text,
         'languageId': lang,
-        'voiceId': 1
+        'voiceId': 2 #1
     }
     response = requests.post(url, headers=headers, data=json.dumps(data))
     return response
