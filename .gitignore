@@ -152,3 +152,5 @@ cython_debug/
 #.idea/
 
 demo
+utils/.DS_Store
+/Haq_bot_test
