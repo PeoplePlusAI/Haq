@@ -153,3 +153,5 @@ cython_debug/
 
 demo
 .DS_Store
+Haq_bot_test/
+.DS_Store
