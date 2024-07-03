@@ -28,12 +28,12 @@ from llama_index.legacy import (
     SimpleDirectoryReader, StorageContext,load_index_from_storage #LLMPredictor, ServiceContext, KeywordTableIndex,
 )
 
-from llama_index.legacy import Document
-from llama_index.legacy import VectorStoreIndex
-from llama_index.legacy import ServiceContext
-from llama_index.legacy.llms import OpenAI
-from llama_index.legacy.embeddings import OpenAIEmbedding
-from llama_index.legacy.query_engine import FLAREInstructQueryEngine
+from llama_index.core import (
+    SimpleDirectoryReader, StorageContext, load_index_from_storage, VectorStoreIndex
+)
+from llama_index.core import Document
+from llama_index.llms.openai import OpenAI
+from llama_index.embeddings.openai import OpenAIEmbedding
 
 from utils.redis_utils import (
     get_redis_value,
