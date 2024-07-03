@@ -121,8 +121,8 @@ async def preferred_language_callback(update: Update, context: CallbackContext):
 async def response_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await query_handler(update, context)
 
-def check_change_language_query(text):
-    return text.lower() in ["change language", "set language", "language"]
+# def check_change_language_query(text):
+#     return text.lower() in ["change language", "set language", "language"]
 
 
 async def query_handler(update: Update, context: CallbackContext):
@@ -135,9 +135,9 @@ async def query_handler(update: Update, context: CallbackContext):
     if update.message.text:
         text = update.message.text
         print(f"text is {text}")
-        if check_change_language_query(text):
-            await language_handler(update, context)
-            return
+        # if check_change_language_query(text):
+        #     await language_handler(update, context)
+        #     return
         await flow(update, context, text)
     # else:
     #     if update.message.voice:
@@ -154,6 +154,7 @@ async def flow(update: Update, context: ContextTypes.DEFAULT_TYPE, text):
         response_en = ragindex(chat_id, text)
         await context.bot.send_message(chat_id=chat_id, text=response_en)
     else:
+        # response_en = ragindex(chat_id, text)
         response, response_en = bhashini_text_chat(chat_id, text, lang)
         if response:
             await context.bot.send_message(chat_id=chat_id, text=response)

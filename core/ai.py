@@ -47,8 +47,15 @@ model = os.getenv("MODEL_NAME")
 #     api_key=openai_api_key,
 # )
 
+# Optimization: Use a global variable for the query engine to avoid recreating it for each request
+# # global_query_engine = None
+# def initialize_query_engine():
+#     global global_query_engine
+#     if global_query_engine is not None:
+#         return global_query_engine
+
 def llama_index_rag(input_message):
-    documents = SimpleDirectoryReader(input_files=['HD_data_v1.txt']).load_data()
+    documents = SimpleDirectoryReader(input_files=['HD_data_v3.txt']).load_data()
     # to use scheme information alongside
     # documents = SimpleDirectoryReader(input_files=['data/HD_data_v2.txt']).load_data()
     

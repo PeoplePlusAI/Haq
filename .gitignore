@@ -154,3 +154,5 @@ cython_debug/
 demo
 utils/.DS_Store
 /Haq_bot_test
+data/pandas_analysis.ipynb
+data/pandas.ipynb
