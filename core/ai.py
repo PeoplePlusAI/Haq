@@ -4,7 +4,7 @@ import redis
 import json
 
 # portkey
-from portkey_ai import PORTKEY_GATEWAY_URL, createHeaders
+from portkey_ai import PORTKEY_GATEWAY_URL, createHeaders, Portkey
 #from portkey_ai.llms.llama_index import PortkeyLLM
 
 from utils.bhashini_utils import (
@@ -42,6 +42,8 @@ load_dotenv(
 openai_api_key = os.getenv("OPENAI_API_KEY")
 port_api_key = os.getenv("PORTKEY_API_KEY")
 model = os.getenv("MODEL_NAME")
+
+# portkey = Portkey(api_key="PORTKEY_API_KEY", virtual_key="VIRTUAL_KEY",config="cache")
 #llm = ChatOpenAI(model_name="gpt-4", temperature=0)
 # client = OpenAI(
 #     api_key=openai_api_key,
@@ -83,7 +85,6 @@ def llama_index_rag(input_message):
     
     # service_context = ServiceContext.from_defaults(llm=llm) # or llm = portkey
     # service_context = ServiceContext.from_defaults(llm=llm, embed_model="local:BAAI/bge-small-en-v1.5")
-    # portkey = PortkeyLLM(api_key="PORTKEY_API_KEY", virtual_key="VIRTUAL_KEY")
     
     PERSIST_DIR = "./storage"
     
