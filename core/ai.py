@@ -55,7 +55,7 @@ model = os.getenv("MODEL_NAME")
 #         return global_query_engine
 
 def llama_index_rag(input_message):
-    documents = SimpleDirectoryReader(input_files=['HD_data_v3.txt']).load_data()
+    documents = SimpleDirectoryReader(input_files=['data/HD_data_v3.txt']).load_data()
     # to use scheme information alongside
     # documents = SimpleDirectoryReader(input_files=['data/HD_data_v2.txt']).load_data()
     
@@ -79,7 +79,7 @@ def llama_index_rag(input_message):
     Settings.llm = llm
     embed_model = OpenAIEmbedding(model="text-embedding-3-small")
     Settings.embed_model = embed_model
-    Settings.chunk_size = 128 # 512
+    Settings.chunk_size = 512 # 128
     
     # service_context = ServiceContext.from_defaults(llm=llm) # or llm = portkey
     # service_context = ServiceContext.from_defaults(llm=llm, embed_model="local:BAAI/bge-small-en-v1.5")
