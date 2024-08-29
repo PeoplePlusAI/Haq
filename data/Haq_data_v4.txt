@@ -837,7 +837,6 @@ How can I ensure all relevant schemes show up for an eligible citizen?
 
 English Answer:
 If the questionnaire is completed correctly, the relevant schemes will be shown as per the eligibility criteria. To address this issue:
-
 Ensure that the scheme you are looking for is mapped under your organization.
 Double-check that all questionnaire answers are accurate and complete.
 Verify that you have the latest app version and data update.

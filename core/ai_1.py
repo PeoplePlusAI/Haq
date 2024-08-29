@@ -57,7 +57,7 @@ PORTKEY_HEADERS = {
 }
 
 # Initialize settings
-Settings.chunk_size = 128
+Settings.chunk_size = 512
 Settings.llm = OpenAI(
     model=os.getenv("MODEL_NAME"),
     temperature=0.1,
