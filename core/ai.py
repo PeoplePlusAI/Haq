@@ -1,6 +1,5 @@
 from openai import OpenAI
 import os
-import redis
 import json
 
 # portkey
@@ -13,15 +12,30 @@ from utils.bhashini_utils import (
     # bhashini_tts
 )
 
-# import openai files
-# from utils.openai_utils import (
-#     create_thread,
-#     upload_message,
-#     get_run_status,
-#     get_assistant_message,
-#     create_assistant,
-#     transcribe_audio,
-# ) # generate_audio
+from llama_index.core import PromptTemplate
+
+# Templates
+QA_TEMPLATE = PromptTemplate(
+    "Context information is below.\n"
+    "---------------------\n"
+    "{context_str}\n"
+    "---------------------\n"
+    "Given this information, please answer the question: {query_str}\n"
+    "If you don't know the answer, just say that you don't know. Don't try to make up an answer.\n"
+    "Provide a detailed response and explain your reasoning step by step."
+)
+
+REFINE_TEMPLATE = PromptTemplate(
+    "The original question is as follows: {query_str}\n"
+    "We have provided an existing answer: {existing_answer}\n"
+    "We have the opportunity to refine the existing answer "
+    "(only if needed) with some more context below.\n"
+    "------------\n"
+    "{context_msg}\n"
+    "------------\n"
+    "Given the new context, refine the original answer to better "
+    "answer the question. If the context isn't useful, return the original answer."
+)
 
 # llama index imports 
 # from llama_index.legacy.text_splitter import SentenceSplitter
@@ -71,7 +85,7 @@ def llama_index_rag(input_message):
         "x-portkey-provider": "openai",
         "Content-Type": "application/json"
     }
-    try:    
+    try:
         llm = OpenAI(model=model, temperature=0.1, api_base=PORTKEY_GATEWAY_URL, default_headers=headers)
         # else use gpt-4
     except Exception as e:

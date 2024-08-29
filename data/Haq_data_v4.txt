@@ -1,0 +1,1214 @@
+## Q1: Reactivating a Deactivated ID
+
+**English Questions:**
+- How do I reactivate a deactivated ID?
+- My ID is deactivated. How can I activate it again?
+- What's the process to reactivate my account?
+- My account is inactive. How do I make it active?
+
+**English Answer:**
+1. Click on "ACTIVATE ACCOUNT" on the main screen.
+2. Verify your Username. An OTP will be sent to your registered mobile number.
+3. Enter the received OTP on the screen and submit.
+4. Your account will be reactivated. Please log in again.
+
+**Hinglish Questions:**
+- Deactivate ID ko kaise reactivate karu?
+- Meri ID deactivate ho gayi hai. Usse dobara kaise activate karu?
+- Account reactivate karne ka process kya hai?
+- Mera account inactive hai. Usse active kaise karu?
+
+**Hinglish Answer:**
+1. Main screen par "ACTIVATE ACCOUNT" par click karo.
+2. Apna Username verify karo. Aapke registered mobile number par ek OTP bheja jayega.
+3. Screen par received OTP enter karo aur submit karo.
+4. Aapka account reactivate ho jayega. Phir se login kijiye.
+
+## Q2: Scheme Visibility in App
+
+**English Questions:**
+- Why can't I see the scheme in my app?
+- The scheme is not visible in the application. What should I do?
+- How do I make schemes appear in my app?
+- I'm unable to view schemes in the app. What's the solution?
+
+**English Answer:**
+Update the app data to check if the scheme becomes visible. If the problem persists, ensure that you have the latest version of the app installed.
+
+**Hinglish Questions:**
+- Mujhe app mein scheme kyun nahi dikh raha?
+- Application mein scheme visible nahi ho raha. Kya karna chahiye?
+- App mein schemes kaise dikhau?
+- Mujhe app mein schemes nahi dikh rahe. Iska solution kya hai?
+
+**Hinglish Answer:**
+App data ko update karo aur check karo ki scheme visible hota hai ya nahi. Agar problem rehta hai, to ensure karo ki aapke paas app ka latest version installed hai.
+
+## Q3: Loading Wallet in AMS App
+
+**English Questions:**
+- How do I load my wallet in the AMS app?
+- What's the process to add funds to my AMS app wallet?
+- I want to put money in my AMS app wallet. How do I do it?
+- Can you explain the steps to fund my AMS app wallet?
+
+**English Answer:**
+1. Deposit cash at the center.
+2. Raise a fund request to the sub distributor using the AMS app.
+3. Once approved by the sub distributor, funds will be credited to your wallet.
+
+**Hinglish Questions:**
+- AMS app mein apna wallet kaise load karu?
+- AMS app wallet mein paise kaise add karu?
+- Mujhe AMS app wallet mein paise daalne hain. Kaise karu?
+- AMS app wallet mein fund karne ke steps bata sakte hain?
+
+**Hinglish Answer:**
+1. Center par cash deposit karo.
+2. AMS app use karke sub distributor ko fund request raise karo.
+3. Sub distributor ke approve karne ke baad, funds aapke wallet mein credit ho jayenge.
+
+## Q4: Resolving Session Expired Issue
+
+**English Questions:**
+- How do I resolve a session expired issue?
+- My session keeps expiring. What should I do?
+- The app says my session has expired. How can I fix this?
+- I'm getting a "session expired" error. What's the solution?
+
+**English Answer:**
+Log out of the app and then log back in to resolve a session expiry issue. If the problem persists, try clearing the app cache or reinstalling the app.
+
+**Hinglish Questions:**
+- Session expired issue ko kaise solve karu?
+- Mera session baar baar expire ho raha hai. Kya karna chahiye?
+- App keh raha hai ki mera session expire ho gaya. Ise kaise theek karu?
+- Mujhe "session expired" error mil raha hai. Iska solution kya hai?
+
+**Hinglish Answer:**
+App se logout karo aur phir se login karo. Isse session expiry issue solve ho jayega. Agar problem rehta hai, to app ka cache clear karne ya app ko reinstall karne ki koshish karo.
+
+## Q5: Account Showing as Expired
+
+**English Questions:**
+- What should I do if my account shows expired?
+- My account is displaying as expired. What does this mean?
+- I'm getting an "account expired" message. How do I fix it?
+- Why is my account showing as expired and what can I do about it?
+
+**English Answer:**
+If the account says expired, it means the organization or project has ended. Please contact your coordinator for further information and guidance on how to proceed.
+
+**Hinglish Questions:**
+- Agar mera account expired dikha raha hai to kya karu?
+- Mera account expired display kar raha hai. Iska matlab kya hai?
+- Mujhe "account expired" ka message mil raha hai. Ise kaise theek karu?
+- Mera account expired kyun dikha raha hai aur main iska kya kar sakta hoon?
+
+**Hinglish Answer:**
+Agar account expired dikha raha hai, to iska matlab hai ki organization ya project khatam ho gaya hai. Kripya apne coordinator se contact karein aur aage kya karna hai uske baare mein guidance lein.
+
+## Q6: Visibility of Mapped Schemes in Eligible Scheme Lists
+
+**English Questions:**
+- Why am I not able to see mapped schemes in the eligible scheme lists?
+- The mapped schemes are not showing up in my eligible schemes. What's wrong?
+- How can I view the mapped schemes in my eligibility list?
+- I can't find the mapped schemes in the eligible schemes section. What should I do?
+
+**English Answer:**
+Ensure you have completed the full screening by filling out the questionnaire according to the criteria. If you've done this and still can't see the mapped schemes, try updating the app data or contacting support for assistance.
+
+**Hinglish Questions:**
+- Main eligible scheme lists mein mapped schemes kyun nahi dekh pa raha/rahi hoon?
+- Mapped schemes mere eligible schemes mein nahi dikh rahe. Kya galat hai?
+- Main apne eligibility list mein mapped schemes kaise dekh sakta/sakti hoon?
+- Mujhe eligible schemes section mein mapped schemes nahi mil rahe. Kya karna chahiye?
+
+**Hinglish Answer:**
+Ensure karo ki aapne criteria ke hisaab se questionnaire fill karke full screening complete ki hai. Agar aapne ye kar liya hai aur phir bhi mapped schemes nahi dikh rahe, to app data update karne ki koshish karo ya support se contact karo.
+
+## Q7: Changing Language in the App
+
+**English Questions:**
+- How do I change the language in the app?
+- Can I switch the app to a different language? How?
+- What's the process to change the app's language settings?
+- Is it possible to use the app in my local language? How do I do that?
+
+**English Answer:**
+1. Open the app dashboard, click on the three lines in the left corner.
+2. Click on the first option and choose your language.
+3. Alternatively, upon logging in, find the language icon in the bottom panel to change the language.
+
+**Hinglish Questions:**
+- App mein language kaise change karu?
+- Kya main app ko dusri language mein switch kar sakta/sakti hoon? Kaise?
+- App ki language settings change karne ka process kya hai?
+- Kya app ko apni local language mein use karna possible hai? Main ye kaise kar sakta/sakti hoon?
+
+**Hinglish Answer:**
+1. App dashboard kholo, left corner mein teen lines par click karo.
+2. Pehle option par click karo aur apni language choose karo.
+3. Ya phir, login karne ke baad, bottom panel mein language icon dhundho aur usse language change karo.
+
+## Q8: Handling Errors 99 and 100
+
+**English Questions:**
+- How do I handle Errors 99 and 100?
+- I'm getting Error 99 or 100. What should I do?
+- What's the solution for Error 99 and Error 100?
+- The app shows Error 99/100. How can I fix this?
+
+**English Answer:**
+Check your internet connection or try changing the network. These errors are often related to connectivity issues. If the problem persists, try restarting the app or your device.
+
+**Hinglish Questions:**
+- Error 99 aur 100 ko kaise handle karu?
+- Mujhe Error 99 ya 100 mil raha hai. Kya karna chahiye?
+- Error 99 aur Error 100 ka solution kya hai?
+- App Error 99/100 dikha raha hai. Ise kaise theek kar sakta/sakti hoon?
+
+**Hinglish Answer:**
+Apna internet connection check karo ya network change karne ki koshish karo. Ye errors aksar connectivity issues se related hote hain. Agar problem bana rehta hai, to app ya apne device ko restart karne ki koshish karo.
+
+## Q9: Resolving App Data Missing Error
+
+**English Questions:**
+- How do I resolve an app data missing error?
+- The app says data is missing. What should I do?
+- I'm getting a "data missing" error in the app. How can I fix it?
+- What's the solution when the app shows missing data?
+
+**English Answer:**
+Contact a researcher or LM to map schemes, apply rate cards, and publish the DQ. If the issue persists, try updating the app data or reinstalling the app.
+
+**Hinglish Questions:**
+- App data missing error ko kaise solve karu?
+- App keh raha hai ki data missing hai. Kya karna chahiye?
+- Mujhe app mein "data missing" error mil raha hai. Ise kaise theek kar sakta/sakti hoon?
+- Jab app missing data dikhata hai to uska solution kya hai?
+
+**Hinglish Answer:**
+Schemes map karne, rate cards apply karne, aur DQ publish karne ke liye kisi researcher ya LM se contact karo. Agar issue bana rehta hai, to app data update karne ya app ko reinstall karne ki koshish karo.
+
+## Q10: Syncing Records in the App
+
+**English Questions:**
+- How do I sync records in the app?
+- What's the process to synchronize my app records?
+- I need to update my records across devices. How can I do this?
+- Is there a way to ensure all my records are up-to-date in the app?
+
+**English Answer:**
+1. Long press the record and click on the cloud button to sync.
+2. Alternatively, use the cloud button at the top right on the Home Page to sync records.
+
+**Hinglish Questions:**
+- App mein records kaise sync karu?
+- App records synchronize karne ka process kya hai?
+- Mujhe apne records ko devices ke beech update karna hai. Main ye kaise kar sakta/sakti hoon?
+- Kya app mein mere saare records up-to-date rakhne ka koi tarika hai?
+
+**Hinglish Answer:**
+1. Record ko long press karo aur sync karne ke liye cloud button par click karo.
+2. Ya phir, Home Page ke top right mein cloud button ka use karke records sync karo.
+
+## Q11: Importing Records
+
+**English Questions:**
+- How do I import records?
+- What's the process to bring in external records to the app?
+- Can I add records from another source? How?
+- I need to transfer records into the app. What steps should I follow?
+
+**English Answer:**
+1. Open the AMS app.
+2. Click on the three lines in the left corner.
+3. Go to settings, then select "Import my Records".
+
+**Hinglish Questions:**
+- Records kaise import karu?
+- App mein bahar ke records lane ka process kya hai?
+- Kya main dusre source se records add kar sakta/sakti hoon? Kaise?
+- Mujhe app mein records transfer karne hain. Kaunse steps follow karne chahiye?
+
+**Hinglish Answer:**
+1. AMS app kholo.
+2. Left corner mein teen lines par click karo.
+3. Settings mein jao, phir "Import my Records" select karo.
+
+## Q12: Selecting Proper District Block Subdistrict (Rural, Urban)
+
+**English Questions:**
+- How do I select the proper district block subdistrict (Rural, Urban)?
+- What's the process for choosing the correct geographical area in the app?
+- I'm confused about selecting rural or urban areas. Can you guide me?
+- How can I ensure I'm picking the right location details in the app?
+
+**English Answer:**
+1. Choose State Name, District Name, and Type of Area (Rural or Urban).
+2. For Rural: Select Block, Subdistrict, Village, and Pincode.
+3. For Urban: Select ULB (Urban Local Body), Ward Number, and Pincode.
+
+**Hinglish Questions:**
+- Sahi district block subdistrict (Rural, Urban) kaise select karu?
+- App mein sahi geographical area choose karne ka process kya hai?
+- Main rural ya urban areas select karne mein confused hoon. Kya aap guide kar sakte hain?
+- App mein sahi location details pick karna kaise ensure karu?
+
+**Hinglish Answer:**
+1. State Name, District Name, aur Type of Area (Rural ya Urban) choose karo.
+2. Rural ke liye: Block, Subdistrict, Village, aur Pincode select karo.
+3. Urban ke liye: ULB (Urban Local Body), Ward Number, aur Pincode select karo.
+
+## Q13: Performing App Data/Configuration Update
+
+**English Questions:**
+- How do I do an app data/configuration update?
+- What's the process for updating the app's data and configuration?
+- My app needs an update. How can I do this?
+- Is there a way to refresh the app's data and settings?
+
+**English Answer:**
+1. Click on the menu button.
+2. Go to settings and select "Do app data update".
+3. Click on the about menu for configuration updates.
+
+**Hinglish Questions:**
+- App data/configuration update kaise karu?
+- App ka data aur configuration update karne ka process kya hai?
+- Mere app ko update ki zaroorat hai. Main ye kaise kar sakta/sakti hoon?
+- Kya app ka data aur settings refresh karne ka koi tarika hai?
+
+**Hinglish Answer:**
+1. Menu button par click karo.
+2. Settings mein jao aur "Do app data update" select karo.
+3. Configuration updates ke liye about menu par click karo.
+
+## Q14: Updating the App
+
+**English Questions:**
+- How do I update the app?
+- What are the steps to get the latest version of the app?
+- My app seems outdated. How can I update it?
+- Is there a process to ensure I'm using the most recent app version?
+
+**English Answer:**
+1. Open the AMS app.
+2. Click on the three lines in the left corner.
+3. Go to settings and then select "Do app data update".
+
+**Hinglish Questions:**
+- App kaise update karu?
+- App ka latest version pane ke liye kya steps hain?
+- Mera app purana lag raha hai. Ise kaise update kar sakta/sakti hoon?
+- Kya ye ensure karne ka koi process hai ki main most recent app version use kar raha/rahi hoon?
+
+**Hinglish Answer:**
+1. AMS app kholo.
+2. Left corner mein teen lines par click karo.
+3. Settings mein jao aur phir "Do app data update" select karo.
+
+Q15: Viewing Eligibility Criteria for a Scheme
+English Questions:
+
+How do I see the eligibility criteria for a particular scheme?
+Where can I find the requirements for a specific scheme?
+I want to check if I'm eligible for a scheme. How do I do that?
+Is there a way to view the eligibility conditions for different schemes?
+
+English Answer:
+To view the eligibility criteria for a particular scheme:
+
+Open the AMS app and log in.
+Go to the schemes section.
+Select the specific scheme you're interested in.
+After selection, eligibility details will be listed.
+Review the criteria carefully to determine eligibility.
+
+Hinglish Questions:
+
+Kisi particular scheme ke liye eligibility criteria kaise dekhu?
+Kisi specific scheme ki requirements kahan mil sakti hain?
+Main check karna chahta/chahti hoon ki main kisi scheme ke liye eligible hoon ya nahi. Ye kaise karu?
+Kya alag-alag schemes ke eligibility conditions dekhne ka koi tarika hai?
+
+Hinglish Answer:
+Kisi particular scheme ke eligibility criteria dekhne ke liye:
+
+AMS app kholein aur login karein.
+Schemes section mein jaayein.
+Jis specific scheme mein aap interested hain, use select karein.
+Select karne ke baad, eligibility details list ho jayengi.
+Eligibility determine karne ke liye criteria ko dhyan se review karein.
+
+## Q16: Viewing Lists of Schemes and Documents
+
+**English Questions:**
+- How do I view the lists of schemes and documents?
+- Where can I find the available schemes and required documents?
+- Is there a way to see all the schemes and their associated documents?
+- I need to check the schemes and document lists. How do I do that?
+
+**English Answer:**
+1. After logging into the app, click on the three lines at the bottom left.
+2. Schemes and documents will be visible in the menu.
+
+**Hinglish Questions:**
+- Schemes aur documents ki lists kaise dekhu?
+- Available schemes aur required documents kahan mil sakte hain?
+- Kya saare schemes aur unse related documents dekhne ka koi tarika hai?
+- Mujhe schemes aur document lists check karni hai. Ye kaise karu?
+
+**Hinglish Answer:**
+1. App mein login karne ke baad, neeche left mein teen lines par click karo.
+2. Menu mein schemes aur documents visible honge.
+
+## Q17: Differentiating Between Mini Screening and Full Screening
+
+**English Questions:**
+- How do I differentiate between mini screening and full screening?
+- What's the difference between mini and full screening processes?
+- Can you explain mini screening vs full screening?
+- I'm confused about mini and full screening. How are they different?
+
+**English Answer:**
+1. Mini Screening: Includes personal, address, family, and demographic details.
+2. Full Screening: Involves filling out detailed questionnaires for eligible scheme assessment after mini screening.
+
+**Hinglish Questions:**
+- Mini screening aur full screening ke beech difference kaise samjhu?
+- Mini aur full screening processes mein kya fark hai?
+- Kya aap mini screening vs full screening explain kar sakte hain?
+- Main mini aur full screening ko lekar confused hoon. Ye kaise alag hain?
+
+**Hinglish Answer:**
+1. Mini Screening: Isme personal, address, family, aur demographic details shamil hote hain.
+2. Full Screening: Mini screening ke baad eligible scheme assessment ke liye detailed questionnaires bharne hote hain.
+
+## Q18: Difference Between Direct Scheme Applications and Full Screen Applications
+
+**English Questions:**
+- Tell me the difference between direct scheme applications and full screen applications.
+- How do direct scheme applications differ from full screen applications?
+- What's unique about direct scheme applications compared to full screen ones?
+- I'm confused about direct and full screen applications. Can you explain?
+
+**English Answer:**
+1. Direct Scheme Application: Select a scheme, check eligibility, fill in required details according to it and apply for the particular scheme.
+2. Full Screen Applications: To fetch more eligible schemes for the mini screened citizen, click on full screening and complete the questionnaire.
+
+**Hinglish Questions:**
+- Direct scheme applications aur full screen applications mein kya fark hai?
+- Direct scheme applications, full screen applications se kaise alag hain?
+- Direct scheme applications mein kya unique hai full screen applications ke comparison mein?
+- Main direct aur full screen applications ko lekar confused hoon. Kya aap explain kar sakte hain?
+
+**Hinglish Answer:**
+1. Direct Scheme Application: Ek scheme select karo, eligibility check karo, uske hisaab se required details bharo aur us particular scheme ke liye apply karo.
+2. Full Screen Applications: Mini screened citizen ke liye zyada eligible schemes pane ke liye, full screening par click karo aur questionnaire complete karo.
+
+Q19: Payment Delay Issues
+English Questions:
+
+I have not received my payment yet. When will I receive my payment for last month?
+My payment is delayed. What should I do?
+Why hasn't my payment from last month arrived?
+How can I check the status of my delayed payment?
+
+English Answer:
+If you're experiencing payment delays:
+
+Connect with your manager for information about the payment cycle.
+Ask them to verify the settlement report.
+Check if all your work has been properly recorded in the system.
+Ensure your bank details in the app are correct and up to date.
+If the issue persists, escalate to the finance department through your manager.
+
+Remember, payment timelines can vary, so it's best to check with your direct supervisor for the most accurate information.
+Hinglish Questions:
+
+Mujhe abhi tak payment nahi mila hai. Pichle mahine ka payment kab milega?
+Mera payment delay ho gaya hai. Mujhe kya karna chahiye?
+Pichle mahine ka payment abhi tak kyun nahi aaya hai?
+Main apne delayed payment ka status kaise check kar sakta/sakti hoon?
+
+Hinglish Answer:
+Agar aapko payment delay ka saamna karna pad raha hai:
+
+Payment cycle ke baare mein jaankari ke liye apne manager se connect karein.
+Unse settlement report verify karne ko kahein.
+Check karein ki aapke saare kaam system mein theek se record hue hain ya nahi.
+Ensure karein ki app mein aapke bank details sahi aur up to date hain.
+Agar issue bana rehta hai, to apne manager ke through finance department ko escalate karein.
+
+Yaad rakhein, payment timelines alag-alag ho sakti hain, isliye sabse accurate information ke liye apne direct supervisor se check karna best rahega.
+Q20: Partial Payment Issues
+English Questions:
+
+I have received only partial payment for XYZ project. Why is this?
+My payment for the project is incomplete. What could be the reason?
+Why have I not received full payment for my work on XYZ project?
+How do I resolve issues with partial project payments?
+
+English Answer:
+Payment is done as per the case status and the rate card applied for particular cases. If you've received partial payment:
+
+Check the settlement report for the number of cases processed and their statuses.
+Verify if all your completed work has been properly recorded in the system.
+Review the rate card for the project to understand the payment structure.
+Connect with your project manager or coordinator for further clarifications.
+If there's a discrepancy, provide detailed information about your work and the payment received.
+
+Hinglish Questions:
+
+Mujhe XYZ project ke liye sirf partial payment mila hai. Aisa kyun hua?
+Mere project ka payment incomplete hai. Iska kya reason ho sakta hai?
+XYZ project par kiye gaye kaam ka full payment mujhe kyun nahi mila?
+Partial project payments ke issues ko main kaise resolve karu?
+
+Hinglish Answer:
+Payment case status aur particular cases ke liye apply kiye gaye rate card ke hisaab se kiya jata hai. Agar aapko partial payment mila hai:
+
+Process kiye gaye cases ki sankhya aur unke status ke liye settlement report check karein.
+Verify karein ki aapke saare complete kiye gaye kaam system mein theek se record hue hain ya nahi.
+Payment structure samajhne ke liye project ke rate card ko review karein.
+Further clarifications ke liye apne project manager ya coordinator se connect karein.
+Agar koi discrepancy hai, to apne kaam aur received payment ke baare mein detailed information provide karein.
+
+Q21: Return of Received Payment
+English Questions:
+
+I have been asked to return the money I received for the applications made for XYZ project. Why?
+Why do I need to return the payment for my work on a project?
+The organization is asking for a refund of my payment. What should I do?
+Under what circumstances would I need to return project payments?
+
+English Answer:
+After reviewing the cases, if the M&E team discovers any duplicates or rejected applications from the backend, those cases are aborted, and the payment for those cases is recovered in the next payment cycle. If you're asked to return money:
+
+Review the detailed report provided by the M&E team.
+Check for any duplicate or rejected applications in your submitted work.
+Verify the amount you're being asked to return against the report.
+If you disagree with the findings, collect evidence and discuss with your supervisor.
+If the deduction is correct, it will typically be adjusted in your next payment.
+
+Hinglish Questions:
+
+XYZ project ke liye kiye gaye applications ke liye jo paise mile the, unhe wapas karne ko kaha gaya hai. Kyun?
+Mujhe project par kiye gaye kaam ke payment ko kyun wapas karna pad raha hai?
+Organization mere payment ka refund maang rahi hai. Mujhe kya karna chahiye?
+Kis paristhitiyon mein mujhe project payments wapas karni pad sakti hain?
+
+Hinglish Answer:
+Cases review karne ke baad, agar M&E team ko backend se koi duplicates ya rejected applications milte hain, to wo cases abort kar diye jaate hain, aur un cases ke liye payment next payment cycle mein recover kiya jata hai. Agar aapse paise wapas karne ko kaha jata hai:
+
+M&E team dwara provide ki gayi detailed report ko review karein.
+Apne submit kiye gaye kaam mein kisi bhi duplicate ya rejected applications ke liye check karein.
+Jitni amount aapse wapas maangi ja rahi hai, use report ke against verify karein.
+Agar aap findings se disagree karte hain, to evidence collect karein aur apne supervisor se discuss karein.
+Agar deduction sahi hai, to ye typically aapke next payment mein adjust kiya jayega.
+
+Q22: Payment Cycle Issues
+English Questions:
+
+Why was my payment not made during the payment cycle?
+I didn't receive my payment this cycle. What could be the reason?
+How do I ensure I'm included in the next payment cycle?
+What factors determine whether I'm paid in a particular cycle?
+
+English Answer:
+Payment cycle issues can occur due to various reasons:
+
+It depends upon the bank details that have been provided. If any details are missing or incorrect, there may be a delay in payment.
+Ensure all your work for the cycle has been properly recorded and approved in the system.
+Check if you've met the minimum threshold for payment, if applicable.
+Verify your account status is active and not suspended for any reason.
+Please connect with your manager for specific information about the payment cycle and any issues with your account.
+
+If the problem persists, ask your manager to check with the finance department for any system-related issues.
+Hinglish Questions:
+
+Payment cycle ke dauran mera payment kyun nahi hua?
+Is cycle mein mujhe mera payment nahi mila. Iska kya reason ho sakta hai?
+Main kaise ensure karu ki main next payment cycle mein include ho jaun?
+Kaun se factors determine karte hain ki mujhe particular cycle mein payment milega ya nahi?
+
+Hinglish Answer:
+Payment cycle issues kai reasons se ho sakte hain:
+
+Ye provide kiye gaye bank details par depend karta hai. Agar koi details missing ya incorrect hain, to payment mein delay ho sakta hai.
+Ensure karein ki cycle ke liye aapke saare kaam system mein theek se record aur approve hue hain.
+Check karein ki aapne payment ke liye minimum threshold meet kiya hai ya nahi, agar applicable ho to.
+Verify karein ki aapka account status active hai aur kisi reason se suspended nahi hai.
+Payment cycle aur aapke account ke kisi bhi issue ke baare mein specific information ke liye apne manager se connect karein.
+
+Agar problem bana rehta hai, to apne manager se kahein ki wo finance department se kisi system-related issues ke liye check karein.
+
+Q23: Discrepancy in Number of Applications Paid
+English Questions:
+
+I did a particular number of applications but I received payment for fewer applications. Why?
+There's a mismatch between the applications I submitted and those I was paid for. How do I resolve this?
+Why does the payment not reflect all the applications I processed?
+What should I do if the number of paid applications doesn't match my records?
+
+English Answer:
+The number of applications paid for depends upon the case status, i.e., on what stage the case status has been updated and verified will determine the number included in the settlement report. To address this issue:
+
+Review the settlement report carefully.
+Check the status of each application you submitted.
+Understand that only applications that have reached a certain stage (as per project guidelines) may be eligible for payment.
+If you find a discrepancy, prepare a detailed list of your applications with their current statuses.
+Discuss the list with your supervisor or project manager for clarification.
+If there's an error, they can help rectify it for the next payment cycle.
+
+Hinglish Questions:
+
+Maine particular number of applications kiye the lekin mujhe kam applications ke liye payment mila. Kyun?
+Mere submit kiye gaye applications aur jin ke liye mujhe payment mila, unme mismatch hai. Main ise kaise resolve karu?
+Payment mein mere saare process kiye gaye applications kyun reflect nahi ho rahe?
+Agar paid applications ki sankhya mere records se match nahi karti to mujhe kya karna chahiye?
+
+Hinglish Answer:
+Paid applications ki sankhya case status par depend karti hai, yaani kis stage par case status update aur verify hua hai, wo determine karega ki settlement report mein kitne include honge. Is issue ko address karne ke liye:
+
+Settlement report ko dhyan se review karein.
+Apne submit kiye har application ke status ko check karein.
+Samjhein ki sirf wo applications jo ek certain stage tak pahunch gaye hain (project guidelines ke anusaar) payment ke liye eligible ho sakte hain.
+Agar aapko koi discrepancy milti hai, to apne applications ki ek detailed list unke current status ke saath taiyar karein.
+Clarification ke liye is list ko apne supervisor ya project manager se discuss karein.
+Agar koi error hai, to wo next payment cycle ke liye use rectify karne mein help kar sakte hain.
+
+Q24: Payment Rates for Applications
+English Questions:
+
+How much payment was given per application for a particular project?
+What determines the payment rate for each application?
+Is the payment per application the same for all projects?
+Where can I find information about the payment rates for my project?
+
+English Answer:
+The project manager decides the payment for particular schemes and according to that, the researcher will update the rate card. As per the mapped rate card, the payment gets initiated for each project. To understand your payment rates:
+
+Ask your project manager or supervisor for access to the current rate card.
+Review the rate card carefully, noting any variations based on application type or status.
+Understand that rates may differ between projects and even between different types of applications within the same project.
+If you have questions about specific rates, discuss them with your project manager.
+Keep track of any rate changes announced during the project duration.
+
+Hinglish Questions:
+
+Kisi particular project ke liye per application kitna payment diya gaya?
+Har application ke payment rate ko kya determine karta hai?
+Kya saare projects ke liye per application payment same hota hai?
+Main apne project ke payment rates ke baare mein information kahan se pa sakta/sakti hoon?
+
+Hinglish Answer:
+Project manager particular schemes ke liye payment decide karta hai aur uske anusaar, researcher rate card update karega. Mapped rate card ke hisaab se, har project ke liye payment initiate hota hai. Apne payment rates samajhne ke liye:
+
+Current rate card tak pahunch ke liye apne project manager ya supervisor se puchein.
+Rate card ko dhyan se review karein, application type ya status ke aadhar par kisi bhi variations ko note karein.
+Samjhein ki rates projects ke beech alag ho sakte hain aur yahan tak ki same project ke different types of applications ke beech bhi.
+Agar aapke paas specific rates ke baare mein questions hain, to unhe apne project manager se discuss karein.
+Project duration ke dauran announce kiye gaye kisi bhi rate changes ko track karein.
+
+Q25: Payment for Docket Submitted Applications (continued)
+Hinglish Questions:
+
+Kya mujhe DS applications ke liye payment milega, chahe beneficiary ko abhi tak benefit na mila ho?
+Docket submitted cases ke liye payment policy kya hai jahan benefits pending hain?
+
+Hinglish Answer:
+Haan. Agar rate card docket submitted status ke liye mapped hai, to jaise hi applications docket submitted status mein aate hain, haqdarshak ko payment mil jayega. Yahan aur details di gayi hain:
+
+Payment achieved status par based hota hai, na ki is baat par ki beneficiary ne benefit receive kiya hai ya nahi.
+Agar rate card "docket submitted" status ke liye payment specify karta hai, to aapko payment mil jayega jab applications is stage tak pahunchenge.
+Is case mein, beneficiary ko benefit receive karne mein lagne wala time aapke payment ko affect nahi karega.
+Halaanki, hamesha current rate card verify karein kyunki projects ke beech policies badal sakti hain.
+Apne saare docket submitted applications ke accurate records rakhein, agar verification ki zarurat pade to.
+
+## Q26: OTP Not Received
+
+**English Questions:**
+- Even after waiting for long, OTP did not come. What should I do?
+- I'm not receiving the OTP. How can I fix this?
+- The OTP is taking too long to arrive. What's the problem?
+- Why am I not getting the OTP on my phone?
+
+**English Answer:**
+The user must have an active plan on their provided number and must have network coverage. The user can troubleshoot by toggling the airplane mode on and then off on their phone. If the issue persists, check if the correct mobile number is registered in the app.
+
+**Hinglish Questions:**
+- Bahut der intezaar karne ke baad bhi OTP nahi aaya. Kya karna chahiye?
+- Mujhe OTP nahi mil raha hai. Ise kaise theek kar sakta/sakti hoon?
+- OTP aane mein bahut time lag raha hai. Kya problem ho sakti hai?
+- Mere phone par OTP kyun nahi aa raha hai?
+
+**Hinglish Answer:**
+User ke paas apne diye gaye number par active plan hona chahiye aur network coverage honi chahiye. User apne phone par airplane mode on aur phir off karke troubleshoot kar sakta hai. Agar problem bani rahti hai, to check karein ki app mein sahi mobile number registered hai ya nahi.
+
+## Q27: OTP Timeout
+
+**English Questions:**
+- OTP was delivered, but by the time I entered it, it got timed out. What now?
+- The OTP expired before I could enter it. How do I get a new one?
+- I received the OTP but it timed out. What should I do?
+- The OTP validity period ended before I could use it. How to proceed?
+
+**English Answer:**
+If the OTP expires, you should click the resend OTP button. This will generate a new OTP which you can use to complete the process. Make sure to enter the new OTP promptly to avoid another timeout.
+
+**Hinglish Questions:**
+- OTP deliver ho gaya, lekin jab tak main enter karta/karti, wo time out ho gaya. Ab kya karein?
+- OTP expire ho gaya isse pehle ki main use enter kar paata/paati. Naya OTP kaise milega?
+- Mujhe OTP mila lekin wo time out ho gaya. Kya karna chahiye?
+- OTP ki validity khatam ho gayi isse pehle ki main use kar paata/paati. Aage kya karein?
+
+**Hinglish Answer:**
+Agar OTP expire ho jata hai, to aapko resend OTP button par click karna chahiye. Isse ek naya OTP generate hoga jise aap process complete karne ke liye use kar sakte hain. Dhyan rakhein ki naye OTP ko jaldi enter karein taki dobara timeout na ho.
+
+## Q28: Citizen Hesitation in Sharing OTP
+
+**English Questions:**
+- Citizens were hesitant to share the OTP. How should I handle this?
+- What should I do if people are reluctant to give their OTP?
+- How can I convince citizens to share their OTP?
+- People are skeptical about sharing OTP. What's the best approach?
+
+**English Answer:**
+The Haqdarshak needs to explain to the citizen why the OTP is needed, with full information about our T&C and benefits. Assure them about the security measures in place and that the OTP is only used for verification purposes. Explain that sharing the OTP is necessary to access the services they're interested in.
+
+**Hinglish Questions:**
+- Citizens OTP share karne mein hesitate kar rahe the. Ise kaise handle karu?
+- Agar log OTP dene mein reluctant hain to kya karna chahiye?
+- Main citizens ko OTP share karne ke liye kaise convince kar sakta/sakti hoon?
+- Log OTP share karne ko lekar shankalu hain. Iske liye best approach kya hai?
+
+**Hinglish Answer:**
+Haqdarshak ko citizen ko samjhana chahiye ki OTP kyun zaroori hai, hamare T&C aur benefits ke baare mein puri jankari ke saath. Unhe security measures ke baare mein assure karein aur batayein ki OTP sirf verification ke liye use hota hai. Samjhayein ki OTP share karna un services tak pahunchne ke liye zaroori hai jinme wo interested hain.
+
+## Q29: OTP Bypass
+
+**English Questions:**
+- Is there a way to bypass the OTP where the citizen is reluctant to share the OTP?
+- Can we skip the OTP step if the citizen doesn't want to share it?
+- What alternatives are there if someone refuses to give their OTP?
+- Is OTP mandatory or can it be avoided in some cases?
+
+**English Answer:**
+OTP is the citizen's consent and cannot be bypassed. Haqdarshaks need to convince the citizen of the reason we collect the OTP. Explain that it's a security measure for their benefit and protection. If they still refuse, you cannot proceed with the process for that citizen.
+
+**Hinglish Questions:**
+- Kya OTP ko bypass karne ka koi tarika hai jahan citizen OTP share karne mein reluctant hai?
+- Kya hum OTP step ko skip kar sakte hain agar citizen use share nahi karna chahta?
+- Agar koi OTP dene se mana karta hai to kya alternatives hain?
+- Kya OTP mandatory hai ya kuch cases mein ise avoid kiya ja sakta hai?
+
+**Hinglish Answer:**
+OTP citizen ki consent hai aur ise bypass nahi kiya ja sakta. Haqdarshaks ko citizen ko OTP collect karne ka karan samjhana zaroori hai. Samjhayein ki ye unke benefit aur protection ke liye ek security measure hai. Agar wo phir bhi mana karte hain, to aap us citizen ke liye process aage nahi badha sakte.
+
+## Q30: OTP Received on Different Number
+
+**English Questions:**
+- OTP was received in a different number. What should I do?
+- The OTP went to the wrong phone number. How can I fix this?
+- I'm not getting the OTP on my registered number. What's wrong?
+- The system is sending OTP to an incorrect number. How to resolve this?
+
+**English Answer:**
+Please verify the number carefully. Only the number entered during registration will receive the OTP. If the OTP is going to a different number, it means that number was used during registration. You may need to update your registered mobile number in the app settings or contact support for assistance.
+
+**Hinglish Questions:**
+- OTP dusre number par receive hua. Kya karna chahiye?
+- OTP galat phone number par chala gaya. Ise kaise theek kar sakta/sakti hoon?
+- Mujhe apne registered number par OTP nahi mil raha. Kya galat hai?
+- System galat number par OTP bhej raha hai. Ise kaise solve karein?
+
+**Hinglish Answer:**
+Kripya number ko dhyan se verify karein. Sirf registration ke samay enter kiya gaya number hi OTP receive karega. Agar OTP kisi alag number par ja raha hai, to iska matlab hai ki woh number registration ke samay use hua tha. Aapko app settings mein apna registered mobile number update karna pad sakta hai ya assistance ke liye support se contact karna pad sakta hai.
+
+## Q31: Login Issues
+
+**English Questions:**
+- I am not able to Login to the APP with the login ID credentials. What should I do?
+- The app is not accepting my login credentials. How can I fix this?
+- I'm having trouble logging into the app. What could be the problem?
+- Why am I unable to access the app with my login ID?
+
+**English Answer:**
+If the user has entered the correct username, password and product key, then the login will happen properly. If a previous device is registered, the user will see the "user exceeded" error. If the user has not opened the app in over 14 days, then the user will get an error pop up that their account is inactive. Double-check your credentials, ensure you're using the correct device, and if the problem persists, contact support.
+
+**Hinglish Questions:**
+- Main login ID credentials se APP mein Login nahi kar pa raha/rahi hoon. Kya karna chahiye?
+- App mere login credentials accept nahi kar raha. Ise kaise theek kar sakta/sakti hoon?
+- Mujhe app mein login karne mein problem ho rahi hai. Kya problem ho sakti hai?
+- Main apne login ID se app access kyun nahi kar pa raha/rahi hoon?
+
+**Hinglish Answer:**
+Agar user ne sahi username, password aur product key enter kiya hai, to login theek se ho jayega. Agar pehle se koi device registered hai, to user ko "user exceeded" error dikhega. Agar user ne 14 din se zyada app nahi khola hai, to user ko error pop up milega ki unka account inactive hai. Apne credentials double-check karein, ensure karein ki aap sahi device use kar rahe hain, aur agar problem bani rahti hai, to support se contact karein.
+
+## Q32: Slow Data Sync After Uploading Proofs
+
+**English Questions:**
+- After uploading the proofs, it takes a long time to sync the data in the HD app. Why?
+- The app is very slow in syncing data after I upload proofs. How can I speed this up?
+- Why does data syncing take so long after uploading documents?
+- Is there a way to make the data sync faster after uploading proofs?
+
+**English Answer:**
+Make sure the network coverage is strong while uploading the proof to avoid any errors. Weak or unstable internet connections can significantly slow down the syncing process. If possible, try syncing when you have a strong Wi-Fi or mobile data connection. If the problem persists even with good internet, try closing and reopening the app.
+
+**Hinglish Questions:**
+- Proofs upload karne ke baad, HD app mein data sync hone mein bahut time lagta hai. Kyun?
+- Proofs upload karne ke baad app data sync karne mein bahut slow hai. Ise kaise speed up kar sakta/sakti hoon?
+- Documents upload karne ke baad data syncing itna time kyun leti hai?
+- Proofs upload karne ke baad data sync ko faster banane ka koi tarika hai?
+
+**Hinglish Answer:**
+Proof upload karte samay ensure karein ki network coverage strong ho taki koi error na ho. Weak ya unstable internet connections syncing process ko kaafi slow kar sakte hain. Agar possible ho, to strong Wi-Fi ya mobile data connection hone par sync karne ki koshish karein. Agar acche internet ke saath bhi problem bani rahti hai, to app ko band karke dobara kholne ki koshish karein.
+
+## Q33: Slow App Data Sync
+
+**English Questions:**
+- App data sync up is very slow. How can I improve it?
+- Why is the app taking so long to sync data?
+- Is there a way to speed up the app's data synchronization?
+- The app's data sync is sluggish. What could be the reason?
+
+**English Answer:**
+Make sure the network coverage is strong. Weak internet connections can significantly slow down the syncing process. Try these steps:
+1. Check your internet connection and switch to a stronger network if possible.
+2. Close other apps running in the background to free up device resources.
+3. Clear the app's cache from your device settings.
+4. If the problem persists, try uninstalling and reinstalling the app.
+
+**Hinglish Questions:**
+- App data sync up bahut slow hai. Main ise kaise improve kar sakta/sakti hoon?
+- App data sync karne mein itna time kyun le raha hai?
+- App ka data synchronization speed up karne ka koi tarika hai?
+- App ka data sync bahut dheema hai. Iska kya reason ho sakta hai?
+
+**Hinglish Answer:**
+Ensure karein ki network coverage strong ho. Weak internet connections syncing process ko kaafi slow kar sakte hain. In steps ko try karein:
+1. Apna internet connection check karein aur agar possible ho to stronger network par switch karein.
+2. Device resources free karne ke liye background mein chal rahe dusre apps ko band karein.
+3. Device settings se app ka cache clear karein.
+4. Agar problem bani rahti hai, to app ko uninstall karke dobara install karne ki koshish karein.
+
+## Q34: App Restart While Creating Profile
+
+**English Questions:**
+- While creating the profile, suddenly the App restarts. What should I do?
+- The app keeps crashing when I try to create a profile. How can I fix this?
+- Why does the app restart itself when I'm in the middle of profile creation?
+- I'm unable to complete profile creation because the app restarts. Help?
+
+**English Answer:**
+This issue was occurring earlier and now has been fixed. However, if you're still experiencing this problem:
+1. Ensure you have the latest version of the app installed.
+2. Clear the app's cache and data from your device settings.
+3. If the problem persists, try uninstalling and reinstalling the app.
+4. Make sure your device has enough free storage and memory.
+5. If none of these steps work, contact the app's support team for further assistance.
+
+**Hinglish Questions:**
+- Profile create karte samay achanak App restart ho jata hai. Kya karna chahiye?
+- Jab main profile banane ki koshish karta/karti hoon to app baar-baar crash ho jata hai. Ise kaise theek kar sakta/sakti hoon?
+- Profile creation ke beech mein app khud kyun restart ho jata hai?
+- App restart hone ki wajah se main profile creation complete nahi kar pa raha/rahi hoon. Help?
+
+**Hinglish Answer:**
+Ye issue pehle ho raha tha aur ab fix kar diya gaya hai. Lekin, agar aap abhi bhi is problem ka saamna kar rahe hain:
+1. Ensure karein ki aapke paas app ka latest version installed hai.
+2. Device settings se app ka cache aur data clear karein.
+3. Agar problem bani rahti hai, to app ko uninstall karke dobara install karne ki koshish karein.
+4. Ensure karein ki aapke device mein kaafi free storage aur memory hai.
+5. Agar in steps se koi fark nahi padta, to further assistance ke liye app ke support team se contact karein.
+
+Q35: Eligible Schemes Not Showing
+English Questions:
+
+Even if the citizen is eligible, certain schemes do not show in the eligible schemes. Why?
+Some schemes are missing from the eligible list despite the citizen qualifying. What's wrong?
+Why aren't all eligible schemes appearing for a citizen?
+How can I ensure all relevant schemes show up for an eligible citizen?
+
+English Answer:
+If the questionnaire is completed correctly, the relevant schemes will be shown as per the eligibility criteria. To address this issue:
+
+Ensure that the scheme you are looking for is mapped under your organization.
+Double-check that all questionnaire answers are accurate and complete.
+Verify that you have the latest app version and data update.
+Check if the scheme is active and currently available in your region.
+If all seems correct but schemes are still missing, try these steps:
+a. Perform a data sync in the app.
+b. Log out and log back into the app.
+c. Clear the app cache and restart the app.
+If the problem persists, report the issue to your supervisor or the technical support team, providing specific examples of missing schemes.
+
+Hinglish Questions:
+
+Citizen eligible hone ke bawajood, kuch schemes eligible schemes mein nahi dikhte. Kyun?
+Citizen qualify karne ke bawajood kuch schemes eligible list se gayab hain. Kya galat hai?
+Citizen ke liye saare eligible schemes kyun nahi dikh rahe hain?
+Main kaise ensure kar sakta/sakti hoon ki eligible citizen ke liye saare relevant schemes dikhen?
+
+Hinglish Answer:
+Agar questionnaire sahi se complete kiya gaya hai, to eligibility criteria ke hisaab se relevant schemes dikhaye jayenge. Is issue ko address karne ke liye:
+
+Ensure karein ki jis scheme ko aap dhoondh rahe hain wo aapke organization ke under mapped hai.
+Double-check karein ki saare questionnaire answers accurate aur complete hain.
+Verify karein ki aapke paas latest app version aur data update hai.
+Check karein ki scheme active hai aur currently aapke region mein available hai.
+Agar sab kuch sahi lagta hai lekin phir bhi schemes missing hain, to in steps ko try karein:
+a. App mein data sync perform karein.
+b. App se logout karein aur phir se login karein.
+c. App cache clear karein aur app ko restart karein.
+Agar problem bani rehti hai, to issue ko apne supervisor ya technical support team ko report karein, missing schemes ke specific examples provide karte hue.
+
+## Q36: Unable to Create Case for Citizen
+
+**English Questions:**
+- I am not able to create a case for a citizen in the App. What should I do?
+- The app won't let me create a new case for a citizen. How can I fix this?
+- Why am I having trouble creating a citizen case in the application?
+- What are the steps to successfully create a case for a citizen?
+
+**English Answer:**
+Before creating a case, first the haqdarshak needs to add the family. After adding the family, the haqdarshak needs to fill the questionnaire. Then according to the filled questions, a case can be opened for a scheme or document. Follow these steps:
+1. Add the family details in the app.
+2. Complete the questionnaire thoroughly.
+3. Based on the answers, select the appropriate scheme or document.
+4. Create the case for the selected scheme or document.
+If you're still having issues, check your app permissions and internet connection.
+
+**Hinglish Questions:**
+- Main App mein citizen ke liye case create nahi kar pa raha/rahi hoon. Kya karna chahiye?
+- App mujhe citizen ke liye naya case banane nahi de raha. Ise kaise theek kar sakta/sakti hoon?
+- Mujhe application mein citizen case create karne mein problem kyun ho rahi hai?
+- Citizen ke liye case successfully create karne ke steps kya hain?
+
+**Hinglish Answer:**
+Case create karne se pehle, haqdarshak ko family add karna zaroori hai. Family add karne ke baad, haqdarshak ko questionnaire bharna hoga. Phir bhare gaye questions ke hisaab se, scheme ya document ke liye case khola ja sakta hai. In steps ko follow karein:
+1. App mein family details add karein.
+2. Questionnaire ko puri tarah se complete karein.
+3. Answers ke aadhar par, appropriate scheme ya document select karein.
+4. Selected scheme ya document ke liye case create karein.
+Agar aapko abhi bhi issues aa rahe hain, to apne app permissions aur internet connection check karein.
+
+## Q37: Unable to Screen Citizen Due to Buffering
+
+**English Questions:**
+- I am not able to screen the citizen, it is buffering. What can I do?
+- The app keeps buffering when I try to screen a citizen. How to resolve this?
+- Why does the screening process get stuck in buffering?
+- Is there a way to prevent buffering during citizen screening?
+
+**English Answer:**
+Haqdarshak needs to restart the app and start the process of screening again. If the problem persists:
+1. Check your internet connection and switch to a stronger network if possible.
+2. Clear the app's cache from your device settings.
+3. Ensure you have the latest version of the app installed.
+4. If none of these steps work, try uninstalling and reinstalling the app.
+5. If the issue continues, report it to the technical support team.
+
+**Hinglish Questions:**
+- Main citizen ko screen nahi kar pa raha/rahi hoon, ye buffering kar raha hai. Kya kar sakta/sakti hoon?
+- Jab main citizen ko screen karne ki koshish karta/karti hoon to app baar-baar buffer karta hai. Ise kaise solve karein?
+- Screening process buffering mein kyun atka rehta hai?
+- Citizen screening ke dauraan buffering ko rokne ka koi tarika hai?
+
+**Hinglish Answer:**
+Haqdarshak ko app restart karke screening process dobara shuru karna chahiye. Agar problem bani rahti hai:
+1. Apna internet connection check karein aur agar possible ho to stronger network par switch karein.
+2. Device settings se app ka cache clear karein.
+3. Ensure karein ki aapke paas app ka latest version installed hai.
+4. Agar in steps se koi fark nahi padta, to app ko uninstall karke dobara install karne ki koshish karein.
+5. Agar issue jari rehta hai, to ise technical support team ko report karein.
+
+## Q38: Checking Beneficiary Status of Various Schemes
+
+**English Questions:**
+- I do not know how to check beneficiary status of various schemes such as PM Kisan, MGNREGA. Can you help?
+- How can I verify the beneficiary status for different government schemes?
+- What's the process to check if someone is a beneficiary of PM Kisan or MGNREGA?
+- Is there a way to confirm beneficiary status for multiple schemes at once?
+
+**English Answer:**
+The user can check the beneficiary status on the government website of the particular scheme. Here's a general process:
+1. Visit the official website of the scheme (e.g., pmkisan.gov.in for PM Kisan, nrega.nic.in for MGNREGA).
+2. Look for a "Beneficiary Status" or "Check Status" section.
+3. Enter the required details (usually Aadhaar number, mobile number, or registration number).
+4. Submit the information to view the status.
+For multiple schemes, you'll need to check each scheme's website separately.
+
+**Hinglish Questions:**
+- Mujhe PM Kisan, MGNREGA jaise schemes ka beneficiary status check karna nahi aata. Kya aap help kar sakte hain?
+- Main alag-alag government schemes ke liye beneficiary status kaise verify kar sakta/sakti hoon?
+- Ye check karne ka process kya hai ki koi PM Kisan ya MGNREGA ka beneficiary hai ya nahi?
+- Kya ek saath multiple schemes ka beneficiary status confirm karne ka koi tarika hai?
+
+**Hinglish Answer:**
+User particular scheme ki government website par beneficiary status check kar sakta hai. Yahan ek general process diya gaya hai:
+1. Scheme ki official website par jaayein (jaise, PM Kisan ke liye pmkisan.gov.in, MGNREGA ke liye nrega.nic.in).
+2. "Beneficiary Status" ya "Check Status" section dhoondhein.
+3. Required details enter karein (aam taur par Aadhaar number, mobile number, ya registration number).
+4. Status dekhne ke liye information submit karein.
+Multiple schemes ke liye, aapko har scheme ki website alag-alag check karni hogi.
+
+## Q39: Checking Scheme Eligibility
+
+**English Questions:**
+- What is the eligibility of scheme xyz?
+- How can I find out if someone qualifies for a specific scheme?
+- Where can I check the eligibility criteria for different schemes?
+- Is there a way to know all the requirements for scheme eligibility?
+
+**English Answer:**
+The haqdarshak can do this in the HD app. They need to click on the scheme and check the eligibility criteria. Follow these steps:
+1. Open the HD app and log in.
+2. Navigate to the schemes section.
+3. Find and click on the specific scheme you're interested in.
+4. Look for the "Eligibility Criteria" or similar section within the scheme details.
+5. Review the listed criteria to determine if someone qualifies.
+
+**Hinglish Questions:**
+- Scheme xyz ki eligibility kya hai?
+- Main kaise pata kar sakta/sakti hoon ki koi specific scheme ke liye qualify karta hai ya nahi?
+- Alag-alag schemes ke eligibility criteria kahan check kar sakte hain?
+- Scheme eligibility ke saare requirements jaanne ka koi tarika hai?
+
+**Hinglish Answer:**
+Haqdarshak ye HD app mein kar sakta hai. Unhe scheme par click karke eligibility criteria check karna hoga. In steps ko follow karein:
+1. HD app kholein aur login karein.
+2. Schemes section mein jaayein.
+3. Jis specific scheme mein aap interested hain, use dhoondhein aur click karein.
+4. Scheme details mein "Eligibility Criteria" ya isi tarah ka section dhoondhein.
+5. Listed criteria ko review karein taki pata chale ki koi qualify karta hai ya nahi.
+
+## Q40: Required Documents for Scheme Application
+
+**English Questions:**
+- What documents are required to apply for scheme xyz?
+- How can I find out which papers are needed for a specific scheme application?
+- Where is the list of necessary documents for scheme applications?
+- Can you tell me all the documents I need to apply for a particular scheme?
+
+**English Answer:**
+The haqdarshak can do this in the HD app. They need to click on the scheme and check the documents required. Here's how:
+1. Open the HD app and log in.
+2. Navigate to the schemes section.
+3. Find and click on the specific scheme you're interested in.
+4. Look for the "Required Documents" or similar section within the scheme details.
+5. Review the list of documents needed for the application.
+
+**Hinglish Questions:**
+- Scheme xyz ke liye apply karne ke liye kaunse documents chahiye?
+- Mujhe kaise pata chalega ki specific scheme application ke liye kaun se papers ki zaroorat hai?
+- Scheme applications ke liye necessary documents ki list kahan hai?
+- Kya aap mujhe bata sakte hain ki particular scheme ke liye apply karne ke liye mujhe kaunse saare documents chahiye?
+
+**Hinglish Answer:**
+Haqdarshak ye HD app mein kar sakta hai. Unhe scheme par click karke required documents check karne honge. Yahan bataya gaya hai kaise:
+1. HD app kholein aur login karein.
+2. Schemes section mein jaayein.
+3. Jis specific scheme mein aap interested hain, use dhoondhein aur click karein.
+4. Scheme details mein "Required Documents" ya isi tarah ka section dhoondhein.
+5. Application ke liye zaruri documents ki list review karein.
+
+## Q41: Service Fee for Schemes
+
+**English Questions:**
+- What is the service fee for scheme xyz?
+- How much does it cost to apply for a particular scheme?
+- Where can I find information about service fees for different schemes?
+- Is there a standard service fee for all schemes or does it vary?
+
+**English Answer:**
+Service fee is the charge HD takes to do the application for any schemes. It depends on the project module. To find the specific service fee:
+1. Check the scheme details in the HD app.
+2. Look for a "Service Fee" or "Charges" section.
+3. If not found in the app, consult your supervisor or project manager.
+4. Remember that fees can vary based on the scheme and project.
+
+**Hinglish Questions:**
+- Scheme xyz ke liye service fee kya hai?
+- Kisi particular scheme ke liye apply karne mein kitna kharch aata hai?
+- Alag-alag schemes ke service fees ke baare mein information kahan mil sakti hai?
+- Kya saare schemes ke liye ek standard service fee hai ya ye alag-alag hota hai?
+
+**Hinglish Answer:**
+Service fee wo charge hai jo HD kisi bhi scheme ke liye application karne ke liye leta hai. Ye project module par depend karta hai. Specific service fee jaanne ke liye:
+1. HD app mein scheme details check karein.
+2. "Service Fee" ya "Charges" section dhoondhein.
+3. Agar app mein nahi milta, to apne supervisor ya project manager se puchein.
+4. Yaad rakhein ki fees scheme aur project ke hisaab se alag-alag ho sakti hain.
+
+## Q42: Screening Fee for Schemes
+
+**English Questions:**
+- What is the screening fee for scheme xyz?
+- How much does it cost to get screened for eligibility in a particular scheme?
+- Is there a fee for checking if I'm eligible for a scheme?
+- Where can I find information about screening fees for different schemes?
+
+**English Answer:**
+The screening fee is the token deducted after completing the screening questionnaire in the app to check the list of available schemes. It involves filling out the questions shown in the app during the screening process. To know the specific screening fee:
+1. Check the app settings or information section.
+2. Look for "Screening Fee" or "Eligibility Check Fee" in the scheme details.
+3. If not found, consult your supervisor or project manager.
+4. Note that screening fees may vary depending on the project or scheme.
+
+**Hinglish Questions:**
+- Scheme xyz ke liye screening fee kya hai?
+- Kisi particular scheme mein eligibility ke liye screen hone mein kitna kharch aata hai?
+- Kya ye check karne ke liye fee lagti hai ki main kisi scheme ke liye eligible hoon ya nahi?
+- Alag-alag schemes ke screening fees ke baare mein information kahan mil sakti hai?
+
+**Hinglish Answer:**
+Screening fee wo token hai jo app mein available schemes ki list check karne ke liye screening questionnaire complete karne ke baad kata jata hai. Isme screening process ke dauraan app mein dikhaye gaye questions ko bharna shaamil hai. Specific screening fee jaanne ke liye:
+1. App settings ya information section check karein.
+2. Scheme details mein "Screening Fee" ya "Eligibility Check Fee" dhoondhein.
+3. Agar nahi milta, to apne supervisor ya project manager se puchein.
+4. Dhyan rakhein ki screening fees project ya scheme ke hisaab se alag-alag ho sakti hain.
+
+## Q43: Government Fee for Schemes
+
+**English Questions:**
+- What is the government fee for scheme xyz?
+- How much does the government charge for applying to a particular scheme?
+- Where can I find official fee information for different government schemes?
+- Is there a standard government fee for all schemes or does it vary?
+
+**English Answer:**
+Government fee is the fee which is set by the government to process the application. To find the specific government fee:
+1. Check the official government website for the scheme.
+2. Look for "Application Fee" or "Processing Fee" in the scheme details in the HD app.
+3. If not found, consult your supervisor or check with the relevant government department.
+4. Remember that government fees can vary based on the scheme and may change over time.
+
+**Hinglish Questions:**
+- Scheme xyz ke liye government fee kya hai?
+- Kisi particular scheme ke liye apply karne mein government kitna charge karti hai?
+- Alag-alag government schemes ke official fee information kahan mil sakti hai?
+- Kya saare schemes ke liye ek standard government fee hai ya ye alag-alag hota hai?
+
+**Hinglish Answer:**
+Government fee wo fee hai jo government application process karne ke liye set karti hai. Specific government fee jaanne ke liye:
+1. Scheme ki official government website check karein.
+2. HD app mein scheme details mein "Application Fee" ya "Processing Fee" dhoondhein.
+3. Agar nahi milta, to apne supervisor se puchein ya relevant government department se check karein.
+4. Yaad rakhein ki government fees scheme ke hisaab se alag-alag ho sakti hain aur samay ke saath badal sakti hain.
+
+Q44: Configuration Update Process
+English Questions:
+
+What is configuration update? How do I do it?
+Can you explain the process of updating the app configuration?
+Why is configuration update important and how often should I do it?
+I'm having trouble with the configuration update. What should I do?
+
+English Answer:
+Configuration update is similar to an app data update. It ensures that your app has the latest settings and features from the server. Here's a detailed guide:
+
+Why it's important:
+
+It reflects changes made in the server from the backend.
+It can fix bugs and improve app performance.
+It may add new features or update existing ones.
+
+
+How to do a configuration update:
+a. Open the AMS app.
+b. Go to the app settings.
+c. Click on the "About" option.
+d. Look for and click on "Configuration Update" or similar option.
+e. Wait for the update to complete.
+How often to do it:
+
+Whenever prompted by the app.
+After any major changes announced by your organization.
+If you're experiencing unusual app behavior.
+At least once a week is a good practice.
+
+
+If you're having trouble:
+
+Ensure you have a stable internet connection.
+Restart the app and try again.
+Clear the app cache and data, then attempt the update.
+If the problem persists, note any error messages and contact technical support.
+
+
+
+Hinglish Questions:
+
+Configuration update kya hai? Main ise kaise karu?
+Kya aap app configuration update karne ka process explain kar sakte hain?
+Configuration update kyun important hai aur mujhe ise kitni baar karna chahiye?
+Mujhe configuration update mein problem aa rahi hai. Mujhe kya karna chahiye?
+
+Hinglish Answer:
+Configuration update app data update ke jaisa hi hai. Yeh ensure karta hai ki aapke app mein server se latest settings aur features hain. Yahan ek detailed guide di gayi hai:
+
+Yeh kyun important hai:
+
+Yeh backend se server mein kiye gaye changes ko reflect karta hai.
+Yeh bugs fix kar sakta hai aur app performance improve kar sakta hai.
+Yeh new features add kar sakta hai ya existing features ko update kar sakta hai.
+
+
+Configuration update kaise karein:
+a. AMS app kholein.
+b. App settings mein jaayein.
+c. "About" option par click karein.
+d. "Configuration Update" ya isi tarah ka option dhoondhen aur click karein.
+e. Update complete hone ka intezaar karein.
+Ise kitni baar karna chahiye:
+
+Jab bhi app prompt kare.
+Aapke organization dwara announce kiye gaye kisi bhi major changes ke baad.
+Agar aap unusual app behavior experience kar rahe hain.
+Kam se kam hafte mein ek baar karna ek acchi practice hai.
+
+
+Agar aapko problem aa rahi hai:
+
+Ensure karein ki aapke paas stable internet connection hai.
+App restart karein aur phir se try karein.
+App cache aur data clear karein, phir update ki koshish karein.
+Agar problem bani rehti hai, to kisi bhi error messages ko note karein aur technical support se contact karein.
+
+## Q45: Exclamatory Mark on Citizen Profile
+
+**English Questions:**
+- An exclamatory mark is showing on the right side of the citizen profile. What does this mean?
+- Why is there an exclamation point next to a citizen's profile?
+- What does the warning symbol on a citizen's profile indicate?
+- I see an alert icon on some citizen profiles. What action should I take?
+
+**English Answer:**
+This means that the citizen's profile is not complete and full screening has not been done. To resolve this:
+1. Open the citizen's profile.
+2. Check for any incomplete sections or missing information.
+3. Complete the full screening process if it hasn't been done.
+4. Update any outdated information.
+5. After completing all required fields and screenings, the exclamation mark should disappear.
+If the mark persists after completing all steps, report the issue to technical support.
+
+**Hinglish Questions:**
+- Citizen profile ke right side par ek exclamatory mark dikha raha hai. Iska kya matlab hai?
+- Citizen ke profile ke paas exclamation point kyun hai?
+- Citizen ke profile par warning symbol kya indicate karta hai?
+- Mujhe kuch citizen profiles par alert icon dikh raha hai. Mujhe kya action lena chahiye?
+
+**Hinglish Answer:**
+Iska matlab hai ki citizen ka profile complete nahi hai aur full screening nahi ki gayi hai. Ise solve karne ke liye:
+1. Citizen ka profile kholein.
+2. Kisi bhi incomplete sections ya missing information ke liye check karein.
+3. Agar nahi kiya gaya hai to full screening process complete karein.
+4. Kisi bhi outdated information ko update karein.
+5. Saare required fields aur screenings complete karne ke baad, exclamation mark gayab ho jana chahiye.
+Agar saare steps complete karne ke baad bhi mark bana rehta hai, to issue ko technical support ko report karein.
