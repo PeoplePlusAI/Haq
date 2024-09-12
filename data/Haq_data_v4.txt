@@ -1111,14 +1111,6 @@ I'm having trouble with the configuration update. What should I do?
 
 English Answer:
 Configuration update is similar to an app data update. It ensures that your app has the latest settings and features from the server. Here's a detailed guide:
-
-Why it's important:
-
-It reflects changes made in the server from the backend.
-It can fix bugs and improve app performance.
-It may add new features or update existing ones.
-
-
 How to do a configuration update:
 a. Open the AMS app.
 b. Go to the app settings.
@@ -1126,21 +1118,16 @@ c. Click on the "About" option.
 d. Look for and click on "Configuration Update" or similar option.
 e. Wait for the update to complete.
 How often to do it:
-
 Whenever prompted by the app.
 After any major changes announced by your organization.
 If you're experiencing unusual app behavior.
 At least once a week is a good practice.
 
-
 If you're having trouble:
-
 Ensure you have a stable internet connection.
 Restart the app and try again.
 Clear the app cache and data, then attempt the update.
 If the problem persists, note any error messages and contact technical support.
-
-
 
 Hinglish Questions:
 
@@ -1151,14 +1138,6 @@ Mujhe configuration update mein problem aa rahi hai. Mujhe kya karna chahiye?
 
 Hinglish Answer:
 Configuration update app data update ke jaisa hi hai. Yeh ensure karta hai ki aapke app mein server se latest settings aur features hain. Yahan ek detailed guide di gayi hai:
-
-Yeh kyun important hai:
-
-Yeh backend se server mein kiye gaye changes ko reflect karta hai.
-Yeh bugs fix kar sakta hai aur app performance improve kar sakta hai.
-Yeh new features add kar sakta hai ya existing features ko update kar sakta hai.
-
-
 Configuration update kaise karein:
 a. AMS app kholein.
 b. App settings mein jaayein.
@@ -1172,9 +1151,7 @@ Aapke organization dwara announce kiye gaye kisi bhi major changes ke baad.
 Agar aap unusual app behavior experience kar rahe hain.
 Kam se kam hafte mein ek baar karna ek acchi practice hai.
 
-
 Agar aapko problem aa rahi hai:
-
 Ensure karein ki aapke paas stable internet connection hai.
 App restart karein aur phir se try karein.
 App cache aur data clear karein, phir update ki koshish karein.
