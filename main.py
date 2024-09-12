@@ -1,18 +1,40 @@
-import logging
-from core.ai import ragindex
-from telegram import Update
+import os
+import base64
+import tempfile
+# import time
+from typing import Union
+
 import asyncio
+import logging
+import dotenv
+
+from telegram import (
+    Update, 
+    InlineKeyboardButton, 
+    InlineKeyboardMarkup
+)
 from telegram.ext import (
     ApplicationBuilder,
-    ContextTypes, 
+    ContextTypes,
     MessageHandler,
-    CommandHandler, 
+    CommandHandler,
     filters,
+    CallbackContext,
+    CallbackQueryHandler,
 )
-import os
-import dotenv
-import tempfile
-import redis
+
+from core.ai import (
+    ragindex, 
+    audio_chat, 
+    bhashini_text_chat, 
+    bhashini_audio_chat, # chat
+)
+from utils.redis_utils import set_redis
+# import pytesseract
+# from PIL import Image
+from utils.openai_utils import (
+    get_random_wait_messages 
+) # get_duration_pydub
 
 dotenv.load_dotenv("ops/.env")
 
@@ -22,46 +44,314 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )
+# setting higher logging level for httpx to avoid all GET and POST requests being logged
+logging.getLogger("httpx").setLevel(logging.WARNING)
+
+logger = logging.getLogger(__name__)
+
 class BotInitializer:
     _instance = None
     run_once = False
-    
+
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super(BotInitializer, cls).__new__(cls)
             cls.run_once = True
         return cls._instance
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    chat_id = update.effective_chat.id
-    await context.bot.send_message(chat_id=chat_id, text="Hello I am Yojana Didi, please tell me the problem you're having.")
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    BotInitializer()  # To initialize only once
 
-async def flow(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text = update.message.text
-    chat_id = update.effective_chat.id
+    await context.bot.send_message(
+        chat_id=update.effective_chat.id,
+        text="Hello I am Yojana Didi, please tell me the problem you're having."
+    )
+    await relay_handler(update, context)
+
+async def relay_handler(update: Update, context: CallbackContext):
+    await language_handler(update, context)
+
+async def language_handler(update: Update, context: CallbackContext):
+    # Handle user's language selection
+    keyboard = [
+        [InlineKeyboardButton("English", callback_data='1')],
+        [InlineKeyboardButton("हिंदी", callback_data='2')],
+        [InlineKeyboardButton("मराठी", callback_data='3')],
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+
+    await context.bot.send_message(
+        chat_id=update.effective_chat.id,
+        text="Choose a Language:",
+        reply_markup=reply_markup
+    )
+
+async def preferred_language_callback(update: Update, context: CallbackContext):
+
+    callback_query = update.callback_query
+    languages = {"1": "en", "2": "hi", "3": "mr"}
+    try:
+        preferred_language = callback_query.data
+        lang = languages.get(preferred_language)
+        context.user_data['lang'] = lang
+    except (AttributeError, ValueError):
+        lang = 'en'
+        await context.bot.send_message(
+            chat_id=update.effective_chat.id,
+            text="Error getting language! Setting default to English."
+        )
+
+    text_message = ""
+    if lang == "en":
+        text_message = "You have chosen English. \nPlease tell me the problem you're having"
+    elif lang == "hi":
+        text_message = "आपने हिंदी चुनी है. \nकृपया मुझे बताएं कि आपको क्या समस्या आ रही है।"
+    elif lang == "mr":
+        text_message = "तुम्ही मराठीची निवड केली आहे. \कृपया मला तुमची समस्या सांगा"
+
+    await context.bot.send_message(
+        chat_id=update.effective_chat.id,
+        text=text_message
+    )
     
-    response = ragindex(chat_id, text)
-    # response = raglang(chat_id, text)
-    # response, history = ingest_doc(chat_id, text)
-    await context.bot.send_message(chat_id=chat_id, text=response)
+    set_redis('lang', lang)
 
-async def flow_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    audio_file = await context.bot.get_file(update.message.voice.file_id)
 
-    # Use a temporary file
-    with tempfile.NamedTemporaryFile(suffix='.wav', delete=True) as temp_audio_file:
-        await audio_file.download_to_drive(custom_path=temp_audio_file.name)
-        chat_id = update.effective_chat.id
-        print(chat_id)
-        response, history = audio_chat(chat_id, audio_file=open(temp_audio_file.name, "rb"))
-        await context.bot.send_message(chat_id=update.effective_chat.id, text=response)
+async def response_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    await query_handler(update, context)
+
+def check_change_language_query(text):
+    return text.lower() in ["change language", "set language", "language"]
+
+
+async def query_handler(update: Update, context: CallbackContext):
+
+    lang = context.user_data.get('lang')
+    if not lang:
+        await language_handler(update, context)
+        return
+
+    if update.message.text:
+        text = update.message.text
+        print(f"text is {text}")
+        if check_change_language_query(text):
+            await language_handler(update, context)
+            return
+        await chat_handler(update, context, text)
+    else:
+        if update.message.voice:
+            voice = await context.bot.get_file(update.message.voice.file_id)
+            await talk_handler(update, context, voice)
+
+
+async def chat_handler(update: Update, context: ContextTypes.DEFAULT_TYPE, text):
+    response = ""
+    chat_id = update.effective_chat.id
+    lang = context.user_data.get('lang')
+
+    wait_message = get_random_wait_messages(
+        not_always=True,
+        lang=lang
+    )
+    if wait_message:
+        await context.bot.send_message(chat_id=chat_id, text=wait_message)
+    if lang == 'en':
+        response_en = ragindex(chat_id, text)
+        await context.bot.send_message(chat_id=chat_id, text=response_en)
+    else:
+        response, response_en = bhashini_text_chat(chat_id, text, lang)
+        if response:
+            await context.bot.send_message(chat_id=chat_id, text=response)
+        else:
+            await context.bot.send_message(chat_id=chat_id, text="Sorry, I didn't get that. Reverting to english")
+            await context.bot.send_message(chat_id=chat_id, text=response_en)
+
+
+async def talk_handler(update: Update, context: ContextTypes.DEFAULT_TYPE, voice):    
+    lang = context.user_data.get('lang')
+    # getting audio file
+    audio_file = voice
+    # audio_file = await context.bot.get_file(update.message.voice.file_id)
+
+    if lang == 'en':
+        with tempfile.NamedTemporaryFile(suffix='.wav', delete=True) as temp_audio_file:
+            await audio_file.download_to_drive(custom_path=temp_audio_file.name)
+            chat_id = update.effective_chat.id
+
+            wait_message = get_random_wait_messages(
+                not_always=True,
+                lang=lang
+        )
+            if wait_message:
+                await context.bot.send_message(chat_id=chat_id, text=wait_message)
+
+            with open(temp_audio_file.name, "rb") as file:
+                audio_data = file.read()
+                audio_base64 = base64.b64encode(audio_data).decode('utf-8')
+
+                response_audio, assistant_message = audio_chat(
+                    chat_id, audio_file=open(temp_audio_file.name, "rb")
+                )
+                with open(temp_audio_file.name, "wb") as response_file:
+                    response_file.write(response_audio.content)
+                # duration = get_duration_pydub(temp_audio_file.name)
+                await context.bot.send_audio(
+                    chat_id=chat_id, 
+                    audio=open(temp_audio_file.name, "rb"), 
+                    # duration=duration, 
+                    filename="response.wav",
+                    performer="Yojana Didi",
+                )
+                await context.bot.send_message(
+                    chat_id=chat_id, text=assistant_message
+                )
+                file.close()
+    else:
+        with tempfile.NamedTemporaryFile(suffix='.mp3', delete=True) as temp_audio_file: # suffix='.wav'
+            await audio_file.download_to_drive(custom_path=temp_audio_file.name)
+            chat_id = update.effective_chat.id
+
+            wait_message = get_random_wait_messages(
+                    not_always=True,
+                    lang=lang
+            )
+            if wait_message:
+                await context.bot.send_message(chat_id=chat_id, text=wait_message)
+
+            with open(temp_audio_file.name, "rb") as file:
+                audio_data = file.read()
+                audio_base64 = base64.b64encode(audio_data).decode('utf-8')
+                response_audio, response = bhashini_audio_chat(
+                    chat_id, 
+                    audio_file=audio_base64,
+                    lang=lang
+                )
+                file_ = open(temp_audio_file.name, "wb")
+                file_.write(response_audio.content)
+                file_.close()
+                with open(temp_audio_file.name, "rb") as file:
+                    # duration = get_duration_pydub(temp_audio_file.name)
+                    await context.bot.send_audio(
+                        chat_id=chat_id, 
+                        audio=open(temp_audio_file.name, "rb"), 
+                        # duration=duration, 
+                        filename="response.mp3",
+                        performer="Yojana Didi",
+                    )
+                await context.bot.send_message(
+                    chat_id=chat_id, text=response
+                )
+                file_.close()
 
 if __name__ == '__main__':
-    application = ApplicationBuilder().token(token).read_timeout(30).write_timeout(30).build()
+    application = ApplicationBuilder().token(
+        token
+    ).read_timeout(30).write_timeout(30).build()
     start_handler = CommandHandler('start', start)
-    response_handler = MessageHandler(filters.TEXT & (~filters.COMMAND), flow)
-    audio_handler = MessageHandler(filters.VOICE & (~filters.COMMAND), flow_voice)
-    application.add_handler(response_handler)
+    language_handler_ = CommandHandler('set_language', language_handler)
+    chosen_language = CallbackQueryHandler(preferred_language_callback, pattern='[1-3]')
     application.add_handler(start_handler)
-    application.add_handler(audio_handler)
+    application.add_handler(language_handler_)
+    application.add_handler(chosen_language)
+    application.add_handler(
+        MessageHandler(
+            (filters.TEXT & (~filters.COMMAND)) | (filters.VOICE & (~filters.COMMAND)), 
+            response_handler
+        )
+    )
     application.run_polling()
+
+
+# async def chat_handler(update: Update, context: ContextTypes.DEFAULT_TYPE, text: str):
+#     response = ""
+#     chat_id = update.effective_chat.id
+#     lang = context.user_data.get('lang')
+#     wait_message = get_random_wait_messages(
+#         not_always=True,
+#         lang=lang
+#     )
+#     if wait_message:
+#         await context.bot.send_message(chat_id=chat_id, text=wait_message)
+#     if lang == 'en':
+#         response_en, history = chat(chat_id, text)
+#     else:
+#         response, response_en, history = bhashini_text_chat(chat_id,text, lang)
+#     if response:
+#         await context.bot.send_message(chat_id=chat_id, text=response)
+#     await context.bot.send_message(chat_id=chat_id, text=response_en)
+
+# async def talk_handler(update: Update, context: ContextTypes.DEFAULT_TYPE, voice):    
+#     lang = context.user_data.get('lang')
+#     # getting audio file
+#     audio_file = voice
+#     # audio_file = await context.bot.get_file(update.message.voice.file_id)
+
+#     if lang == 'en':
+#         with tempfile.NamedTemporaryFile(suffix='.wav', delete=True) as temp_audio_file:
+#             await audio_file.download_to_drive(custom_path=temp_audio_file.name)
+#             chat_id = update.effective_chat.id
+
+#             wait_message = get_random_wait_messages(
+#                 not_always=True,
+#                 lang=lang
+#         )
+#             if wait_message:
+#                 await context.bot.send_message(chat_id=chat_id, text=wait_message)
+
+#             with open(temp_audio_file.name, "rb") as file:
+#                 audio_data = file.read()
+#                 audio_base64 = base64.b64encode(audio_data).decode('utf-8')
+
+#                 response_audio, assistant_message, history = audio_chat(
+#                     chat_id, audio_file=open(temp_audio_file.name, "rb")
+#                 )
+#                 response_audio.stream_to_file(temp_audio_file.name)
+#                 # fix this error "raise JSONDecodeError("Expecting value", s, err.value) from None" here
+#                 # duration = get_duration_pydub(temp_audio_file.name)
+#                 await context.bot.send_audio(
+#                     chat_id=chat_id, 
+#                     audio=open(temp_audio_file.name, "rb"), 
+#                     #duration=duration, 
+#                     filename="response.wav",
+#                     performer="Yojana Didi",
+#                 )
+#                 await context.bot.send_message(
+#                     chat_id=chat_id, text=assistant_message
+#                 )
+#                 file.close()
+#     else:
+#         with tempfile.NamedTemporaryFile(suffix='.mp3', delete=True) as temp_audio_file: # suffix='.wav'
+#             await audio_file.download_to_drive(custom_path=temp_audio_file.name)
+#             chat_id = update.effective_chat.id
+
+#             wait_message = get_random_wait_messages(
+#                     not_always=True,
+#                     lang=lang
+#             )
+#             if wait_message:
+#                 await context.bot.send_message(chat_id=chat_id, text=wait_message)
+
+#             with open(temp_audio_file.name, "rb") as file:
+#                 audio_data = file.read()
+#                 audio_base64 = base64.b64encode(audio_data).decode('utf-8')
+#                 response_audio, response, history = bhashini_audio_chat(
+#                     chat_id, 
+#                     audio_file=audio_base64, 
+#                     lang=lang
+#                 )
+#                 file_ = open(temp_audio_file.name, "wb")
+#                 file_.write(response_audio.content)
+#                 file_.close()
+#                 with open(temp_audio_file.name, "rb") as file:
+#                     duration = get_duration_pydub(temp_audio_file.name)
+#                     await context.bot.send_audio(
+#                         chat_id=chat_id, 
+#                         audio=open(temp_audio_file.name, "rb"), 
+#                         duration=duration, 
+#                         filename="response.mp3",
+#                         performer="Yojana Didi",
+#                     )
+#                 await context.bot.send_message(
+#                     chat_id=chat_id, text=response
+#                 )
+#                 file_.close()

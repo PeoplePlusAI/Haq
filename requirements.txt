@@ -7,3 +7,6 @@ llama-index
 portkey-ai
 # sqlite3
 # pypdf
+httpx
+pydub
+
