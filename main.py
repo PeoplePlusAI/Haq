@@ -1,6 +1,7 @@
 import logging
 # from core.ai import ragindex
 from core.ai_1 import ragindex
+# from core.ai_2 import ragindex
 from telegram import Update
 import os
 import dotenv
