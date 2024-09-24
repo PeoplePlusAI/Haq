@@ -75,7 +75,7 @@ def llama_index_rag(input_message):
     
     # store the input_message and response in a file
     with open(file_name, "w") as file:
-        file.write(f"\n\nQuestion: {input_message}\n\nResponse: {response}\n\n")    
+        file.write(f"Question: {input_message}\n\nResponse: {response}\n\n")    
     return str(response)
 
 def ragindex(chat_id, input_message):
