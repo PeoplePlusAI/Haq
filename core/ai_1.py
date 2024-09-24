@@ -1,3 +1,5 @@
+# Note: master and expand branch are same
+
 from openai import OpenAI
 import os
 import json
