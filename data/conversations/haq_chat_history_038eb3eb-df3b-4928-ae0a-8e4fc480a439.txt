@@ -1,0 +1,11 @@
+
+
+Question: Main kaise pata kar sakta/sakti hoon ki koi specific scheme ke liye qualify karta hai ya nahi?
+
+Response: Aap HD app mein yeh pata kar sakte hain. Aapko scheme par click karke eligibility criteria check karna hoga. In steps ko follow karein:
+1. HD app kholein aur login karein.
+2. Schemes section mein jaayein.
+3. Jis specific scheme mein aap interested hain, use dhoondhein aur click karein.
+4. Scheme details mein "Eligibility Criteria" ya isi tarah ka section dhoondhein.
+5. Listed criteria ko review karein taki pata chale ki koi qualify karta hai ya nahi.
+

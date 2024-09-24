@@ -1,0 +1,8 @@
+
+
+Question: How do I load app wallet balance?
+
+Response: 1. Deposit cash at the center.
+2. Raise a fund request to the sub distributor using the app.
+3. Once approved by the sub distributor, funds will be credited to your wallet.
+
