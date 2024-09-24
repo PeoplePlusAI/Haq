@@ -2,6 +2,7 @@ from openai import OpenAI
 import os
 import json
 from functools import lru_cache
+import uuid
 # portkey
 from portkey_ai import PORTKEY_GATEWAY_URL, createHeaders, Portkey
 # llama index imports 
@@ -20,29 +21,6 @@ from utils.bhashini_utils import (
     # bhashini_asr,
     # bhashini_tts
 )
-
-# # Templates
-# QA_TEMPLATE = PromptTemplate(
-#     "Context information is below.\n"
-#     "---------------------\n"
-#     "{context_str}\n"
-#     "---------------------\n"
-#     "Given this information, please answer the question: {query_str}\n"
-#     "If you don't know the answer, just say that you don't know. Don't try to make up an answer.\n"
-#     "Provide a detailed response and explain your reasoning step by step."
-# )
-
-# REFINE_TEMPLATE = PromptTemplate(
-#     "The original question is as follows: {query_str}\n"
-#     "We have provided an existing answer: {existing_answer}\n"
-#     "We have the opportunity to refine the existing answer "
-#     "(only if needed) with some more context below.\n"
-#     "------------\n"
-#     "{context_msg}\n"
-#     "------------\n"
-#     "Given the new context, refine the original answer to better "
-#     "answer the question. If the context isn't useful, return the original answer."
-# )
 
 # Load environment variables
 load_dotenv(dotenv_path="ops/.env")
@@ -86,11 +64,22 @@ def llama_index_rag(input_message):
     query_engine = get_index().as_query_engine(similarity_top_k=2)
     
     response = query_engine.query(input_message)
+    # add a function to store the input_message and response in a file. Append the input_message and response to the same file
+    # with open("data/conversations/haq_chat_history.txt", "a") as file:
+    #     file.write(f"Question: {input_message}\n\nResponse: {response}\n\n")
+    
+    while True:
+        file_name = f"data/conversations/haq_chat_history_{uuid.uuid4()}.txt"
+        if not os.path.exists(file_name):
+            break
+    
+    # store the input_message and response in a file
+    with open(file_name, "w") as file:
+        file.write(f"\n\nQuestion: {input_message}\n\nResponse: {response}\n\n")    
     return str(response)
 
 def ragindex(chat_id, input_message):
     return llama_index_rag(input_message)
-
 
 def bhashini_text_chat(chat_id, text, lang):
     input_message = bhashini_translate(text, lang, "en")

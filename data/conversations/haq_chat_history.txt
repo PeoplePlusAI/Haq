@@ -1,0 +1,16 @@
+User: When the citizen is eligible, certain schemes do not show in the eligible schemes. Why?
+
+Response: If the questionnaire is completed correctly, the relevant schemes will be shown as per the eligibility criteria. To address this issue:
+
+1. Ensure that the scheme you are looking for is mapped under your organization.
+2. Double-check that all questionnaire answers are accurate and complete.
+3. Verify that you have the latest app version and data update.
+4. Check if the scheme is active and currently available in your region.
+
+If all seems correct but schemes are still missing, try these steps:
+a. Perform a data sync in the app.
+b. Log out and log back into the app.
+c. Clear the app cache and restart the app.
+
+If the problem persists, report the issue to your supervisor or the technical support team, providing specific examples of missing schemes.
+
