@@ -57,7 +57,7 @@ def llama_index_rag(input_message):
     # port key config
     # headers = createHeaders(api_key=port_api_key, mode="openai")
     headers= {
-        "x-portkey-api-key": "GAR9058m6pQDVDohpyDlhz98iv4=",
+        "x-portkey-api-key": port_api_key,
         "x-portkey-provider": "openai",
         "Content-Type": "application/json"
     }
